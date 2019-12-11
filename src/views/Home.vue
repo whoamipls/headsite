@@ -1,17 +1,20 @@
 <template>
-	<div class="home">
-		<Navigation msg="Welcome to Your Vue.js App"/>
+	<div id="wrap">
+		<Header />
+		<Footer />
 	</div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navigation from '@/components/Navigation.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
 	name: 'home',
 	components: {
-		Navigation
+		Header,
+		Footer
 	}
 }
 </script>
