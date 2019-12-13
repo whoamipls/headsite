@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import Overview from '../components/about/Overview.vue'
 import About from '../views/About.vue'
 import HelloWorld from '../components/HelloWorld.vue'
+import Vision from '../views/about/Vision.vue'
 
 Vue.use(VueRouter)
 
@@ -26,7 +27,7 @@ const routes = [
 			},
 			{
 				path: '/Vision',
-				component: Home,
+				component: Vision,
 				name: '公司愿景'
 			},
 			{
