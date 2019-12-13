@@ -53,7 +53,11 @@ $( document ).ready(function() {
   $( '.sub-menu > a' ).doubleTapToGo();
 });
 
-
+function menuReady() {
+	MenuExpander();
+	$('nav li:has(ul)').addClass('sub-menu'); 
+	$( '.sub-menu > a' ).doubleTapToGo();
+}
 
 /*
 	STICKY NAV

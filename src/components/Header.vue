@@ -12,6 +12,13 @@
             <div class="menu-toggle"> <i class="fa fa-bars"> </i> </div>
             <!-- NAV -->
             <ul class="nav ownmenu">
+				<li v-for="item in $router.options.routes">
+					<a @click="chooseItem(item.path)">{{item.name}}</a>
+					<ul class="dropdown animated-3s fadeIn">
+						<li v-for="child in item.children"><a @click="chooseItem(child.path)">{{child.name}}</a></li>
+					</ul>
+				</li>
+        <!--
               <li class="active"> <a href="index.html">关于和德</a>
                 <ul class="dropdown animated-3s fadeIn">
                   <li> <a href="index.html">公司概况</a> </li>
@@ -53,6 +60,7 @@
               </li>
               <li> <a href="contact.html">联系我们</a> </li>
               <li> <a href="blog.html">相关链接</a> </li>
+              -->
             </ul>
           </nav>
         </div>
@@ -63,6 +71,18 @@
 <script>
 
 export default {
+	mounted: function(){
+    menuReady();
+		// this.$router.push('/Home');
+	},
+	methods: {
+		chooseItem: function(path){
+			if(path.length > 0){
+				this.$router.push(path);
+				console.log(path);
+			}
+		}
+	}
 //   props: {
 //     msg: String
 //   }

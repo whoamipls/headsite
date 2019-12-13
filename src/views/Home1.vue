@@ -129,21 +129,17 @@
 				</div>
 			</div>
 		</section>
-
 		<!-- Content -->
 		<div id="content">
-
 			<!-- Welcome -->
 			<section class="padding-top-150 padding-bottom-150">
 				<div class="container">
-
 					<!-- Heading -->
 					<div class="heading text-center">
 						<h4>战略布局</h4>
 						<span>Strategic layout</span>
 						<hr>
 					</div>
-
 					<!-- OFFER -->
 					<div class="offers">
 						<ul class="row">
@@ -175,11 +171,9 @@
 					</div>
 				</div>
 			</section>
-
 			<!-- Gallery -->
 			<section>
 				<div class="container">
-
 					<!-- Heading -->
 					<div class="heading text-center">
 						<h4>和德资讯</h4>
@@ -187,7 +181,6 @@
 						<hr>
 					</div>
 				</div>
-
 				<!-- PORTFOLIO -->
 				<div class="portfolio port-wrap">
 					<!-- Work Filter -->
@@ -198,11 +191,8 @@
 						<li><a href="#." data-filter=".pf-web-design">媒体报道 </a></li>
 						<li><a href="#." data-filter=".pf-digital-art">视频影像 </a></li>
 					</ul>
-
 					<!-- PORTFOLIO ITEMS -->
-
 					<div class="items row col-4">
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-branding-design pf-web-design">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-1.jpg"> </a> </div>
@@ -210,7 +200,6 @@
 								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
 							</div>
 						</article>
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-photography">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-2.jpg"> </a> </div>
@@ -218,7 +207,6 @@
 								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
 							</div>
 						</article>
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-web-design pf-branding-design">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-3.jpg"> </a> </div>
@@ -226,7 +214,6 @@
 								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
 							</div>
 						</article>
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-branding-design pf-digital-art">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-6.jpg"> </a> </div>
@@ -234,7 +221,6 @@
 								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
 							</div>
 						</article>
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-web-design pf-digital-art pf-branding-design">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-4.jpg"> </a> </div>
@@ -242,7 +228,6 @@
 								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
 							</div>
 						</article>
-
 						<!-- ITEM -->
 						<article class="portfolio-item pf-branding-design pf-digital-art">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-5.jpg"> </a> </div>
@@ -254,7 +239,6 @@
 				</div>
 				<div class="text-center"></div>
 			</section>
-
 			<!-- TimeLine -->
 			<section class="innovaction padding-top-150 padding-bottom-150">
 				<div class="container">
@@ -397,7 +381,6 @@ export default {
 		Footer,
 	},
 	mounted: function() {
-		mainReady();
 	}
 }
 </script>
