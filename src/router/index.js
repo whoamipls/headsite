@@ -49,6 +49,46 @@ const routes = [
 	}
 ]
 
+// const routes = [
+// 	{
+// 		path: '/Home',
+// 		component: Home,
+// 		name: '首页',
+// 	},
+// 	{
+// 		path: '',
+// 		component: Main,
+// 		name: '关于和德',
+// 		children: [
+// 			{
+// 				path: '/Overview',
+// 				component: Overview,
+// 				name: '公司概况'
+// 			},
+// 			{
+// 				path: '/Vision',
+// 				component: Vision,
+// 				name: '公司愿景'
+// 			},
+// 			{
+// 				path: '/Speech',
+// 				component: Home,
+// 				name: '董事长致词'
+// 			},
+// 			{
+// 				path: '/History',
+// 				component: Home,
+// 				name: '发展历程'
+// 			},
+// 			{
+// 				path: '/Qualification',
+// 				component: Home,
+// 				name: '公司资质'
+// 			}
+// 		]
+// 	}
+// ]
+
 
 // const routes = [
 // 	{

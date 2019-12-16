@@ -1,18 +1,6 @@
 <template>
     <div>
-		<!--======= HOME MAIN SLIDER =========-->
-		<section class="sub-bnr" data-stellar-background-ratio="0.5" style="background: url(images/about/banner.png) no-repeat">
-			<div class="position-center-center">
-				<div class="container">
-				<h3>关于我们</h3>
-				<hr>
-				<!-- <ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li class="active">About</li>
-				</ol> -->
-				</div>
-			</div>
-		</section>
+		<Banner image='images/about/banner.png'/>
 		<!-- Content -->
 		<div id="content">
 			<!-- TEAM -->
@@ -20,30 +8,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6">
-							<ul id="main-nav" class="nav nav-tabs nav-stacked">
-								<li>
-									<img src="职来职往.png" />
-								</li>
-								<li>
-									<a class="nav-header">
-										<i class="glyphicon glyphicon-calendar"></i>
-										兑奖充值提款
-									</a>
-									<ul class="nav nav-list secondmenu（这个自定义的）">
-										<li><a href="#"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-th-list"></i>菜单管理</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
-									</ul>
-								</li>
-								<li>
-									<img src="职来职往.png" />
-								</li>
-								<li>
-									<img src="最新资讯.png" style="padding-top:10px;" />
-								</li>
-							</ul>
+							<LeftMenu />
 						</div>
 						<!-- Image -->
 						<div class="col-sm-6 text-right"> <img class="img-responsive" src="images/skills-img.png" alt=""> </div>
@@ -55,7 +20,13 @@
 </template>
 
 <script>
+import Banner from '@/components/Banner.vue'
+import LeftMenu from '@/components/LeftMenu.vue'
 export default {
+	components: {
+		Banner,
+		LeftMenu,
+	},
     mounted: function() {
 	    // mainReady();
     }
@@ -63,4 +34,67 @@ export default {
 </script>
 
 <style scoped lang="less">
+	/* ul li以横排显示 */
+
+	/* 所有class为menu的div中的ul样式 */
+	div.menu ul {
+		list-style: none;
+		/* 去掉ul前面的符号 */
+		margin: 0px;
+		/* 与外界元素的距离为0 */
+		padding: 0px;
+		/* 与内部元素的距离为0 */
+		width: auto;
+		/* 宽度根据元素内容调整 */
+	}
+
+	/* 所有class为menu的div中的ul中的li样式 */
+	div.menu ul li {
+		/*float:left;  向左漂移，将竖排变为横排 */
+	}
+
+	/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
+	div.menu ul li a,
+	div.menu ul li a:visited {
+		background-color: #465c71;
+		/* 背景色 */
+		border: 1px #4e667d solid;
+		/* 边框 */
+		color: #dde4ec;
+		/* 文字颜色 */
+		display: block;
+		/* 此元素将显示为块级元素，此元素前后会带有换行符 line-height: 1.35em;*/
+		line-height: 90px;
+		/* 行高 padding: 4px 20px;*/
+		padding: 0px 30px;
+		/* 内部填充的距离 */
+		text-decoration: none;
+		/* 不显示超链接下划线 */
+		white-space: nowrap;
+		/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+		width: 310px;
+		box-sizing: border-box;
+	}
+
+	/* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样式) */
+	div.menu ul li a:hover {
+		background-color: #bfcbd6;
+		/* 背景色 */
+		color: #465c71;
+		/* 文字颜色 */
+		text-decoration: none;
+		/* 不显示超链接下划线 */
+		// background-image: url('选中.png');
+		background-repeat: no-repeat;
+	}
+
+	/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
+	div.menu ul li a:active {
+		background-color: #465c71;
+		/* 背景色 */
+		color: #cfdbe6;
+		/* 文字颜色 */
+		text-decoration: none;
+		/* 不显示超链接下划线 */
+	}
 </style>
