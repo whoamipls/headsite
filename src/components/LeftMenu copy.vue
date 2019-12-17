@@ -1,78 +1,49 @@
 <template>
-<div>
 	<div class="menu">
 		<ul>
-			<li v-for="item in menuData">
-				<a v-if="item.children.length==0" @click="chooseItem(item.path)">{{item.name}}</a>
-				<a v-if="item.children.length>0" onclick="alert('ul')">{{item.name}}</a>
-				<ul v-if="item.children.length>0">
-					<li v-for="child in item.children">
-						<a @click="chooseItem(child.path)">{{child.name}}</a>
-					</li>
-				</ul>
-			</li>
+			<li><a href="javascript:void(0);">主页</a></li>
+			<li><a href="javascript:void(0);">工作日志</a></li>
+			<li><a href="javascript:void(0);">设备运行记录</a></li>
+			<li><a href="javascript:void(0);">其他</a></li>
 			<li><img src="images/about/职来职往.png" /></li>
 			<li><img src="images/about/最新资讯.png" /></li>
-			<!--
-			<li><a>主页</a></li>
-			<li><a>工作日志</a></li>
-			<li><a>设备运行记录</a></li>
-			<li><a onclick="$('#test1').removeClass('hidden')">其他</a></li>
+		</ul>
+		<ul id="main-nav" class="nav nav-tabs nav-stacked">
 			<li>
-				<a onclick="$('#test1').addClass('hidden')">隐藏</a>
-				<ul class='hidden' id="test1">
-					<li><a>主页</a></li>
-					<li><a>工作日志</a></li>
+				<a href="#duijiang" class="nav-header collapsed" data-toggle="collapse">
+					<i class="glyphicon glyphicon-calendar"></i>
+					兑奖充值提款
+				</a>
+				<ul id="duijiang" class="nav nav-list collapse secondmenu（这个自定义的）" style="height: 0px;">
+					<li><a href="#"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-th-list"></i>菜单管理</a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
 				</ul>
 			</li>
-			<li><img src="images/about/职来职往.png" /></li>
-			<li><img src="images/about/最新资讯.png" /></li>
-			-->
 		</ul>
 	</div>
-</div>
 </template>
 
 <script>
-
 export default {
-	data() {
-		return {
-			menuData: []
-		}	
-	},
-	mounted: function() {
-		let paths = this.$route.fullPath.split('?')[0].split('/');
-		let path = '/' + paths[1];
-		if(paths.length > 1) {
-			let routes = this.$router.options.routes[0].children.find(i => i.path==path).children;
-			let parent = this.menuData;
-			routes.forEach(route => {
-				let child = { name: route.name, path: route.path, children: [] };
-				if(!route.component) {
-					this.menuData.push(child);
-					parent = child.children;
-				} else {
-					parent.push(child);
-				}
-			});
-		}
-		// console.log(this.menuData);
-	},
-	methods: {
-		chooseItem: function(path){
-			this.$router.push(path);
-			// console.log(path);
-		}
-	}
+	// data() {
+	// 	return {
+	// 		menus: []
+	// 	}	
+	// },
+	// mounted: function() {
+	// 	let paths = this.$route.fullPath.split('/');
+	// 	if(paths.length > 1) {
+	// 		this.$router.options.routes[0].
+	// 	}
+	// }
 }
 </script>
 
 <style scoped lang="less">
 	/* ul li以横排显示 */
-	.hidden {
-		height: 0px;
-	}
 
 	/* 所有class为menu的div中的ul样式 */
 	div.menu ul {
@@ -89,11 +60,6 @@ export default {
 	/* 所有class为menu的div中的ul中的li样式 */
 	div.menu ul li {
 		/*float:left;  向左漂移，将竖排变为横排 */
-		font-size: 16px;
-	}
-
-	div.menu ul li ul li{
-		font-size: 11px;
 	}
 
 	/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */

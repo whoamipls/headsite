@@ -1,16 +1,14 @@
 <template>
+	<div>
 		<span>有一个人保护，就不用自我保护</span>
+		<router-view />
+	</div>
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
 export default {
-  components: {
-		Header,
-		Footer,
-	},
   mounted: function() {
+	  console.log('about');
   }
 }
 </script>
