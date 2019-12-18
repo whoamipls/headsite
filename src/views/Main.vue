@@ -1,7 +1,10 @@
 <template>
 	<div id="wrap">
 		<Header />
+		<router-view />
+		<!--
 		<router-view :key="$route.path + $route.query.t"/>
+		-->
 		<Footer />
 	</div>
 </template>

@@ -143,6 +143,82 @@ const routes = [
 						name: '数据服务中心'
 					}
 				]
+			},
+			{
+				path: '/News',
+				component: SecondFrame,
+				name: '和德资讯',
+				children: [
+					{
+						path: '/News/Hot',
+						component: Astronomy,
+						name: '热点事件'
+					},
+					{
+						path: '/News/Trend',
+						component: Astronomy,
+						name: '业务动态'
+					},
+					{
+						path: '/News/New',
+						component: Astronomy,
+						name: '行业新闻'
+					}
+				]
+			},
+			{
+				path: '/Duty',
+				component: SecondFrame,
+				name: '社会责任',
+				children: [
+					{
+						path: '/Duty/Charity',
+						component: Astronomy,
+						name: '慈善公益'
+					},
+					{
+						path: '/Duty/Social',
+						component: Astronomy,
+						name: '社工服务'
+					}
+				]
+			},
+			{
+				path: '/Hr',
+				component: SecondFrame,
+				name: '人力资源',
+				children: [
+					{
+						path: '/Hr/Idea',
+						component: Astronomy,
+						name: '人才理念'
+					},
+					{
+						path: '/Hr/Recruit',
+						component: Astronomy,
+						name: '招贤纳士'
+					},
+					{
+						path: '/Hr/Welfare',
+						component: Astronomy,
+						name: '薪酬福利'
+					},
+					{
+						path: '/Hr/Environment',
+						component: Astronomy,
+						name: '工作环境'
+					},
+					{
+						path: '/Hr/Activities',
+						component: Astronomy,
+						name: '团建活动'
+					}
+				]
+			},
+			{
+				path: '/Contact',
+				component: Home,
+				name: '联系我们'
 			}
 		]
 	}
