@@ -67,11 +67,9 @@ export default {
 			routes.forEach(route => {
 				let child = { name: route.name, path: route.path, children: [] };
 				if(!route.component) {
-					console.log(1);
 					this.menuData.push(child);
 					parent = child.children;
 				} else {
-					console.log(2);
 					parent.push(child);
 				}
 			});

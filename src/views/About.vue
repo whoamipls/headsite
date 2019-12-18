@@ -8,7 +8,6 @@
 <script>
 export default {
   mounted: function() {
-	  console.log('about');
   }
 }
 </script>
