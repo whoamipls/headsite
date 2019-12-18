@@ -3,31 +3,18 @@
 	<div class="menu">
 		<ul>
 			<li v-for="item in menuData">
-				<a v-if="item.children.length==0" @click="chooseItem(item.path)">{{item.name}}</a>
-				<a v-if="item.children.length>0" onclick="alert('ul')">{{item.name}}</a>
-				<ul v-if="item.children.length>0">
+				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item, null)">
+					{{item.name}}
+					<span v-if="item.children.length>0" class="glyphicon" :class="{'glyphicon-chevron-down':item==selParent,'glyphicon-chevron-up':item!=selParent}"></span>
+				</a>
+				<ul v-if="item.children.length>0" :class="{'hidden':item!=selParent}">
 					<li v-for="child in item.children">
-						<a @click="chooseItem(child.path)">{{child.name}}</a>
+						<a :style="getMenuItemStyle(child)" @click="chooseItem(item, child)">{{child.name}}</a>
 					</li>
 				</ul>
 			</li>
 			<li><img src="images/about/职来职往.png" /></li>
-			<li><img src="images/about/最新资讯.png" /></li>
-			<!--
-			<li><a>主页</a></li>
-			<li><a>工作日志</a></li>
-			<li><a>设备运行记录</a></li>
-			<li><a onclick="$('#test1').removeClass('hidden')">其他</a></li>
-			<li>
-				<a onclick="$('#test1').addClass('hidden')">隐藏</a>
-				<ul class='hidden' id="test1">
-					<li><a>主页</a></li>
-					<li><a>工作日志</a></li>
-				</ul>
-			</li>
-			<li><img src="images/about/职来职往.png" /></li>
-			<li><img src="images/about/最新资讯.png" /></li>
-			-->
+			<li style="margin-top:10px;"><img src="images/about/最新资讯.png" /></li>
 		</ul>
 	</div>
 </div>
@@ -38,8 +25,38 @@
 export default {
 	data() {
 		return {
-			menuData: []
-		}	
+			menuData: [],
+			selParent: null,
+			selChild: null,
+			// 菜单正常
+			menuHeadNormal: {
+				color: '#56585f',
+				backgroundColor: '#ffffff',
+			},
+			// 菜单选中1
+			menuHeadSelect1: {
+				color: '#363940',
+				backgroundColor: '#f7f9ff',
+				backgroundImage: 'url(assets/components/menuSel.png)',
+				backgroundRepeat: 'no-repeat',
+			},
+			// 菜单选中2
+			menuHeadSelect2: {
+				color: '#363940',
+				backgroundImage: 'url(assets/components/menuSel.png)',
+				backgroundRepeat: 'no-repeat',
+			},
+			// 菜单项正常
+			menuItemNormal: {
+				color: '#8c8f99',
+				backgroundColor: '#ffffff',
+			},
+			// 菜单项选中
+			menuItemSelect: {
+				color: '#4068f5',
+				backgroundColor: '#f7f9ff',
+			}
+		}
 	},
 	mounted: function() {
 		let paths = this.$route.fullPath.split('?')[0].split('/');
@@ -50,19 +67,40 @@ export default {
 			routes.forEach(route => {
 				let child = { name: route.name, path: route.path, children: [] };
 				if(!route.component) {
+					console.log(1);
 					this.menuData.push(child);
 					parent = child.children;
 				} else {
+					console.log(2);
 					parent.push(child);
 				}
 			});
 		}
-		// console.log(this.menuData);
+		// this.chooseItem(this.menuData[0], null);
 	},
 	methods: {
-		chooseItem: function(path){
+		// 选择菜单
+		chooseItem: function(parent, child){
+			this.selParent = parent;
+			if(!child && this.selParent.children.length > 0) child = this.selParent.children[0];
+			this.selChild = child;
+			let path = child ? child.path : parent.path;
 			this.$router.push(path);
-			// console.log(path);
+		},
+		// 获取菜单样式
+		getMenuHeadStyle: function(item) {
+			if(item == this.selParent) {
+				if(item.children.length == 0) {
+					return this.menuHeadSelect1;
+				} else {
+					return this.menuHeadSelect2;
+				}
+			}
+			return this.menuHeadNormal;
+		},
+		// 获取子菜单样式
+		getMenuItemStyle: function(item) {
+			return item == this.selChild ? this.menuItemSelect : this.menuItemNormal;
 		}
 	}
 }
@@ -92,22 +130,19 @@ export default {
 		font-size: 16px;
 	}
 
-	div.menu ul li ul li{
-		font-size: 11px;
+	div.menu ul li ul li a{
+		font-size: 18px;
 	}
 
-	/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
-	div.menu ul li a,
-	div.menu ul li a:visited {
-		background-color: #465c71;
-		/* 背景色 */
-		border: 1px #4e667d solid;
+	div.menu ul li a{
+		border: 1px #ebedf0 solid;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
 		/* 边框 */
-		color: #dde4ec;
-		/* 文字颜色 */
 		display: block;
 		/* 此元素将显示为块级元素，此元素前后会带有换行符 line-height: 1.35em;*/
-		line-height: 90px;
+        line-height: 90px;
 		/* 行高 padding: 4px 20px;*/
 		padding: 0px 30px;
 		/* 内部填充的距离 */
@@ -117,27 +152,21 @@ export default {
 		/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
 		width: 310px;
 		box-sizing: border-box;
+		position: relative;
+		font-size: 20px;
 	}
 
-	/* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样式) */
+	div.menu ul li a span{
+		position: absolute;
+		right: 10px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: 20px;
+		color: gray;
+	}
+
 	div.menu ul li a:hover {
-		background-color: #bfcbd6;
-		/* 背景色 */
-		color: #465c71;
-		/* 文字颜色 */
-		text-decoration: none;
-		/* 不显示超链接下划线 */
-		// background-image: url('选中.png');
-		background-repeat: no-repeat;
-	}
-
-	/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
-	div.menu ul li a:active {
-		background-color: #465c71;
-		/* 背景色 */
-		color: #cfdbe6;
-		/* 文字颜色 */
-		text-decoration: none;
-		/* 不显示超链接下划线 */
+		cursor: pointer;
 	}
 </style>

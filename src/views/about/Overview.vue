@@ -93,21 +93,25 @@ export default {
 	}
 	.title2 {
 		text-align: center;
-		font: 28px bold;
 		margin: 50px 0px;
+		font: 28px bold;
+		color: @headerBgColor;
 	}
 	.title3-1 {
 		font-size: 16px;
 		margin: 0;
 		font-weight: bold;
+		color: #2b3b4e;
 	}
 	.title3-2 {
 		font-size: 12px;
 		padding-bottom: 10px;
+		color: #2b3b4e;
 	}
 	p.content {
 		text-indent: 2em;
 		line-height: 28px;
-		font-size: 16px;
+		font-size: 18px;
+		color: '#656a79';
 	}
 </style>

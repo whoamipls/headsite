@@ -1,7 +1,7 @@
 <template>
 	<div id="wrap">
 		<Header />
-		<router-view :key="$route.path + $route.query.t"/>
+		<router-view/>
 		<Footer />
 	</div>
 </template>

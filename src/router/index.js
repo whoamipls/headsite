@@ -10,6 +10,7 @@ import Special from '../views/strategy/Special.vue'
 import Astronomy from '../views/strategy/Astronomy.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import SecondFrame from '../views/SecondFrame.vue'
+import Speech from '../views/about/Speech.vue'
 
 Vue.use(VueRouter)
 
@@ -39,9 +40,9 @@ const routes = [
 						name: '公司愿景'
 					},
 					{
-						path: '/About/Vision',
-						component: Vision,
-						name: '董事长致辞'
+						path: '/About/Speech',
+						component: Speech,
+						name: '董事长致词'
 					},
 					{
 						path: '/About/Vision',
@@ -74,6 +75,71 @@ const routes = [
 						path: '/Strategy/Astronomy',
 						component: Astronomy,
 						name: '天文科学工程'
+					},
+					{
+						path: '/Strategy/Satellite',
+						component: Astronomy,
+						name: '商业卫星配套'
+					},
+					{
+						path: '/Strategy/TradeAgent',
+						component: Astronomy,
+						name: '外贸代理服务'
+					},
+					{
+						path: '',
+						component: null,
+						name: '“天行者” 规划建设',
+					},
+					{
+						path: '/Strategy/Skywalker',
+						component: Astronomy,
+						name: '“天行者” 星座'
+					},
+					{
+						path: '/Strategy/Network',
+						component: Astronomy,
+						name: '全球卫星网络'
+					},
+					{
+						path: '/Strategy/Platform',
+						component: Astronomy,
+						name: '系统平台和移动APP'
+					},
+					{
+						path: '/Strategy/Connection',
+						component: Astronomy,
+						name: '互联互通'
+					},
+					{
+						path: '/Strategy/Terminal',
+						component: Astronomy,
+						name: '物联网卫星终端'
+					},
+					{
+						path: '/Strategy/Application',
+						component: Astronomy,
+						name: '应用服务'
+					},
+					{
+						path: '',
+						component: null,
+						name: '卫星地面站系统建设',
+					},
+					{
+						path: '/Strategy/Station',
+						component: Astronomy,
+						name: '卫星地面站'
+					},
+					{
+						path: '/Strategy/ControlCenter',
+						component: Astronomy,
+						name: '测运控中心'
+					},
+					{
+						path: '/Strategy/DataCenter',
+						component: Astronomy,
+						name: '数据服务中心'
 					}
 				]
 			}
