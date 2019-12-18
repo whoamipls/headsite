@@ -49,7 +49,7 @@ module.exports = {
     pluginOptions: {
         'style-resources-loader': {
             preProcessor: 'less',
-            patterns: [path.resolve(__dirname, "src/css/index.less")]
+            patterns: ['E:\\wdr\\develop\\web\\website\\headsite\\src\\css\\index.less']
         }
     }
 }

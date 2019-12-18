@@ -1633,7 +1633,7 @@ header .container {
 	background: #fff;
 }
 .innovaction.light-sec p {
-	color: #000;
+	/* color: #000; *//*by wdr, 影响正文字体颜色*/
 }
 /*=======================================================
       SERVICES

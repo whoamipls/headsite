@@ -11,6 +11,7 @@ import Astronomy from '../views/strategy/Astronomy.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import SecondFrame from '../views/SecondFrame.vue'
 import Speech from '../views/about/Speech.vue'
+import Qualification from '../views/about/Qualification.vue'
 
 Vue.use(VueRouter)
 
@@ -50,8 +51,8 @@ const routes = [
 						name: '发展历程'
 					},
 					{
-						path: '/About/Vision',
-						component: Vision,
+						path: '/About/Qualification',
+						component: Qualification,
 						name: '公司资质'
 					}
 				]

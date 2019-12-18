@@ -14,7 +14,7 @@
 				</ul>
 			</li>
 			<li><img src="images/about/职来职往.png" /></li>
-			<li style="margin-top:10px;"><img src="images/about/最新资讯.png" /></li>
+			<li style="margin:10px 0px"><img src="images/about/最新资讯.png" /></li>
 		</ul>
 	</div>
 </div>

@@ -1,8 +1,9 @@
 <template>
-	<div style="margin:50px 0px">
+	<div style="margin-bottom:50px">
 		<p style="text-align:left"><span class="title0">{{titles[0]}}</span>&nbsp;<span class="title1">{{titles[1]}}</span></p>
 		<hr>
 		<p class="title2">{{titles[2]}}</p>
+		<p v-if="titles.length>3" class="title3">{{titles[3]}}</p>
 	</div>
 </template>
 
@@ -31,5 +32,8 @@
 		color: '#363940';
 	}
     .title3 {
+		text-align: center;
+		font: 14px;
+		color: gray;
 	}
 </style>
