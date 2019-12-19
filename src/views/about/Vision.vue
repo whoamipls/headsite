@@ -1,10 +1,16 @@
 <template>
     <div>
 		<Title :titles="['公司愿景','Company Vision','公司愿景']" />
-		<p class="content paraTitle" style="background-image:url('images/about/bluerect.png');background-repeat:no-repeat">我们的使命：</p>
+		<div class="title">
+			<img src="assets/components/bluerect.png" />
+			<span>我们的使命：</span>
+		</div>
 		<p class="content">为客户提供快速有效的空间应用解决方案，建立产业融合的空间信息生态圈，帮助客户感知地球、精准决策！</p>
 		<br>
-		<p class="content paraTitle">我们的愿景：</p>
+		<div class="title">
+			<img src="assets/components/bluerect.png" />
+			<span>我们的愿景：</span>
+		</div>
 		<p class="content">发展成为同行市值最大、受人尊敬、引领产业方向的科技创新型宇航服务企业。</p>
 		<br>
 		<p class="content">第一阶段发展目标：</p>
@@ -30,4 +36,7 @@ export default {
 </script>
 
 <style scoped lang="less">
+	.title {
+		.paraTitle();
+	}
 </style>

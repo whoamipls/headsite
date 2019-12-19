@@ -2,16 +2,34 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Main from '../views/Main.vue'
 import Home from '../components/Home.vue'
-import About from '../views/About.vue'
 import Overview from '../views/about/Overview.vue'
 import Vision from '../views/about/Vision.vue'
-import Strategy from '../views/strategy/Strategy.vue'
+
 import Special from '../views/strategy/Special.vue'
 import Astronomy from '../views/strategy/Astronomy.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import SecondFrame from '../views/SecondFrame.vue'
+// 关于和德
+import About from '../views/about/About.vue'
 import Speech from '../views/about/Speech.vue'
 import Qualification from '../views/about/Qualification.vue'
+// 战略布局
+import Strategy from '../views/strategy/Strategy.vue'
+// 和德咨询
+import News from '../views/news/News.vue'
+// 社会责任
+import Duty from '../views/duty/Duty.vue'
+import Charity from '../views/duty/Charity.vue'
+// 人力资源
+import Hr from '../views/hr/Hr.vue'
+import Idea from '../views/hr/Idea.vue'
+import Recruit from '../views/hr/Recruit.vue'
+import Welfare from '../views/hr/Welfare.vue'
+import Environment from '../views/hr/Environment.vue'
+import Activities from '../views/hr/Activities.vue'
+// 联系我们
+import Contact from '../views/contact/Contact.vue'
+
 
 Vue.use(VueRouter)
 
@@ -27,7 +45,7 @@ const routes = [
 			},
 			{
 				path: '/About',
-				component: SecondFrame,
+				component: About,
 				name: '关于和德',
 				children: [
 					{
@@ -59,7 +77,7 @@ const routes = [
 			},
 			{
 				path: '/Strategy',
-				component: SecondFrame,
+				component: Strategy,
 				name: '战略布局',
 				children: [
 					{
@@ -146,7 +164,7 @@ const routes = [
 			},
 			{
 				path: '/News',
-				component: SecondFrame,
+				component: News,
 				name: '和德资讯',
 				children: [
 					{
@@ -168,56 +186,56 @@ const routes = [
 			},
 			{
 				path: '/Duty',
-				component: SecondFrame,
+				component: Duty,
 				name: '社会责任',
 				children: [
 					{
 						path: '/Duty/Charity',
-						component: Astronomy,
+						component: Charity,
 						name: '慈善公益'
 					},
 					{
 						path: '/Duty/Social',
-						component: Astronomy,
+						component: null,
 						name: '社工服务'
 					}
 				]
 			},
 			{
 				path: '/Hr',
-				component: SecondFrame,
+				component: Hr,
 				name: '人力资源',
 				children: [
 					{
 						path: '/Hr/Idea',
-						component: Astronomy,
+						component: Idea,
 						name: '人才理念'
 					},
 					{
 						path: '/Hr/Recruit',
-						component: Astronomy,
+						component: Recruit,
 						name: '招贤纳士'
 					},
 					{
 						path: '/Hr/Welfare',
-						component: Astronomy,
+						component: Welfare,
 						name: '薪酬福利'
 					},
 					{
 						path: '/Hr/Environment',
-						component: Astronomy,
+						component: Environment,
 						name: '工作环境'
 					},
 					{
 						path: '/Hr/Activities',
-						component: Astronomy,
+						component: Activities,
 						name: '团建活动'
 					}
 				]
 			},
 			{
 				path: '/Contact',
-				component: Home,
+				component: Contact,
 				name: '联系我们'
 			}
 		]

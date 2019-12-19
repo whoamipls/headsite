@@ -74,7 +74,7 @@ export default {
 				}
 			});
 		}
-		// this.chooseItem(this.menuData[0], null);
+		this.chooseItem(this.menuData[0], null);
 	},
 	methods: {
 		// 选择菜单

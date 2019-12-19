@@ -1,3 +1,9 @@
+@titleColor: #363940;
+@subtitleColor: #2b3b4e;
+@contentColor: #656a79;
+@contentSize: 18px;
+@dividerColor: #ebedf0;
+
 p.content {
     text-align: left;
     text-indent: 2em;
@@ -6,7 +12,22 @@ p.content {
     color: '#656a79';
 }
 
-p.paraTitle {
-    // background-image: url('images/about/bluerect.png');
-    // background-repeat: no-repeat;
+// 段落标题
+.paraTitle(@fontSize:18px, @fontWeight:bold, @color:@contentColor, @titleMargin:20px 0px, @textMargin:12px) {
+    /* height: 500px; */
+    /* line-height: 500px; */
+    margin: @titleMargin;
+    text-align: left;
+    // border: 1px solid;
+    img,
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    span {
+        margin-left: @textMargin;
+        font-size: @fontSize;
+        font-weight: @fontWeight;
+        color: @color;
+    }
 }

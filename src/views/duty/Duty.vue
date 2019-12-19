@@ -1,5 +1,5 @@
 <template>
-    <Body banner="assets/strategy/banner.png" />
+    <Body banner="assets/duty/banner.png" />
 </template>
 
 <script>

@@ -36,7 +36,6 @@ export default {
 	},
 	methods: {
 		chooseItem: function(path){
-      console.log(path);
 			if(path.length > 0){
 				//this.$router.push(path);
 				this.$router.push({
