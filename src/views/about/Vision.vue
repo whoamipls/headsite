@@ -1,6 +1,6 @@
 <template>
     <div>
-		<Title :titles="['公司愿景','Company Vision','公司愿景']" />
+		<PageTitle :titles="['公司愿景','Company Vision','公司愿景']" />
 		<div class="title">
 			<img src="assets/components/bluerect.png" />
 			<span>我们的使命：</span>
@@ -25,10 +25,10 @@
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import PageTitle from '@/components/PageTitle.vue'
 export default {
 	components: {
-		Title
+		PageTitle,
 	},
     mounted: function() {
     }

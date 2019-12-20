@@ -1,16 +1,16 @@
 <template>
     <div>
-		<Title :titles="['发展历程','Development Path','发展历程']" />
+		<PageTitle :titles="['发展历程','Development Path','发展历程']" />
         <Timeline :years="years"/>
 	</div>
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import PageTitle from '@/components/PageTitle.vue'
 import Timeline from '@/components/Timeline.vue'
 export default {
 	components: {
-        Title,
+        PageTitle,
         Timeline
 	},
     data() {

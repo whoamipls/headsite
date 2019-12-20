@@ -1,6 +1,6 @@
 <template>
     <div>
-		<Title :titles="['资质荣誉','Qualification honor','资质与认证','合规性是企业发展的基础，和德严格遵守国家法律法规的各项要求，积极参与行业标准的制定与推广']" />
+		<PageTitle :titles="['资质荣誉','Qualification honor','资质与认证','合规性是企业发展的基础，和德严格遵守国家法律法规的各项要求，积极参与行业标准的制定与推广']" />
 		<b-row v-for="i in 8">
 			<b-col>
 				<b-img-lazy v-bind="mainProps" :src="getImageUrl(i*3-2)"></b-img-lazy>
@@ -16,10 +16,10 @@
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import PageTitle from '@/components/PageTitle.vue'
 export default {
 	components: {
-		Title
+		PageTitle,
 	},
     mounted: function() {
     },

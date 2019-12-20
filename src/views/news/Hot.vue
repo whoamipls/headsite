@@ -1,6 +1,6 @@
 <template>
 	<div>
-    	<HotBrief v-for="hot in hots" :time="hot.time" :title="hot.title" :content="hot.content" />
+    	<HotBrief v-for="hot in hots" :time="hot.time" :title="hot.title" :content="hot.content" @onShowDetail="showDetail" />
 	</div>
 </template>
 
@@ -10,6 +10,12 @@ export default {
 	components: {
 		HotBrief
 	},
+    methods: {
+        // 显示详情
+        showDetail: function(id) {
+            this.$router.push('/News/HotDetail');
+        }
+    },
     data() {
         return {
             hots: [

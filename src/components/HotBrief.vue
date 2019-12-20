@@ -9,7 +9,7 @@
                     <td>
                         <p class="title">{{title}}</p>
                         <p class="content">{{content}}</p>
-                        <p class="link"><a href="#">查看详情>></a></p>
+                        <p class="link"><a href="javascript:void(0);" @click="showDetail">查看详情>></a></p>
                     </td>
                 </tr>
             </table>
@@ -29,6 +29,11 @@ export default {
         content: String,
     },
     mounted: function(){
+    },
+    methods: {
+        showDetail: function() {
+            this.$emit('onShowDetail', 'id');
+        }
     }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<Title :titles="['董事长致词','Chairman\'s speech','董事长致词']" />
+		<PageTitle :titles="['董事长致词','Chairman\'s speech','董事长致词']" />
 		<div style="float:right; padding-left:20px">
 			<video width="320" height="240" controls autobuffer>
 			<source src="assets/about/overview/advertise.mp4" type="video/mp4;">
@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import PageTitle from '@/components/PageTitle.vue'
 export default {
 	components: {
-		Title,
+		PageTitle,
 	},
     mounted: function() {
     }

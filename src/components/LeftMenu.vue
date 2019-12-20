@@ -2,13 +2,13 @@
 <div>
 	<div class="menu">
 		<ul>
-			<li v-for="item in menuData">
+			<li v-for="item in menuData" v-if="!item.hidden">
 				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item, null)">
 					{{item.name}}
 					<span v-if="item.children.length>0" class="glyphicon" :class="{'glyphicon-chevron-down':item==selParent,'glyphicon-chevron-up':item!=selParent}"></span>
 				</a>
 				<ul v-if="item.children.length>0" :class="{'hidden':item!=selParent}">
-					<li v-for="child in item.children">
+					<li v-for="child in item.children" v-if="!child.hidden">
 						<a :style="getMenuItemStyle(child)" @click="chooseItem(item, child)">{{child.name}}</a>
 					</li>
 				</ul>
@@ -65,7 +65,7 @@ export default {
 			let routes = this.$router.options.routes[0].children.find(i => i.path==path).children;
 			let parent = this.menuData;
 			routes.forEach(route => {
-				let child = { name: route.name, path: route.path, children: [] };
+				let child = { name: route.name, path: route.path, hidden: route.hidden, children: [] };
 				if(!route.component) {
 					this.menuData.push(child);
 					parent = child.children;
