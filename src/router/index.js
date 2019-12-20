@@ -12,6 +12,7 @@ import SecondFrame from '../views/SecondFrame.vue'
 // 关于和德
 import About from '../views/about/About.vue'
 import Speech from '../views/about/Speech.vue'
+import History from '../views/about/History.vue'
 import Qualification from '../views/about/Qualification.vue'
 // 战略布局
 import Strategy from '../views/strategy/Strategy.vue'
@@ -64,8 +65,8 @@ const routes = [
 						name: '董事长致词'
 					},
 					{
-						path: '/About/Vision',
-						component: Vision,
+						path: '/About/History',
+						component: History,
 						name: '发展历程'
 					},
 					{
