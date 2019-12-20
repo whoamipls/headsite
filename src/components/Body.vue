@@ -11,7 +11,7 @@
 							<LeftMenu />
 						</div>
 						<!-- Image -->
-						<div class="col-sm-8 text-right" style="padding:50px 0px">
+						<div class="col-sm-8 text-right" style="padding:40px 0px">
                             <router-view />
                         </div>
 					</div>

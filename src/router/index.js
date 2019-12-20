@@ -18,6 +18,7 @@ import Qualification from '../views/about/Qualification.vue'
 import Strategy from '../views/strategy/Strategy.vue'
 // 和德咨询
 import News from '../views/news/News.vue'
+import Hot from '../views/news/Hot.vue'
 // 社会责任
 import Duty from '../views/duty/Duty.vue'
 import Charity from '../views/duty/Charity.vue'
@@ -170,7 +171,7 @@ const routes = [
 				children: [
 					{
 						path: '/News/Hot',
-						component: Astronomy,
+						component: Hot,
 						name: '热点事件'
 					},
 					{
