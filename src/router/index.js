@@ -5,8 +5,7 @@ import Home from '../components/Home.vue'
 import Overview from '../views/about/Overview.vue'
 import Vision from '../views/about/Vision.vue'
 
-import Special from '../views/strategy/Special.vue'
-import Astronomy from '../views/strategy/Astronomy.vue'
+
 import HelloWorld from '../components/HelloWorld.vue'
 import SecondFrame from '../views/SecondFrame.vue'
 // 关于和德
@@ -16,6 +15,19 @@ import History from '../views/about/History.vue'
 import Qualification from '../views/about/Qualification.vue'
 // 战略布局
 import Strategy from '../views/strategy/Strategy.vue'
+import Special from '../views/strategy/Special.vue'
+import Astronomy from '../views/strategy/Astronomy.vue'
+import Satellite from '../views/strategy/Satellite.vue'
+import TradeAgent from '../views/strategy/TradeAgent.vue'
+import Skywalker from '../views/strategy/Skywalker.vue'
+import Network from '../views/strategy/Network.vue'
+import Platform from '../views/strategy/Platform.vue'
+import Connection from '../views/strategy/Connection.vue'
+import Terminal from '../views/strategy/Terminal.vue'
+import Application from '../views/strategy/Application.vue'
+import Station from '../views/strategy/Station.vue'
+import ControlCenter from '../views/strategy/ControlCenter.vue'
+import DataCenter from '../views/strategy/DataCenter.vue'
 // 和德咨询
 import News from '../views/news/News.vue'
 import Hot from '../views/news/Hot.vue'
@@ -32,6 +44,7 @@ import Environment from '../views/hr/Environment.vue'
 import Activities from '../views/hr/Activities.vue'
 // 联系我们
 import Contact from '../views/contact/Contact.vue'
+import Map3D from '../components/Map3D.vue'
 
 
 Vue.use(VueRouter)
@@ -100,12 +113,12 @@ const routes = [
 					},
 					{
 						path: '/Strategy/Satellite',
-						component: Astronomy,
+						component: Satellite,
 						name: '商业卫星配套'
 					},
 					{
 						path: '/Strategy/TradeAgent',
-						component: Astronomy,
+						component: TradeAgent,
 						name: '外贸代理服务'
 					},
 					{
@@ -115,32 +128,32 @@ const routes = [
 					},
 					{
 						path: '/Strategy/Skywalker',
-						component: Astronomy,
+						component: Skywalker,
 						name: '“天行者” 星座'
 					},
 					{
 						path: '/Strategy/Network',
-						component: Astronomy,
+						component: Network,
 						name: '全球卫星网络'
 					},
 					{
 						path: '/Strategy/Platform',
-						component: Astronomy,
+						component: Platform,
 						name: '系统平台和移动APP'
 					},
 					{
 						path: '/Strategy/Connection',
-						component: Astronomy,
+						component: Connection,
 						name: '互联互通'
 					},
 					{
 						path: '/Strategy/Terminal',
-						component: Astronomy,
+						component: Terminal,
 						name: '物联网卫星终端'
 					},
 					{
 						path: '/Strategy/Application',
-						component: Astronomy,
+						component: Application,
 						name: '应用服务'
 					},
 					{
@@ -150,17 +163,17 @@ const routes = [
 					},
 					{
 						path: '/Strategy/Station',
-						component: Astronomy,
+						component: Station,
 						name: '卫星地面站'
 					},
 					{
 						path: '/Strategy/ControlCenter',
-						component: Astronomy,
+						component: ControlCenter,
 						name: '测运控中心'
 					},
 					{
 						path: '/Strategy/DataCenter',
-						component: Astronomy,
+						component: DataCenter,
 						name: '数据服务中心'
 					}
 				]
@@ -205,7 +218,7 @@ const routes = [
 					},
 					{
 						path: '/Duty/Social',
-						component: null,
+						component: Map3D,
 						name: '社工服务'
 					}
 				]

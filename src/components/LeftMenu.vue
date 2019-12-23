@@ -126,17 +126,23 @@ export default {
 	div.menu ul li {
 		/*float:left;  向左漂移，将竖排变为横排 */
 		font-size: 16px;
-	}
-
-	div.menu ul li ul li a{
-		font-size: 18px;
-	}
-
-	div.menu ul li a{
 		border: 1px #ebedf0 solid;
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
+	}
+
+	div.menu ul li ul li {
+		border: 0px;
+	}
+
+	div.menu ul li ul li a{
+		font-size: 18px;
+		line-height: 60px;
+	}
+
+	div.menu ul li a{
+
 		/* 边框 */
 		display: block;
 		/* 此元素将显示为块级元素，此元素前后会带有换行符 line-height: 1.35em;*/
