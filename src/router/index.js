@@ -97,6 +97,7 @@ const routes = [
 						path: '',
 						component: null,
 						name: '宇航中心',
+						childPaths: '/Special/Astronomy/Satellite/TradeAgent'
 					},
 					{
 						path: '/Strategy/Special',
@@ -122,6 +123,7 @@ const routes = [
 						path: '',
 						component: null,
 						name: '“天行者” 规划建设',
+						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/Application'
 					},
 					{
 						path: '/Strategy/Skywalker',
@@ -157,6 +159,7 @@ const routes = [
 						path: '',
 						component: null,
 						name: '卫星地面站系统建设',
+						childPaths: 'Station/ControlCenter/DataCenter'
 					},
 					{
 						path: '/Strategy/Station',
@@ -197,7 +200,7 @@ const routes = [
 						name: '业务动态'
 					},
 					{
-						path: '/News/New',
+						path: '/News/News',
 						component: Astronomy,
 						name: '行业新闻'
 					}

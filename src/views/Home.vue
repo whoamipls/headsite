@@ -147,8 +147,7 @@
               <li class="col-sm-4"> <img src="images/offer-img-1.jpg" class="img-responsive" alt="">
                 <h5>宇航中心</h5>
                 <hr class="main">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis at turpis aliquam
-                  maximus. Cras nec mauris ex. Aliquam nibh felis</p>
+                <p>北京和德宇航技术有限公司(以下简称和德宇)成立于2007年4月，是一家致力于微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港…</p>
                 <a href="#.">详细 <i class="fa fa-long-arrow-right"></i></a>
               </li>
               <li class="col-sm-4"> <img src="images/offer-img-2.jpg" class="img-responsive" alt="">

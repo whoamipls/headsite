@@ -3,13 +3,13 @@
 	<div class="menu">
 		<ul>
 			<li v-for="item in menuData" v-if="!item.hidden">
-				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item, null)">
+				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item)">
 					{{item.name}}
-					<span v-if="item.children.length>0" class="glyphicon" :class="{'glyphicon-chevron-down':item==selParent,'glyphicon-chevron-up':item!=selParent}"></span>
+					<span v-if="item.children.length>0" class="glyphicon" :class="isMenuSelect(item)?'glyphicon-chevron-down':'glyphicon-chevron-up'"></span>
 				</a>
-				<ul v-if="item.children.length>0" :class="{'hidden':item!=selParent}">
+				<ul v-if="item.children.length>0" :class="{'hidden':!isMenuSelect(item)}">
 					<li v-for="child in item.children" v-if="!child.hidden">
-						<a :style="getMenuItemStyle(child)" @click="chooseItem(item, child)">{{child.name}}</a>
+						<a :style="getMenuItemStyle(child)" @click="chooseItem(child)">{{child.name}}</a>
 					</li>
 				</ul>
 			</li>
@@ -26,8 +26,6 @@ export default {
 	data() {
 		return {
 			menuData: [],
-			selParent: null,
-			selChild: null,
 			// 菜单正常
 			menuHeadNormal: {
 				color: '#56585f',
@@ -65,7 +63,7 @@ export default {
 			let routes = this.$router.options.routes[0].children.find(i => i.path==path).children;
 			let parent = this.menuData;
 			routes.forEach(route => {
-				let child = { name: route.name, path: route.path, hidden: route.hidden, children: [] };
+				let child = { name: route.name, path: route.path, hidden: route.hidden, children: [], childPaths: route.childPaths };
 				if(!route.component) {
 					this.menuData.push(child);
 					parent = child.children;
@@ -74,20 +72,32 @@ export default {
 				}
 			});
 		}
-		this.chooseItem(this.menuData[0], null);
+		// 默认选中第一个子菜单
+		if(this.$route.fullPath.lastIndexOf('/') == 0){
+			this.chooseItem(this.menuData[0], null);
+		}
 	},
 	methods: {
 		// 选择菜单
-		chooseItem: function(parent, child){
-			this.selParent = parent;
-			if(!child && this.selParent.children.length > 0) child = this.selParent.children[0];
-			this.selChild = child;
-			let path = child ? child.path : parent.path;
+		chooseItem: function(item){
+			let path = item.children.length > 0 ? item.children[0].path : item.path; 
 			this.$router.push(path);
+		},
+		// 菜单是否选中
+		isMenuSelect: function(item) {
+			let select = false;
+			if (!!item.childPaths) {
+				let strs = this.$route.fullPath.split('/');
+				let str = strs[strs.length - 1];
+				select = item.childPaths.indexOf(str) >= 0;
+			} else {
+				select = this.$route.fullPath.indexOf(item.path) == 0;
+			}
+			return select;
 		},
 		// 获取菜单样式
 		getMenuHeadStyle: function(item) {
-			if(item == this.selParent) {
+			if(this.isMenuSelect(item)) {
 				if(item.children.length == 0) {
 					return this.menuHeadSelect1;
 				} else {
@@ -98,7 +108,7 @@ export default {
 		},
 		// 获取子菜单样式
 		getMenuItemStyle: function(item) {
-			return item == this.selChild ? this.menuItemSelect : this.menuItemNormal;
+			return this.isMenuSelect(item) ? this.menuItemSelect : this.menuItemNormal;
 		},
 		// 跳转
 		goto: function(path) {
@@ -130,23 +140,19 @@ export default {
 	div.menu ul li {
 		/*float:left;  向左漂移，将竖排变为横排 */
 		font-size: 16px;
-		border: 1px #ebedf0 solid;
-		border-top: 0;
-		border-left: 0;
-		border-right: 0;
-	}
-
-	div.menu ul li ul li {
-		border: 0px;
 	}
 
 	div.menu ul li ul li a{
+		border: 0px;
 		font-size: 18px;
 		line-height: 60px;
 	}
 
 	div.menu ul li a{
-
+		border: 1px #ebedf0 solid;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
 		/* 边框 */
 		display: block;
 		/* 此元素将显示为块级元素，此元素前后会带有换行符 line-height: 1.35em;*/
