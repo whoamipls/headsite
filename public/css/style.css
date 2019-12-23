@@ -603,6 +603,9 @@ header .navbar li.active a:before {
 }
 .nav>li>a:focus, .nav>li>a:hover {
 	background: none;
+	/*by wdr, 顶部菜单鼠标悬停手形+白色*/
+	cursor: pointer;
+	color: #fff;
 }
 .ownmenu ul.dropdown {
 	background: #222222;

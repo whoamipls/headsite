@@ -13,8 +13,8 @@
 					</li>
 				</ul>
 			</li>
-			<li><img src="images/about/职来职往.png" /></li>
-			<li style="margin:10px 0px"><img src="images/about/最新资讯.png" /></li>
+			<li><img src="images/about/职来职往.png" @click="goto('/Hr/Recruit')" /></li>
+			<li style="margin:10px 0px"><img src="images/about/最新资讯.png" @click="goto('/News/Hot')" /></li>
 		</ul>
 	</div>
 </div>
@@ -99,6 +99,10 @@ export default {
 		// 获取子菜单样式
 		getMenuItemStyle: function(item) {
 			return item == this.selChild ? this.menuItemSelect : this.menuItemNormal;
+		},
+		// 跳转
+		goto: function(path) {
+			this.$router.push(path);
 		}
 	}
 }
@@ -170,7 +174,7 @@ export default {
 		color: gray;
 	}
 
-	div.menu ul li a:hover {
+	div.menu ul li a:hover, div.menu ul li img:hover {
 		cursor: pointer;
 	}
 </style>

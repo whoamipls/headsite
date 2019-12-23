@@ -1,15 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Main from '../views/Main.vue'
-import Home from '../components/Home.vue'
-import Overview from '../views/about/Overview.vue'
-import Vision from '../views/about/Vision.vue'
-
-
-import HelloWorld from '../components/HelloWorld.vue'
-import SecondFrame from '../views/SecondFrame.vue'
+// 首页
+import Home from '../views/Home.vue'
 // 关于和德
 import About from '../views/about/About.vue'
+import Overview from '../views/about/Overview.vue'
+import Vision from '../views/about/Vision.vue'
 import Speech from '../views/about/Speech.vue'
 import History from '../views/about/History.vue'
 import Qualification from '../views/about/Qualification.vue'

@@ -12,7 +12,7 @@
             <div class="menu-toggle"> <i class="fa fa-bars"> </i> </div>
             <!-- NAV -->
             <ul class="nav ownmenu">
-				<li v-for="item in $router.options.routes[0].children">
+				<li :class="{active:$route.fullPath.indexOf(item.path)==0}" v-for="item in $router.options.routes[0].children">
 					<a @click="chooseItem(item.path)">{{item.name}}</a>
 					<!--
 					<ul class="dropdown animated-3s fadeIn">
@@ -36,6 +36,7 @@ export default {
 	},
 	methods: {
 		chooseItem: function(path){
+			if(this.$route.fullPath.indexOf(path) == 0) return;
 			if(path.length > 0){
 				//this.$router.push(path);
 				this.$router.push({
