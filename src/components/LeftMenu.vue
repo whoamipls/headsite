@@ -144,12 +144,12 @@ export default {
 
 	div.menu ul li ul li a{
 		border: 0px;
-		font-size: 18px;
+		font-size: @hdLMenuChildFontSize;
 		line-height: 60px;
 	}
 
 	div.menu ul li a{
-		border: 1px #ebedf0 solid;
+		border: 1px @hdLMenuDividerColor solid;
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
@@ -167,7 +167,7 @@ export default {
 		width: 310px;
 		box-sizing: border-box;
 		position: relative;
-		font-size: 20px;
+		font-size: @hdLMenuItemFontSize;
 	}
 
 	div.menu ul li a span{

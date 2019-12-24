@@ -1,9 +1,9 @@
 <template>
-	<div style="margin-bottom:50px">
-		<p style="text-align:left"><span class="title0">{{titles[0]}}</span>&nbsp;<span class="title1">{{titles[1]}}</span></p>
+	<div>
+		<p style="text-align:left"><span class="hdHeaderZh">{{titles[0]}}</span>&nbsp;<span class="hdHeaderEn">{{titles[1]}}</span></p>
 		<hr>
-		<p class="title2">{{titles[2]}}</p>
-		<p v-if="titles.length>3" class="title3">{{titles[3]}}</p>
+		<p class="hdTitle">{{titles[2]}}</p>
+		<p v-if="titles.length>3" class="hdAnnotation">{{titles[3]}}</p>
 	</div>
 </template>
 
@@ -18,22 +18,20 @@
 </script>
 
 <style scoped lang="less">
-	.title0 {
-		font: 18px bold;
+	div {
+		margin-bottom: @hdTitleMargin;
 	}
-	.title1 {
-		font: 12px bold;
-		color: gray;
+	.hdHeaderZh {
+		font: @hdHeaderFontCh;
 	}
-	.title2 {
+	.hdHeaderEn {
+		font: @hdHeaderFontEn;
+		color: @hdHeaderColorEn;
+	}
+	.hdTitle {
 		text-align: center;
-		margin-top: 50px;
-		font: 28px bold;
-		color: '#363940';
-	}
-    .title3 {
-		text-align: center;
-		font: 14px;
-		color: gray;
+		margin-top: @hdTitleMargin;
+		font: @hdTitleFont;
+		color: @hdTitleColor;
 	}
 </style>

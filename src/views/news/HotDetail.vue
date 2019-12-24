@@ -7,15 +7,15 @@
 					<DateIcon :time="hot.time" />
 				</td>
 				<td>
-					<p class="title" style="margin-bottom:0">{{hot.title}}</p>
-					<p class="annotation left">发布于 : {{hot.time.Format("yyyy-MM-dd")}}</p>
+					<p class="title left" style="margin-bottom:0">{{hot.title}}</p>
+					<p class="hdAnnotation left">发布于 : {{hot.time.Format("yyyy-MM-dd")}}</p>
 				</td>
 			</tr>
 			<tr v-for="item in hot.content">
 				<td colspan="2" class="content">
-					<p v-if="item.type==0" class="content">{{item.value}}</p>
+					<p v-if="item.type==0" class="hdSection">{{item.value}}</p>
 					<p v-if="item.type==1"><img :src="item.value[0]" /></p>
-					<p v-if="item.type!=0" class="annotation">{{item.value[1]}}</p>
+					<p v-if="item.type!=0" class="hdAnnotation">{{item.value[1]}}</p>
 				</td>
 			</tr>
 		</table>
@@ -79,4 +79,8 @@ export default {
 	td.content{
 		text-align: center;
 	}
+	p.title {
+        font-size: @hdTitle1FontSize; //20px;
+        font-weight: bold;
+    }
 </style>

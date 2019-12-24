@@ -4,41 +4,152 @@
 @contentSize: 18px;
 @dividerColor: #ebedf0;
 
-p.title {
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-}
+@hdTitleColor: #363940;			// 标题色
+// 正文段落
+@hdTextFontSize: 16px;			  // 正文字号
+@hdTextSpace: 12px;			      // 正文行间距
+@hdTextColor: #656a79;			// 正文颜色
+@hdSectionMarginD: 20px;          // 段落下间距
+// 公司名称
+@hdCompanyFontSizeCh: 18px;		  // 中文字号
+@hdCompanyColorCh: #6B7CBB;		// 中文颜色
+@hdCompanyFontSizeEn: 13px;		  // 英文字号
+@hdCompanyColorEn: #C7CDEE;		// 英文颜色
+// 页面页眉
+@hdHeaderFontCh: 18px bold;		  // 中文字体
+@hdHeaderFontEn: 12px bold;	  	  // 英文字体
+@hdHeaderColorEn: #aaa;			// 英文颜色
+// 页面大标题
+@hdTitleFont: 28px bold;	  	  // 字体
+@hdTitleMargin: 50px;		  	  // 上下边距
+// 页面标题1
+@hdTitle1FontSize: 18px;	  	  // 字号
+@hdTitle1MarginV: 16px;			  // 上下边距
+@hdTitle1MarginL: 12px;			  // 左边距
+// 页面标题2
+@hdTitle2FontSize: 16px;          // 字号
+@hdTitle2MarginV: 12px;           // 上下边距
+@hdTitle2MarginL: 12px;			  // 左边距
+// 注解
+@hdAnnoFontSize: 14px;			  // 字号
+@hdAnnoColor: gray;			    // 颜色
+// 签名
+@hdSignFontSize: 18px;			  // 字号
+// 左侧菜单
+@hdLMenuItemFontSize: 20px;		  // 菜单项字号
+@hdLMenuItemColor: #56585f;		// 菜单项颜色
+@hdLMenuItemColorSel: #363940;	// 菜单项选中颜色
+@hdLMenuChildFontSize: 18px;	  // 子菜单项字号
+@hdLMenuChildColor: #8c8f99;	// 子菜单项颜色
+@hdLMenuChildColorSel: #4068f5;	// 子菜单项选中颜色
+@hdLMenuBgColorSel: #f7f9ff;	// 菜单项选中背景色
+@hdLMenuDividerColor: #ebedf0;	// 分割线颜色
+@hdLMenuArrowColor:#91949b;		// 箭头颜色
 
-p.content {
+// 图标文本
+.hdIconText(@fontSize, @fontWeight, @color, @marginV, @marginL) {
+    margin: @marginV 0px;
     text-align: left;
-    // text-indent: 2em;
-    line-height: 28px;
-    font-size: 16px;
-    color: '#656a79';
-}
-
-p.annotation {
-    font-size: 14px;
-    color: @contentColor;
-}
-
-// 段落标题
-.paraTitle(@fontSize:18px, @fontWeight:bold, @color:@contentColor, @titleMargin:20px 0px, @textMargin:12px) {
-    /* height: 500px; */
-    /* line-height: 500px; */
-    margin: @titleMargin;
-    text-align: left;
-    // border: 1px solid;
     img,
     span {
         display: inline-block;
         vertical-align: middle;
     }
     span {
-        margin-left: @textMargin;
+        margin-left: @marginL;
         font-size: @fontSize;
         font-weight: @fontWeight;
         color: @color;
     }
 }
+// 语句带图标
+.hdSentenceIcon {
+    .hdIconText(@hdTextFontSize, normal, @hdTextColor, @hdTextSpace/2, @hdTitle1MarginL);
+}
+// 标题一
+.hdTitle1 {
+	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV, 0);
+}
+// 标题一带图标
+.hdTitle1Icon {
+	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV, @hdTitle1MarginL);
+}
+// 标题二
+.hdTitle2 {
+    .hdIconText(@hdTitle2FontSize, bold, @hdTitleColor, @hdTitle2MarginV, 0);
+}
+// 标题二
+.hdTitle2Icon {
+    // .hdIconText(@hdTitle2FontSize, normal, @hdTitleColor, @hdTitle1MarginV, @hdTitle1MarginL);
+}
+// 签名
+.hdSignature {
+	text-align: right;
+	font-size: @hdSignFontSize;
+	font-weight: bold;
+}
+// 注解
+.hdAnnotation {
+	text-align: center;
+	font-size: @hdAnnoFontSize;
+	color: @hdAnnoColor;
+}
+// 段落
+.hdSection(@indent:0em) {
+	text-align: left;
+    text-indent: @indent;
+    line-height: @hdTextFontSize + @hdTextSpace;
+    font-size: @hdTextFontSize;
+    color: @hdTextColor;
+}
+// 段落(无缩进)
+.hdSection {
+	.hdSection(0em);
+}
+// 段落(有缩进)
+.hdSectionIndent {
+	.hdSection(2em);
+}
+// 段落结束
+.hdSectionEnd {
+    margin-bottom: @hdSectionMarginD;
+}
+
+// p.title {
+//     text-align: left;
+//     font-size: 20px;
+//     font-weight: bold;
+// }
+
+// p.content {
+//     text-align: left;
+//     // text-indent: 2em;
+//     line-height: 28px;
+//     font-size: 16px;
+//     color: '#656a79';
+// }
+
+// p.annotation {
+//     font-size: 14px;
+//     color: @contentColor;
+// }
+
+// // 段落标题
+// .paraTitle(@fontSize:18px, @fontWeight:bold, @color:@contentColor, @titleMargin:20px 0px, @textMargin:12px) {
+//     /* height: 500px; */
+//     /* line-height: 500px; */
+//     margin: @titleMargin;
+//     text-align: left;
+//     // border: 1px solid;
+//     img,
+//     span {
+//         display: inline-block;
+//         vertical-align: middle;
+//     }
+//     span {
+//         margin-left: @textMargin;
+//         font-size: @fontSize;
+//         font-weight: @fontWeight;
+//         color: @color;
+//     }
+// }

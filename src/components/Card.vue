@@ -7,8 +7,8 @@
             <b-carousel-slide v-for="img in images" :img-src="img"></b-carousel-slide>
         </b-carousel>
         <div class="inner">
-            <div class="title">
-                <img src="assets/components/bluerect.png" />
+            <div class="hdTitle1Icon">
+                <img src="assets/components/rect.png" />
                 <span>{{title}}</span>
             </div>
             <p>{{text}}</p>
@@ -29,9 +29,6 @@
 </script>
 
 <style scoped lang="less">
-	.title {
-		.paraTitle();
-	}
     div.outer {
         border: 1px solid gray;
         padding: 0px;

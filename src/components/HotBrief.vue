@@ -8,7 +8,7 @@
                     </td>
                     <td>
                         <p class="title">{{title}}</p>
-                        <p class="content">{{content}}</p>
+                        <p class="hdSection">{{content}}</p>
                         <p class="link"><a href="javascript:void(0);" @click="showDetail">查看详情>></a></p>
                     </td>
                 </tr>
@@ -54,7 +54,7 @@ export default {
         width: 80px;
     }
     p.title {
-        font-size: 20px;
+        font-size: @hdTitle1FontSize; //20px;
         font-weight: bold;
     }
     // p.content{
