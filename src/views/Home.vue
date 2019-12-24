@@ -1,391 +1,379 @@
 <template>
 	<div>
-    <!--======= HOME MAIN SLIDER =========-->
-    <section class="home-slider">
-      <!-- Slider Loader -->
-      <div id="loader" class="hom-slie">
-        <div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
-            class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
-      </div>
+		<!--======= HOME MAIN SLIDER =========-->
+		<section class="home-slider">
+			<!-- Slider Loader -->
+			<div id="loader" class="hom-slie">
+				<div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
+					class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
+			</div>
+			<!-- SLIDE Start -->
+			<div class="tp-banner-container">
+				<div class="tp-banner">
+					<ul>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="assets/home/banner/1.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
+								data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
 
-      <!-- SLIDE Start -->
-      <div class="tp-banner-container">
-        <div class="tp-banner">
-          <ul>
-            <!-- SLIDE  -->
-            <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-              <!-- MAIN IMAGE -->
-              <img src="images/slide-1.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
-                data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								航天创建人类美好生活 </div>
 
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
-                data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
-                data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-                data-endspeed="300"
-                style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">
-                航天创建人类美好生活 </div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
+								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:20px; color:white; text-transform:uppercase; white-space: nowrap;">
+								Space Creates a Better Future for Human Being </div>
 
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
-                data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
-                data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-                data-endspeed="300"
-                style="z-index: 6; font-size:20px; color:white; text-transform:uppercase; white-space: nowrap;">
-                Space Creates a Better Future for Human Being </div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
+								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								国内商业航天领先者，智能空间信息服务提供商 </div>
 
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
-                data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
-                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-                国内商业航天领先者，智能空间信息服务提供商 </div>
+							<!-- LAYER NR. 4 -->
+							<!-- <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
+								data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
+								data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
+								class="btn margin-right-20">Buy Theme</a> <a href="#." class="btn btn-white">Get Started</a> </div> -->
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="assets/home/banner/2.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
+								data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
 
-              <!-- LAYER NR. 4 -->
-              <!-- <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
-                data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
-                data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
-                  class="btn margin-right-20">Buy Theme</a> <a href="#." class="btn btn-white">Get Started</a> </div> -->
-            </li>
-            <!-- SLIDE  -->
-            <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-              <!-- MAIN IMAGE -->
-              <img src="images/slide-2.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
-                data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfb font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+								data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">Our
+								Premio will give you softer skin </div>
 
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption sfb font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
-                data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
-                data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-                data-endspeed="300"
-                style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">Our
-                Premio will give you softer skin </div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfb font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
+								data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:70px; color:#1cd1aa; text-transform:uppercase; white-space: nowrap;">We
+								Deal With Creative Design </div>
 
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption sfb font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
-                data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
-                data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-                data-endspeed="300"
-                style="z-index: 6; font-size:70px; color:#1cd1aa; text-transform:uppercase; white-space: nowrap;">We
-                Deal With Creative Design </div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
+								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								Premio Stays Sharp 'til The Bottom of the Glass, Nunc mattis vitae dui ut eleifend. </div>
 
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
-                data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
-                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-                Premio Stays Sharp 'til The Bottom of the Glass, Nunc mattis vitae dui ut eleifend. </div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
+								data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
+								data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
+								class="btn margin-right-20">Buy Theme</a> </div>
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="assets/home/banner/3.jpg" alt="home_slider3" data-bgposition="center center" data-bgfit="cover"
+								data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
 
-              <!-- LAYER NR. 4 -->
-              <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
-                data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
-                data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
-                  class="btn margin-right-20">Buy Theme</a> </div>
-            </li>
-            <!-- SLIDE  -->
-            <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-              <!-- MAIN IMAGE -->
-              <img src="images/slide-3.jpg" alt="home_slider3" data-bgposition="center center" data-bgfit="cover"
-                data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+								data-voffset="-60" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 5; font-size:45px; color:#fff; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
+								Only The Crumbliest Flakiest </div>
 
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                data-voffset="-60" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
-                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                style="z-index: 5; font-size:45px; color:#fff; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
-                Only The Crumbliest Flakiest </div>
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+								data-voffset="0" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 5; font-size:45px; color:#1cd1aa; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
+								Corporate business </div>
 
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                data-voffset="0" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
-                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                style="z-index: 5; font-size:45px; color:#1cd1aa; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
-                Corporate business </div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption font-italic font-lora sfb tp-resizeme text-center" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="80" data-speed="300" data-start="1500" data-easing="Power3.easeInOut"
+								data-splitin="none" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								We are driven by creating experiences that deliver results for your business
+								and for your <br>
+								consumers. Our approach is simple and iterative.Sed ut perspiciatis unde omnis.</div>
 
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption font-italic font-lora sfb tp-resizeme text-center" data-x="center" data-hoffset="0"
-                data-y="center" data-voffset="80" data-speed="300" data-start="1500" data-easing="Power3.easeInOut"
-                data-splitin="none" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-                data-endspeed="300"
-                style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-                We are driven by creating experiences that deliver results for your business
-                and for your <br>
-                consumers. Our approach is simple and iterative.Sed ut perspiciatis unde omnis.</div>
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption skewfromleft tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+								data-voffset="170" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-splitin="none"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#."
+								class="btn">PURCHASE NOW</a> </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- Content -->
+		<div id="content">
+			<!-- Welcome -->
+			<section class="padding-top-150 padding-bottom-150">
+				<div class="container">
+					<!-- Heading -->
+					<div class="heading text-center">
+						<h4>战略布局</h4>
+						<span>Strategic layout</span>
+						<hr>
+					</div>
+					<!-- OFFER -->
+					<div class="offers">
+						<ul class="row">
+						<li class="col-sm-4"> <img src="assets/home/strategy/1.jpg" class="img-responsive" alt="">
+							<h5>宇航中心</h5>
+							<hr class="main">
+							<p>北京和德宇航技术有限公司(以下简称和德宇)成立于2007年4月，是一家致力于微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港…</p>
+							<a href="#." @click="goto('/Strategy/Special')">详细 <i class="fa fa-long-arrow-right"></i></a>
+						</li>
+						<li class="col-sm-4"> <img src="assets/home/strategy/2.jpg" class="img-responsive" alt="">
+							<h5>“天行者”规划建设</h5>
+							<hr class="main">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis at turpis aliquam
+							maximus. Cras nec mauris ex. Aliquam nibh felis</p>
+							<a href="#." @click="goto('/Strategy/Skywalker')">详细 <i class="fa fa-long-arrow-right"></i></a>
+						</li>
+						<li class="col-sm-4"> <img src="assets/home/strategy/3.jpg" class="img-responsive" alt="">
+							<h5>卫星地面站系统建设</h5>
+							<hr class="main">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis at turpis aliquam
+							maximus. Cras nec mauris ex. Aliquam nibh felis</p>
+							<a href="#." @click="goto('/Strategy/Station')">详细 <i class="fa fa-long-arrow-right"></i></a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- Gallery -->
+			<section>
+				<div class="container">
+					<!-- Heading -->
+					<div class="heading text-center">
+						<h4>和德资讯</h4>
+						<span>Information</span>
+						<hr>
+					</div>
+				</div>
+				<!-- PORTFOLIO -->
+				<div class="portfolio port-wrap">
+					<!-- Work Filter -->
+					<ul class="portfolio-filter text-center margin-bottom-80">
+						<li><a class="active" href="#." data-filter="*">热点事件 </a></li>
+						<li><a href="#." data-filter=".pf-branding-design">业务动态 </a></li>
+						<li><a href="#." data-filter=".pf-photography">行业新闻 </a></li>
+						<li><a href="#." data-filter=".pf-web-design">媒体报道 </a></li>
+						<li><a href="#." data-filter=".pf-digital-art">视频影像 </a></li>
+					</ul>
+					<!-- PORTFOLIO ITEMS -->
+					<div class="items row col-4">
+						<!-- ITEM -->
+						<article class="portfolio-item pf-branding-design pf-web-design">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/1.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+						<!-- ITEM -->
+						<article class="portfolio-item pf-photography">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/2.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+						<!-- ITEM -->
+						<article class="portfolio-item pf-web-design pf-branding-design">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/3.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+						<!-- ITEM -->
+						<article class="portfolio-item pf-branding-design pf-digital-art">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/6.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+						<!-- ITEM -->
+						<article class="portfolio-item pf-web-design pf-digital-art pf-branding-design">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/4.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+						<!-- ITEM -->
+						<article class="portfolio-item pf-branding-design pf-digital-art">
+							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/5.jpg"> </a> </div>
+							<div class="portfolio-overlay">
+								<div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="text-center"></div>
+			</section>
 
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption skewfromleft tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-                data-voffset="170" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-splitin="none"
-                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#."
-                  class="btn">PURCHASE NOW</a> </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Content -->
-    <div id="content">
-
-      <!-- Welcome -->
-      <section class="padding-top-150 padding-bottom-150">
-        <div class="container">
-
-          <!-- Heading -->
-          <div class="heading text-center">
-            <h4>战略布局</h4>
-            <span>Strategic layout</span>
-            <hr>
-          </div>
-
-          <!-- OFFER -->
-          <div class="offers">
-            <ul class="row">
-              <li class="col-sm-4"> <img src="images/offer-img-1.jpg" class="img-responsive" alt="">
-                <h5>宇航中心</h5>
-                <hr class="main">
-                <p>北京和德宇航技术有限公司(以下简称和德宇)成立于2007年4月，是一家致力于微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港…</p>
-                <a href="#.">详细 <i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="col-sm-4"> <img src="images/offer-img-2.jpg" class="img-responsive" alt="">
-                <h5>“天行者”规划建设</h5>
-                <hr class="main">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis at turpis aliquam
-                  maximus. Cras nec mauris ex. Aliquam nibh felis</p>
-                <a href="#.">详细 <i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="col-sm-4"> <img src="images/offer-img-3.jpg" class="img-responsive" alt="">
-                <h5>卫星地面站系统建设</h5>
-                <hr class="main">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet felis at turpis aliquam
-                  maximus. Cras nec mauris ex. Aliquam nibh felis</p>
-                <a href="#.">详细 <i class="fa fa-long-arrow-right"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Gallery -->
-      <section>
-        <div class="container">
-
-          <!-- Heading -->
-          <div class="heading text-center">
-            <h4>和德资讯</h4>
-            <span>Information</span>
-            <hr>
-          </div>
-        </div>
-
-        <!-- PORTFOLIO -->
-        <div class="portfolio port-wrap">
-          <!-- Work Filter -->
-          <ul class="portfolio-filter text-center margin-bottom-80">
-            <li><a class="active" href="#." data-filter="*">热点事件 </a></li>
-            <li><a href="#." data-filter=".pf-branding-design">业务动态 </a></li>
-            <li><a href="#." data-filter=".pf-photography">行业新闻 </a></li>
-            <li><a href="#." data-filter=".pf-web-design">媒体报道 </a></li>
-            <li><a href="#." data-filter=".pf-digital-art">视频影像 </a></li>
-          </ul>
-
-          <!-- PORTFOLIO ITEMS -->
-
-          <div class="items row col-4">
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-branding-design pf-web-design">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-1.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-photography">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-2.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-web-design pf-branding-design">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-3.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-branding-design pf-digital-art">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-6.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-web-design pf-digital-art pf-branding-design">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-4.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-
-            <!-- ITEM -->
-            <article class="portfolio-item pf-branding-design pf-digital-art">
-              <div class="portfolio-image"> <a href="#."> <img alt="" src="images/img-5.jpg"> </a> </div>
-              <div class="portfolio-overlay">
-                <div class="position-center-center"> <a href="#."><i class="ion-link"></i></a> </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="text-center"></div>
-      </section>
-
-      <!-- TimeLine -->
-      <section class="innovaction padding-top-150 padding-bottom-150">
-        <div class="container">
-          <!-- Heading -->
-          <div class="heading text-center" style="color:white">
-            <h4 style="color:white">发展历程</h4>
-            <span style="color:white">Development history</span>
-            <hr style="border-top: 1px solid #3e93cf;border-bottom: 1px solid #3e93cf;">
-          </div>
-          <div class="row">
-            <h2></h2>
-            <div class="timeline">
-              <div class="timeline-item timeline-item-left">
-                <div class="timeline-point timeline-point-blank"></div>
-                <div class="timeline-event timeline-event-default">
-                  <div class="timeline-heading">
-                    <h4>2019-10</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>“和德二号A/B”是两颗实验星，搭载AIS、DCS、ADS-B三种通信载荷发射</p>
-                  </div>
-                  <div class="timeline-footer">
-                    <p class="text-right"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline-item timeline-item-right">
-                <div class="timeline-point timeline-point-blank"></div>
-                <div class="timeline-event timeline-event-default">
-                  <div class="timeline-heading">
-                    <h4>2017-04</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>“和德一号”卫星作为全国首个商用AIS小卫星，已于2017年成功发射</p>
-                  </div>
-                  <div class="timeline-footer">
-                    <p class="text-right"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline-item timeline-item-left">
-                <div class="timeline-point timeline-point-blank"></div>
-                <div class="timeline-event timeline-event-default">
-                  <div class="timeline-heading">
-                    <h4>2017-04</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>北京和德宇航技术有限公司</p>
-                  </div>
-                  <div class="timeline-footer">
-                    <p class="text-right"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline-item timeline-item-right">
-                <div class="timeline-point timeline-point-blank"></div>
-                <div class="timeline-event timeline-event-default">
-                  <div class="timeline-heading">
-                    <h4>2017-04</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>北京和德宇航技术有限公司</p>
-                  </div>
-                  <div class="timeline-footer">
-                    <p class="text-right"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline-item timeline-item-left">
-                <div class="timeline-point timeline-point-blank"></div>
-                <div class="timeline-event timeline-event-default">
-                  <div class="timeline-heading">
-                    <h4>2017-04</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p>北京和德宇航技术有限公司</p>
-                  </div>
-                  <div class="timeline-footer">
-                    <p class="text-right"></p>
-                  </div>
-                </div>
-              </div>
-              <span class="timeline-label">
-                <a href="#" class="btn btn-default" title="More...">More
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- Partner -->
-    <section class="padding-top-150 padding-bottom-150">
-      <div class="container">
-        <!-- Heading -->
-        <div class="heading text-center">
-          <h4>合作伙伴</h4>
-          <span>Cooperative partner</span>
-          <hr>
-        </div>
-        <div class="clients-img col-5">
-          <ul class="row">
-            <li> <a href="#."> <img src="images/c-img-1.png" class="img-responsive" alt=""> </a></li>
-            <li> <a href="#."> <img src="images/c-img-2.png" class="img-responsive" alt=""> </a> </li>
-            <li> <a href="#."> <img src="images/c-img-3.png" class="img-responsive" alt=""> </a></li>
-            <li> <a href="#."> <img src="images/c-img-4.png" class="img-responsive" alt=""> </a> </li>
-            <li> <a href="#."> <img src="images/c-img-5.png" class="img-responsive" alt=""> </a> </li>
-          </ul>
-          <ul class="row">
-            <li> <a href="#."> <img src="images/c-img-1.png" class="img-responsive" alt=""> </a></li>
-            <li> <a href="#."> <img src="images/c-img-2.png" class="img-responsive" alt=""> </a> </li>
-            <li> <a href="#."> <img src="images/c-img-3.png" class="img-responsive" alt=""> </a></li>
-            <li> <a href="#."> <img src="images/c-img-4.png" class="img-responsive" alt=""> </a> </li>
-            <li> <a href="#."> <img src="images/c-img-5.png" class="img-responsive" alt=""> </a> </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- Resource -->
-    <section class="padding-top-150 padding-bottom-150" style="background:#eeeeee">
-      <div class="container">
-        <!-- Heading -->
-        <div class="heading text-center">
-          <h4>资源链接</h4>
-          <span>Cooperative partner</span>
-          <hr>
-        </div>
-      </div>
-    </section>
-  </div>
-  </div>
+			<!-- TimeLine -->
+			<section class="innovaction padding-top-150 padding-bottom-150">
+				<div class="container">
+					<!-- Heading -->
+					<div class="heading text-center" style="color:white">
+						<h4 style="color:white">发展历程</h4>
+						<span style="color:white">Development history</span>
+						<hr style="border-top: 1px solid #3e93cf;border-bottom: 1px solid #3e93cf;">
+					</div>
+					<div class="row">
+						<h2></h2>
+						<div class="timeline">
+							<div class="timeline-item timeline-item-left">
+								<div class="timeline-point timeline-point-blank"></div>
+								<div class="timeline-event timeline-event-default">
+									<div class="timeline-heading">
+										<h4>2019-10</h4>
+									</div>
+									<div class="timeline-body">
+										<p>“和德二号A/B”是两颗实验星，搭载AIS、DCS、ADS-B三种通信载荷发射</p>
+									</div>
+									<div class="timeline-footer">
+										<p class="text-right"></p>
+									</div>
+								</div>
+							</div>
+							<div class="timeline-item timeline-item-right">
+								<div class="timeline-point timeline-point-blank"></div>
+								<div class="timeline-event timeline-event-default">
+									<div class="timeline-heading">
+										<h4>2017-04</h4>
+									</div>
+									<div class="timeline-body">
+										<p>“和德一号”卫星作为全国首个商用AIS小卫星，已于2017年成功发射</p>
+									</div>
+									<div class="timeline-footer">
+										<p class="text-right"></p>
+									</div>
+								</div>
+							</div>
+							<div class="timeline-item timeline-item-left">
+								<div class="timeline-point timeline-point-blank"></div>
+								<div class="timeline-event timeline-event-default">
+									<div class="timeline-heading">
+										<h4>2017-04</h4>
+									</div>
+									<div class="timeline-body">
+										<p>北京和德宇航技术有限公司</p>
+									</div>
+									<div class="timeline-footer">
+										<p class="text-right"></p>
+									</div>
+								</div>
+							</div>
+							<div class="timeline-item timeline-item-right">
+								<div class="timeline-point timeline-point-blank"></div>
+								<div class="timeline-event timeline-event-default">
+									<div class="timeline-heading">
+										<h4>2017-04</h4>
+									</div>
+									<div class="timeline-body">
+										<p>北京和德宇航技术有限公司</p>
+									</div>
+									<div class="timeline-footer">
+										<p class="text-right"></p>
+									</div>
+								</div>
+							</div>
+							<div class="timeline-item timeline-item-left">
+								<div class="timeline-point timeline-point-blank"></div>
+								<div class="timeline-event timeline-event-default">
+									<div class="timeline-heading">
+										<h4>2017-04</h4>
+									</div>
+									<div class="timeline-body">
+										<p>北京和德宇航技术有限公司</p>
+									</div>
+									<div class="timeline-footer">
+										<p class="text-right"></p>
+									</div>
+								</div>
+							</div>
+							<span class="timeline-label">
+								<a href="#" class="btn btn-default" title="More...">More</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Partner -->
+			<section class="padding-top-150 padding-bottom-150">
+				<div class="container">
+					<!-- Heading -->
+					<div class="heading text-center">
+					<h4>合作伙伴</h4>
+					<span>Cooperative partner</span>
+					<hr>
+					</div>
+					<div class="clients-img col-5">
+						<ul class="row">
+							<li> <a href="#."> <img src="assets/home/partner/1.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="#."> <img src="assets/home/partner/2.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="#."> <img src="assets/home/partner/3.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="#."> <img src="assets/home/partner/4.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="#."> <img src="assets/home/partner/5.png" class="img-responsive" alt=""> </a> </li>
+						</ul>
+						<ul class="row">
+							<li> <a href="#."> <img src="assets/home/partner/1.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="#."> <img src="assets/home/partner/2.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="#."> <img src="assets/home/partner/3.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="#."> <img src="assets/home/partner/4.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="#."> <img src="assets/home/partner/5.png" class="img-responsive" alt=""> </a> </li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- Resource -->
+			<section class="padding-top-150 padding-bottom-150" style="background:#eeeeee">
+				<div class="container">
+					<!-- Heading -->
+					<div class="heading text-center">
+						<h4>资源链接</h4>
+						<span>Cooperative partner</span>
+						<hr>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
 </template>
 
 <script>
 
 export default {
-  mounted: function() {
-	  mainReady();
-  }
+	mounted: function() {
+		mainReady();
+	},
+	methods: {
+		goto: function(path) {
+			this.$router.push(path);
+		}
+	}
 }
 </script>
 

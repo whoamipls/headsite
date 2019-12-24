@@ -13,8 +13,8 @@
 					</li>
 				</ul>
 			</li>
-			<li><img src="images/about/职来职往.png" @click="goto('/Hr/Recruit')" /></li>
-			<li style="margin:10px 0px"><img src="images/about/最新资讯.png" @click="goto('/News/Hot')" /></li>
+			<li><img src="assets/components/jobs.png" @click="goto('/Hr/Recruit')" /></li>
+			<li style="margin:10px 0px"><img src="assets/components/news.png" @click="goto('/News/Hot')" /></li>
 		</ul>
 	</div>
 </div>

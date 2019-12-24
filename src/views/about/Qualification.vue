@@ -25,7 +25,7 @@ export default {
     },
 	methods: {
 		getImageUrl: function(id) {
-			return `images/about/honor${id}.png`;
+			return `assets/about/qualification/honor${id}.png`;
 		}
 	},
 	data() {

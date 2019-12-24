@@ -8,7 +8,7 @@
 			<div class="row">
 			<!-- keep in touch -->
 			<div class="col-md-4">
-				<div class="padding-right-50"> <img src="images/logo.png" class="margin-bottom-30" alt="">
+				<div class="padding-right-50"> <img src="assets/home/logo.png" class="margin-bottom-30" alt="">
 				<p>北京和德宇航技术有限公司</p>
 				<p>Copyright @ China HEAD Aerospace Technology Co.</p>
 				</div>
