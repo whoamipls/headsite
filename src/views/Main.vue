@@ -3,6 +3,7 @@
 		<Header />
 		<router-view />
 		<!--
+		强制刷新
 		<router-view :key="$route.path + $route.query.t"/>
 		-->
 		<Footer />
@@ -18,6 +19,11 @@ export default {
 	components: {
 		Header,
 		Footer,
+	},
+	mounted: function() {
+		if(this.$route.fullPath.length <= 1) {
+			this.$router.push('/Home');
+		}
 	}
 }
 </script>

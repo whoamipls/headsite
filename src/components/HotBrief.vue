@@ -7,7 +7,7 @@
                         <DateIcon :time="time"/>
                     </td>
                     <td>
-                        <p class="title">{{title}}</p>
+                        <p class="hdTitle1Margin0">{{title}}</p>
                         <p class="hdSection">{{content}}</p>
                         <p class="link"><a href="javascript:void(0);" @click="showDetail">查看详情>></a></p>
                     </td>
@@ -53,13 +53,9 @@ export default {
     td.col1 {
         width: 80px;
     }
-    p.title {
-        font-size: @hdTitle1FontSize; //20px;
-        font-weight: bold;
-    }
-    // p.content{
-    //     font-size: 18px;
-    //     color: @contentColor;
+    // p.title {
+    //     font-size: @hdTitle1FontSize; //20px;
+    //     font-weight: bold;
     // }
     .link a {
         font-size: 14px;

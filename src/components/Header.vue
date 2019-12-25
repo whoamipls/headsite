@@ -38,13 +38,14 @@ export default {
 		chooseItem: function(path){
 			if(this.$route.fullPath.indexOf(path) == 0) return;
 			if(path.length > 0){
-				//this.$router.push(path);
-				this.$router.push({
-					path: path,
-					query: {
-						t: Date.now(),
-					},
-				});
+				this.$router.push(path);
+				// 强制刷新
+				// this.$router.push({
+				// 	path: path,
+				// 	query: {
+				// 		t: Date.now(),
+				// 	},
+				// });
 			}
 		}
 	}

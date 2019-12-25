@@ -55,11 +55,14 @@
         display: inline-block;
         vertical-align: middle;
     }
+    font-size: @fontSize;
+    font-weight: @fontWeight;
+    color: @color;
     span {
         margin-left: @marginL;
-        font-size: @fontSize;
-        font-weight: @fontWeight;
-        color: @color;
+    //     font-size: @fontSize;
+    //     font-weight: @fontWeight;
+    //     color: @color;
     }
 }
 // 语句带图标
@@ -73,6 +76,10 @@
 // 标题一带图标
 .hdTitle1Icon {
 	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV, @hdTitle1MarginL);
+}
+// 标题一(无边距)
+.hdTitle1Margin0 {
+	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, 0, 0);
 }
 // 标题二
 .hdTitle2 {
@@ -89,10 +96,16 @@
 	font-weight: bold;
 }
 // 注解
-.hdAnnotation {
-	text-align: center;
+.hdAnnotation(@align) {
+    text-align: @align;
 	font-size: @hdAnnoFontSize;
 	color: @hdAnnoColor;
+}
+.hdAnnotationC, .hdAnnotation {
+    .hdAnnotation(center);
+}
+.hdAnnotationL {
+    .hdAnnotation(left);
 }
 // 段落
 .hdSection(@indent:0em) {

@@ -71,10 +71,10 @@ h3 {
 	font-size: 30px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 24px!important;/* font-size: 24px; *//*by wdr,防止被覆盖*/
 }
 h5 {
-	font-size: 20px;
+	font-size: 20px!important;/* font-size: 20px; *//*by wdr,防止被覆盖*/
 }
 h6 {
 	font-size: 16px;
@@ -215,13 +215,13 @@ a:hover, a:focus {
 	border: none;
 	color: #fff;
 	display: inline-block;
-	padding: 0px 50px;
+	padding: 0px 50px!important;/*padding: 0px 50px;*//*by wdr,防止被覆盖*/
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 12px;
 	border-radius: 30px;
 	font-family: 'Montserrat', sans-serif;
-	line-height: 46px;
+	line-height: 46px!important;/*line-height: 46px;*//*by wdr,防止被覆盖*/
 	background: #1cd1aa;
 	letter-spacing: 1px;
 	position: relative;
