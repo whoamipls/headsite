@@ -13,7 +13,7 @@ export default {
     methods: {
         // 显示详情
         showDetail: function(id) {
-            this.$router.push('/News/HotDetail');
+            this.Goto('/News/HotDetail');
         }
     },
     data() {

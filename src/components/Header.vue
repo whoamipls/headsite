@@ -32,15 +32,14 @@
 export default {
 	mounted: function(){
     menuReady();
-		// this.$router.push('/Home');
 	},
 	methods: {
 		chooseItem: function(path){
 			if(this.$route.fullPath.indexOf(path) == 0) return;
 			if(path.length > 0){
-				this.$router.push(path);
+				this.Goto(path);
 				// 强制刷新
-				// this.$router.push({
+				// this.Goto({
 				// 	path: path,
 				// 	query: {
 				// 		t: Date.now(),

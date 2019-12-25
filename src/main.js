@@ -7,9 +7,12 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+Vue.prototype.Goto = function (path) {
+	this.$router.push(path);
+}
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+	router,
+	store,
+	render: h => h(App)
 }).$mount('#app')

@@ -3,3 +3,38 @@
 COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 
 -------------------------------------------------------------------*/
+/* 页脚输入框样式 */
+.hdInputSingleLine {
+    color: gray;
+    background-color: #0B1634;
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0px;
+    font-size: 14px;
+}
+.hdInputMultiLine {
+    color: gray;
+    background-color: #0B1634;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+}
+.hdInputSingleLine:focus,
+.hdInputMultiLine:focus {
+    outline: none;
+}
+/* 标题下划线 */
+.hdFooterH6 {
+    color: gray!important;
+    margin-bottom: 15px!important;
+}
+.hdFooterHr {
+    width: 150px;
+    height: 0.5px;
+    background: gray;
+    margin-bottom: 30px!important;
+}

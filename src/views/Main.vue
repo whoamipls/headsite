@@ -25,7 +25,7 @@ export default {
 	},
 	mounted: function() {
 		if(this.$route.fullPath.length <= 1) {
-			this.$router.push('/Home');
+			this.Goto('/Home');
 		}
 	}
 }

@@ -13,8 +13,8 @@
 					</li>
 				</ul>
 			</li>
-			<li><img src="assets/components/jobs.png" @click="goto('/Hr/Recruit')" /></li>
-			<li style="margin:10px 0px"><img src="assets/components/news.png" @click="goto('/News/Hot')" /></li>
+			<li><img src="assets/components/jobs.png" @click="Goto('/Hr/Recruit')" /></li>
+			<li style="margin:10px 0px"><img src="assets/components/news.png" @click="Goto('/News/Hot')" /></li>
 		</ul>
 	</div>
 </div>
@@ -81,7 +81,7 @@ export default {
 		// 选择菜单
 		chooseItem: function(item){
 			let path = item.children.length > 0 ? item.children[0].path : item.path; 
-			this.$router.push(path);
+			this.Goto(path);
 		},
 		// 菜单是否选中
 		isMenuSelect: function(item) {
@@ -109,10 +109,6 @@ export default {
 		// 获取子菜单样式
 		getMenuItemStyle: function(item) {
 			return this.isMenuSelect(item) ? this.menuItemSelect : this.menuItemNormal;
-		},
-		// 跳转
-		goto: function(path) {
-			this.$router.push(path);
 		}
 	}
 }
