@@ -347,9 +347,9 @@
 				</div>
 			</section>
 			<!-- Resource -->
+			<!--
 			<section class="padding-top-150 padding-bottom-150" style="background:#eeeeee">
 				<div class="container">
-					<!-- Heading -->
 					<div class="heading text-center">
 						<h4>资源链接</h4>
 						<span>Cooperative partner</span>
@@ -357,6 +357,7 @@
 					</div>
 				</div>
 			</section>
+			-->
 		</div>
 	</div>
 </template>

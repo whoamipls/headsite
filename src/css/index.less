@@ -45,7 +45,23 @@
 @hdLMenuBgColorSel: #f7f9ff;	// 菜单项选中背景色
 @hdLMenuDividerColor: #ebedf0;	// 分割线颜色
 @hdLMenuArrowColor:#91949b;		// 箭头颜色
+// 友情链接
+@hdFriLinkFontSize: 14px;         // 字号
+@hdFriLinkColor: white;         // 颜色
 
+// 友情链接
+.hdFriendlyLink {
+    width: 100%;
+    line-height: 94px;
+    text-align: center;
+    a {
+        vertical-align: middle;
+        margin: 0 20px;
+        text-decoration: none;
+        font-size: @hdFriLinkFontSize;
+        color: @hdFriLinkColor;
+    }
+}
 // 图标文本
 .hdIconText(@fontSize, @fontWeight, @color, @marginV, @marginL) {
     margin: @marginV 0px;
