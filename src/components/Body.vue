@@ -1,6 +1,6 @@
 <template>
     <div>
-		<Banner :image='banner'/>
+		<Banner :image='image' :menuTitles="menuTitles"/>
 		<!-- Content -->
 		<div id="content">
 			<!-- TEAM -->
@@ -30,7 +30,8 @@ export default {
 		LeftMenu,
 	},
     props: {
-        banner: String,
+        image: String,
+		menuTitles: Array,
     }
 }
 </script>

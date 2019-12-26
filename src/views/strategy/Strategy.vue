@@ -1,5 +1,5 @@
 <template>
-    <Body banner="assets/strategy/banner.png" />
+    <Body image="assets/strategy/banner.png" :menuTitles="['战略布局','Strategic Layout']" />
 </template>
 
 <script>

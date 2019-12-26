@@ -1,5 +1,5 @@
 <template>
-    <Body banner="assets/about/banner.png" />
+    <Body image="assets/about/banner.png" :menuTitles="['关于和德','On HEAD']" />
 </template>
 
 <script>

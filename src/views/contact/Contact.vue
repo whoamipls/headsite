@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Banner image="assets/contact/banner.png" />
+        <Banner image="assets/contact/banner.png" :menuTitles="['联系我们','Contact']" />
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

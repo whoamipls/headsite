@@ -1,5 +1,5 @@
 <template>
-    <Body banner="assets/duty/banner.png" />
+    <Body image="assets/duty/banner.png" :menuTitles="['社会责任','Responsibility']" />
 </template>
 
 <script>

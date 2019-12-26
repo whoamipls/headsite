@@ -275,7 +275,7 @@ a:hover, a:focus {
 }
 section {
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; *//*by wdr,防止菜单标题被遮挡*/
 	width: 100%;
 	background: #fff;
 }

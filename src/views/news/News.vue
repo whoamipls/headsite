@@ -1,5 +1,5 @@
 <template>
-    <Body banner="assets/news/banner.png" />
+    <Body image="assets/news/banner.png" :menuTitles="['和德资讯','HEAD News']" />
 </template>
 
 <script>

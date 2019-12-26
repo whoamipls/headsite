@@ -160,7 +160,7 @@ export default {
 		/* 不显示超链接下划线 */
 		white-space: nowrap;
 		/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
-		width: 310px;
+		width: @hdLMenuWidth;
 		box-sizing: border-box;
 		position: relative;
 		font-size: @hdLMenuItemFontSize;
