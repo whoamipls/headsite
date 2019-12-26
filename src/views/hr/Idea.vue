@@ -1,15 +1,9 @@
 <template>
     <div>
-		<div class="hdTitle1Icon">
-			<img src="assets/hr/title1.png" />
-			<span>人力资源理念</span>
-		</div>
+		<p class="hdTitle1 hdIconIdea1">人力资源理念</p>
 		<p class="hdSection">人力资源的高度决定公司的高度，一支齐心协力、志存高远、脚踏实地和勇往直前的团队是我们人力资源工作的核心。</p>
 		<br>
-		<div class="hdTitle1Icon">
-			<img src="assets/hr/title1.png" />
-			<span>选人、用人原则</span>
-		</div>
+		<p class="hdTitle1 hdIconIdea1">选人、用人原则</p>
 		<p class="hdSection">公司尊重人才，我们持续建设科学合理的用人机制和理念，在用人方面遵循如下的原则：</p>
 		<br>
 		<p class="hdSection">（1）做人诚实、坦率；</p>

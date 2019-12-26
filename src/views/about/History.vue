@@ -79,7 +79,15 @@ export default {
                     months: [
 						{
 							month: '11月',
-							text: '成功发射实验星“和德-号”,也是我国首个AIS商用微纳卫星'
+							text: '成功发射实验星“和德一号”,也是我国首个AIS商用微纳卫星'
+						},
+                        {
+							month: '06月',
+							text: '和德公司成立10周年庆典'
+						},
+                        {
+							month: '02月',
+							text: '天行者星座--和德一号卫星立项、研制'
 						}
                     ]
                 },
@@ -96,7 +104,7 @@ export default {
 						},
 						{
 							month: '10月',
-							text: '和德法国分公司成立'
+							text: '和德法国子公司成立'
 						},
 						{
 							month: '8月',
@@ -113,7 +121,7 @@ export default {
 						},
 						{
 							month: '4月',
-							text: '和德荷兰分公司成立'
+							text: '和德荷兰子公司成立'
 						}
                     ]
                 },
@@ -157,7 +165,7 @@ export default {
                     months: [
 						{
 							month: '12月',
-							text: '和德香港分公司成立'
+							text: '和德香港子公司成立'
 						},
 						{
 							month: '12月',

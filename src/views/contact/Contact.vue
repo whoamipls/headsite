@@ -4,10 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="hdTitle1Icon">
-                        <img src="assets/components/triangle.png" />
-                        <span>北京和德宇航技术有限公司(总公司)</span>
-                    </div>
+                    <p class="hdTitle1 hdIconTri">北京和德宇航技术有限公司(总公司)</p>
                     <p class="hdSection">地址 : 北京市海淀区西三环北路甲2号院国防科技园区5号楼5层</p>
                     <p class="hdSection">电话 : +86 10 82890470</p>
                     <p class="hdSection">传真 : +86 10 82780152</p>
@@ -19,10 +16,7 @@
                     <Map3D />
                 </div>
             </div>
-            <div class="hdTitle1Icon">
-                <img src="assets/components/triangle.png" />
-                <span>全球分布与国际合作</span>
-            </div>
+            <p class="hdTitle1 hdIconTri">全球分布与国际合作</p>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="hdTitle1">

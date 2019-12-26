@@ -7,10 +7,7 @@
             <b-carousel-slide v-for="img in images" :img-src="img"></b-carousel-slide>
         </b-carousel>
         <div class="inner">
-            <div class="hdTitle1Icon">
-                <img src="assets/components/rect.png" />
-                <span>{{title}}</span>
-            </div>
+            <p class="hdTitle1 hdIconRect">{{title}}</p>
             <p>{{text}}</p>
         </div>
     </div>

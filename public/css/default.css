@@ -39,3 +39,38 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
     background: gray;
     margin-bottom: 30px!important;
 }
+
+.hdIconTextTri::before {
+    content: url(../assets/components/triangle.png);
+}
+.hdIconTitle1Rect::before {
+    content: url(../assets/components/rect.png);
+}
+/*三角形图标*/
+.hdIconTri::before {
+    content: url(../assets/components/triangle.png);
+}
+/*矩形形图标*/
+.hdIconRect::before {
+    content: url(../assets/components/rect.png);
+}
+/*人才理念*/
+.hdIconIdea1::before {
+    content: url(../assets/hr/idea/1.png);
+}
+/*薪酬福利*/
+.hdIconWelfare1::before {
+    content: url(../assets/hr/welfare/1.png);
+}
+.hdIconWelfare2::before {
+    content: url(../assets/hr/welfare/2.png);
+}
+.hdIconWelfare3::before {
+    content: url(../assets/hr/welfare/3.png);
+}
+.hdIconWelfare4::before {
+    content: url(../assets/hr/welfare/4.png);
+}
+.hdIconWelfare5::before {
+    content: url(../assets/hr/welfare/5.png);
+}

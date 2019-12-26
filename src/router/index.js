@@ -164,7 +164,7 @@ const routes = [
 					{
 						path: '/Strategy/Station',
 						component: Station,
-						name: '卫星地面站'
+						name: '卫星地面站网'
 					},
 					{
 						path: '/Strategy/ControlCenter',

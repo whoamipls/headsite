@@ -1,16 +1,10 @@
 <template>
     <div>
 		<PageTitle :titles="['公司愿景','Company Vision','公司愿景']" />
-		<div class="hdTitle1Icon">
-			<img src="assets/components/rect.png" />
-			<span>我们的使命：</span>
-		</div>
+		<p class="hdTitle1 hdIconRect">我们的使命：</p>
 		<p class="hdSection">为客户提供快速有效的空间应用解决方案，建立产业融合的空间信息生态圈，帮助客户感知地球、精准决策！</p>
 		<br>
-		<div class="hdTitle1Icon">
-			<img src="assets/components/rect.png" />
-			<span>我们的愿景：</span>
-		</div>
+		<p class="hdTitle1 hdIconRect">我们的愿景：</p>
 		<p class="hdSection">发展成为同行市值最大、受人尊敬、引领产业方向的科技创新型宇航服务企业。</p>
 		<br>
 		<p class="hdSection">第一阶段发展目标：</p>

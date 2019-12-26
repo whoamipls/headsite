@@ -1,9 +1,6 @@
 <template>
     <div>
-		<div class="hdTitle1Icon">
-			<img src="assets/components/triangle.png" />
-			<span>网络安全工程师</span>
-		</div>
+        <p class="hdTitle1 hdIconTri">网络安全工程师</p>
         <div class="hdTitle1">
 			<span>岗位职责</span>
 		</div>
@@ -26,10 +23,7 @@
 		</div>
         <p class="hdSection">投递邮箱 : info@head-aerospace.com</p>
         <br>
-        <div class="hdTitle1Icon">
-			<img src="assets/components/triangle.png" />
-			<span>地面运控系统工程师</span>
-		</div>
+        <p class="hdTitle1 hdIconTri">地面运控系统工程师</p>
         <div class="hdTitle1">
 			<span>岗位职责</span>
 		</div>
@@ -52,10 +46,7 @@
 		</div>
         <p class="hdSection">投递邮箱 : info@head-aerospace.com</p>
         <br>
-        <div class="hdTitle1Icon">
-			<img src="assets/components/triangle.png" />
-			<span>更多职位信息</span>
-		</div>
+        <p class="hdTitle1 hdIconTri">更多职位信息</p>
         <p class="hdSection">猎聘网 : https://www.liepin.com/company/8750701
     </div>
 </template>

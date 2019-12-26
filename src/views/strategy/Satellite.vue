@@ -1,10 +1,7 @@
 <template>
     <div>
         <PageTitle :titles="['宇航中心','Space Center','商业卫星配套']" />
-        <div class="hdTitle1Icon">
-            <img src="assets/components/rect.png" />
-            <span>ASR x50 AIS星载接收机, Kongsberg</span>
-        </div>
+        <p class="hdTitle1 hdIconRect">ASR x50 AIS星载接收机, Kongsberg</p>
         <div class="container hdSectionEnd">
             <div class="row">
                 <div class="col-sm-12">
@@ -18,14 +15,8 @@
         <div class="hdTitle1">
             <span>应用</span>
         </div>
-        <div class="hdSentenceIcon">
-			<img src="assets/components/triangle.png" />
-			<span>在近地轨道可用于微纳卫星主载荷和次载荷</span>
-		</div>
-        <div class="hdSentenceIcon hdSectionEnd">
-			<img src="assets/components/triangle.png" />
-			<span>SAR 及大型地球观测卫星的次要载荷</span>
-		</div>
+        <p class="hdText hdIconTri">在近地轨道可用于微纳卫星主载荷和次载荷</p>
+        <p class="hdText hdIconTri hdSectionEnd">SAR 及大型地球观测卫星的次要载荷</p>
         <div class="row">
             <div class="col-sm-6">
                 <img class="illustration" src="assets/strategy/satellite/2.png" />
@@ -34,10 +25,7 @@
                 <img class="illustration" src="assets/strategy/satellite/3.png" />
             </div>
         </div>
-        <div class="hdTitle1Icon">
-            <img src="assets/components/rect.png" />
-            <span>xSCAPE100系列相机，SIMERA</span>
-        </div>
+        <p class="hdTitle1 hdIconRect">xSCAPE100系列相机，SIMERA</p>
         <p class="hdSection">xSCAPE100相机可获取更详细，更深入和更广泛的谱段，这将为我们的客户和合作伙伴提供比以往更深入，更宝贵的预测洞察力。</p>
         <div class="hdTitle1">
             <span>产品特点</span>
@@ -61,22 +49,10 @@
 		<div class="hdTitle1">
 			<span>应用</span>
         </div>
-		<div class="hdSentenceIcon">
-			<img src="assets/components/triangle.png" />
-			<span>自然灾害</span>
-		</div>
-		<div class="hdSentenceIcon">
-			<img src="assets/components/triangle.png" />
-			<span>海岸线及水域监测</span>
-		</div>
-		<div class="hdSentenceIcon">
-			<img src="assets/components/triangle.png" />
-			<span>能源</span>
-		</div>
-		<div class="hdSentenceIcon hdSectionEnd">
-			<img src="assets/components/triangle.png" />
-			<span>安全</span>
-		</div>
+        <p class="hdText hdIconTri">自然灾害</p>
+        <p class="hdText hdIconTri">海岸线及水域监测</p>
+        <p class="hdText hdIconTri">能源</p>
+        <p class="hdText hdIconTri hdSectionEnd">安全</p>
 		<div class="row">
             <div class="col-sm-6">
                 <img class="illustration" src="assets/strategy/satellite/4.png" />

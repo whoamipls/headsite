@@ -62,48 +62,41 @@
         color: @hdFriLinkColor;
     }
 }
+
+// 图标前缀
+.hdIconBefore (@content, @marginR) {
+    // content: @content;// url()需要完整http问题，把content放在default.css中设置
+    margin-right: @marginR;
+    display: inline-block;
+    vertical-align: middle;
+}
 // 图标文本
-.hdIconText(@fontSize, @fontWeight, @color, @marginV, @marginL) {
-    margin: @marginV 0px;
-    text-align: left;
-    img,
-    span {
-        display: inline-block;
-        vertical-align: middle;
+.hdText (@content, @marginR, @fontSize, @fontWeight, @color, @marginV) {
+    &::before {
+        .hdIconBefore(@content, @marginR);
     }
     font-size: @fontSize;
     font-weight: @fontWeight;
     color: @color;
-    span {
-        margin-left: @marginL;
-    //     font-size: @fontSize;
-    //     font-weight: @fontWeight;
-    //     color: @color;
-    }
+    margin: @marginV 0px;
+    text-align: left;
 }
-// 语句带图标
-.hdSentenceIcon {
-    .hdIconText(@hdTextFontSize, normal, @hdTextColor, @hdTextSpace/2, @hdTitle1MarginL);
+// 句子
+.hdText {
+    .hdText("", 12px, @hdTextFontSize, normal, @hdTextColor, 0px);
+    line-height: @hdTextFontSize + @hdTextSpace;
 }
-// 标题一
+// 标题1
 .hdTitle1 {
-	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV, 0);
-}
-// 标题一带图标
-.hdTitle1Icon {
-	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV, @hdTitle1MarginL);
+    .hdText("", @hdTitle1MarginL, @hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV);
 }
 // 标题一(无边距)
 .hdTitle1Margin0 {
-	.hdIconText(@hdTitle1FontSize, bold, @hdTitleColor, 0, 0);
+	.hdText("", @hdTitle1MarginL, @hdTitle1FontSize, bold, @hdTitleColor, 0);
 }
 // 标题二
 .hdTitle2 {
-    .hdIconText(@hdTitle2FontSize, bold, @hdTitleColor, @hdTitle2MarginV, 0);
-}
-// 标题二
-.hdTitle2Icon {
-    // .hdIconText(@hdTitle2FontSize, normal, @hdTitleColor, @hdTitle1MarginV, @hdTitle1MarginL);
+    .hdText("", @hdTitle2MarginL, @hdTitle2FontSize, bold, @hdTitleColor, @hdTitle2MarginV);
 }
 // 签名
 .hdSignature {
@@ -143,42 +136,3 @@
 .hdSectionEnd {
     margin-bottom: @hdSectionMarginD;
 }
-
-// p.title {
-//     text-align: left;
-//     font-size: 20px;
-//     font-weight: bold;
-// }
-
-// p.content {
-//     text-align: left;
-//     // text-indent: 2em;
-//     line-height: 28px;
-//     font-size: 16px;
-//     color: '#656a79';
-// }
-
-// p.annotation {
-//     font-size: 14px;
-//     color: @contentColor;
-// }
-
-// // 段落标题
-// .paraTitle(@fontSize:18px, @fontWeight:bold, @color:@contentColor, @titleMargin:20px 0px, @textMargin:12px) {
-//     /* height: 500px; */
-//     /* line-height: 500px; */
-//     margin: @titleMargin;
-//     text-align: left;
-//     // border: 1px solid;
-//     img,
-//     span {
-//         display: inline-block;
-//         vertical-align: middle;
-//     }
-//     span {
-//         margin-left: @textMargin;
-//         font-size: @fontSize;
-//         font-weight: @fontWeight;
-//         color: @color;
-//     }
-// }
