@@ -13,6 +13,7 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
     border-right: 0;
     border-radius: 0px;
     font-size: 14px;
+    width: calc(100% - 65px);
 }
 .hdInputMultiLine {
     color: gray;
@@ -34,7 +35,7 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 }
 .hdFooterHr {
     width: 150px;
-    height: 0.5px;
+    height: 1px;
     background: gray;
     margin-bottom: 30px!important;
 }
