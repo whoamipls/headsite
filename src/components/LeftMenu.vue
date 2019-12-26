@@ -179,4 +179,10 @@ export default {
 	div.menu ul li a:hover, div.menu ul li img:hover {
 		cursor: pointer;
 	}
+	// 手机模式隐藏左侧菜单
+	@media (max-width: 768px) {
+		div.menu {
+			display: none !important;
+		}
+	}
 </style>
