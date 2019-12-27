@@ -39,13 +39,6 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
     background: gray;
     margin-bottom: 30px!important;
 }
-
-.hdIconTextTri::before {
-    content: url(../assets/components/triangle.png);
-}
-.hdIconTitle1Rect::before {
-    content: url(../assets/components/rect.png);
-}
 /*三角形图标*/
 .hdIconTri::before {
     content: url(../assets/components/triangle.png);
@@ -73,4 +66,14 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 }
 .hdIconWelfare5::before {
     content: url(../assets/hr/welfare/5.png);
+}
+/*BaiduMap*/
+.BMap_cpyCtrl {/*隐藏信息*/
+    display: none;
+}
+.BMap_Marker {/*标注背景框大小*/
+    width: 200px!important;
+}
+.BMapLabel {/*标注位置*/
+    transform: translate(-40%, -100%)
 }
