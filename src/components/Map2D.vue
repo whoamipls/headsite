@@ -34,6 +34,7 @@
             this.map = new BMap.Map("baiduMapContainer", { enableMapClick: false });// 创建地图实例
             var point = new BMap.Point(116.404, 39.915);// 创建点坐标
             this.map.centerAndZoom(point, 11);// 初始化地图，设置中心点坐标和地图级别
+            this.map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}));
             this.map.enableScrollWheelZoom();
             this.points.forEach(p =>{
                 var marker = new BMap.Marker(new BMap.Point(p.x,p.y));// 创建标注
@@ -49,6 +50,7 @@
     #baiduMapContainer {
         width: 100%;
         height: 100%;
+        min-height: 200px;
         margin: 0;
         padding: 0;
         overflow: hidden;

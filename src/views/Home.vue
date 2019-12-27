@@ -19,7 +19,37 @@
 							<!-- LAYERS -->
 
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								和德宇航携手同行共创辉煌 </div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
+								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+								data-endspeed="300"
+								style="z-index: 6; font-size:20px; color:white; text-transform:uppercase; white-space: nowrap;">
+								HEAD Aerospace Hand In Hand To Create Brilliant</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
+								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								为全球客户提供智能空间信息服务方案和解决方案</div>
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="assets/home/banner/1.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
+								data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
@@ -27,7 +57,7 @@
 								航天创建人类美好生活 </div>
 
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
+							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
@@ -35,91 +65,11 @@
 								Space Creates a Better Future for Human Being </div>
 
 							<!-- LAYER NR. 3 -->
-							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
+							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 								国内商业航天领先者，智能空间信息服务提供商 </div>
-
-							<!-- LAYER NR. 4 -->
-							<!-- <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
-								data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
-								data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
-								class="btn margin-right-20">Buy Theme</a> <a href="#." class="btn btn-white">Get Started</a> </div> -->
-						</li>
-						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-							<!-- MAIN IMAGE -->
-							<img src="assets/home/banner/2.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
-								data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfb font-bold tp-resizeme letter-space-4" data-x="left" data-hoffset="0"
-								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
-								data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-								data-endspeed="300"
-								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">Our
-								Premio will give you softer skin </div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfb font-bold tp-resizeme letter-space-3" data-x="left" data-hoffset="0"
-								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
-								data-splitin="words" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-								data-endspeed="300"
-								style="z-index: 6; font-size:70px; color:#1cd1aa; text-transform:uppercase; white-space: nowrap;">We
-								Deal With Creative Design </div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="left" data-hoffset="0" data-y="center"
-								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-								Premio Stays Sharp 'til The Bottom of the Glass, Nunc mattis vitae dui ut eleifend. </div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center" data-voffset="150"
-								data-speed="800" data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
-								data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0" style="z-index: 8;"><a href="#."
-								class="btn margin-right-20">Buy Theme</a> </div>
-						</li>
-						<!-- SLIDE  -->
-						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-							<!-- MAIN IMAGE -->
-							<img src="assets/home/banner/3.jpg" alt="home_slider3" data-bgposition="center center" data-bgfit="cover"
-								data-bgrepeat="no-repeat">
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="-60" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 5; font-size:45px; color:#fff; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
-								Only The Crumbliest Flakiest </div>
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption font-bold tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="0" data-speed="100" data-start="800" data-easing="Power3.easeInOut" data-splitin="chars"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 5; font-size:45px; color:#1cd1aa; max-width: auto; text-transform:uppercase; max-height: auto; white-space: nowrap;">
-								Corporate business </div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption font-italic font-lora sfb tp-resizeme text-center" data-x="center" data-hoffset="0"
-								data-y="center" data-voffset="80" data-speed="300" data-start="1500" data-easing="Power3.easeInOut"
-								data-splitin="none" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-								data-endspeed="300"
-								style="z-index: 7; font-size:18px;  font-style:italic; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-								We are driven by creating experiences that deliver results for your business
-								and for your <br>
-								consumers. Our approach is simple and iterative.Sed ut perspiciatis unde omnis.</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption skewfromleft tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="170" data-speed="500" data-start="2000" data-easing="Power3.easeInOut" data-splitin="none"
-								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#."
-								class="btn">PURCHASE NOW</a> </div>
 						</li>
 					</ul>
 				</div>
