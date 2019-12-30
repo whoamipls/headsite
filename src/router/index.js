@@ -196,12 +196,12 @@ const routes = [
 					},
 					{
 						path: '/News/Trend',
-						component: Astronomy,
+						component: null,
 						name: '业务动态'
 					},
 					{
 						path: '/News/News',
-						component: Astronomy,
+						component: null,
 						name: '行业新闻'
 					}
 				]
@@ -218,7 +218,7 @@ const routes = [
 					},
 					{
 						path: '/Duty/Social',
-						component: Map3D,
+						component: null,
 						name: '社工服务'
 					}
 				]

@@ -13,8 +13,8 @@
 					</li>
 				</ul>
 			</li>
-			<li><img src="assets/components/jobs.png" @click="Goto('/Hr/Recruit')" /></li>
-			<li style="margin:10px 0px"><img src="assets/components/news.png" @click="Goto('/News/Hot')" /></li>
+			<li class="imgContainer"><img src="assets/components/jobs.png" @click="Goto('/Hr/Recruit')" /></li>
+			<li class="imgContainer" style="margin:10px 0px"><img src="assets/components/news.png" @click="Goto('/News/Hot')" /></li>
 		</ul>
 	</div>
 </div>
@@ -115,6 +115,17 @@ export default {
 </script>
 
 <style scoped lang="less">
+	li.imgContainer {
+		overflow: hidden;
+		img {
+			width: 312px;
+			transition: all .6s;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+
 	/* ul li以横排显示 */
 	.hidden {
 		height: 0px;
@@ -134,8 +145,8 @@ export default {
 
 	/* 所有class为menu的div中的ul中的li样式 */
 	div.menu ul li {
-		/*float:left;  向左漂移，将竖排变为横排 */
-		font-size: 16px;
+		/*float:left;  向左漂移，将竖排变为横排 */// font-size: 16px;
+		width: @hdLMenuWidth;
 	}
 
 	div.menu ul li ul li a{
@@ -160,7 +171,7 @@ export default {
 		/* 不显示超链接下划线 */
 		white-space: nowrap;
 		/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
-		width: @hdLMenuWidth;
+		width: 100%;//@hdLMenuWidth;
 		box-sizing: border-box;
 		position: relative;
 		font-size: @hdLMenuItemFontSize;

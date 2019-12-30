@@ -41,13 +41,18 @@
 		},
 		data() {
 			return {
-				bannerStyle: `background: url(${this.image}) no-repeat`,
+				bannerStyle: `background: url(${this.image}) no-repeat`
 			}
 		}
 	}
 </script>
 
 <style scoped lang="less">
+	section.sub-bnr {
+		background-size:100% 100%!important;
+		-moz-background-size:100% 100%!important;
+	}
+
 	.menuTitle {
 		background: fade(@hdLMenuChildColorSel, 67%);//#4068f5aa;
 		height: 130px;

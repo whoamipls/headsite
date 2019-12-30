@@ -439,6 +439,7 @@
 }
 .timeline .timeline-item > .timeline-event.timeline-event-default {
   background: #00000000;/*#fff;*/
+  background: rgba(0,0,0,0);/*by wdr，背景透明兼容ie*/
   border: 0px solid #888888;/*1px solid #888888;*/
   color: #ffffff;/*#555*/;
 }
