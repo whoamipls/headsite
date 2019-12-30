@@ -1,5 +1,5 @@
 <template>
-    <Body image="assets/about/banner.png" :menuTitles="['关于和德','On HEAD']" />
+    <Body image="assets/about/banner.png" :menuTitles="['关于和德','About HEAD']" />
 </template>
 
 <script>

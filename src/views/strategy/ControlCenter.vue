@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['卫星地面站系统建设','Satellite ground station system construction','测运控中心']" />
+        <PageTitle :titles="['地面站系统建设','Satellite ground station system construction','测运控中心']" />
         <p class="hdSection">测运控中心主要由遥控子系统、遥测监视子系统、任务规划子系统、卫星姿态/轨道计算与控制子系统、测控站网管理控制子系统、二/三维显示子系统、系统管理子系统等构成。</p>
         <p class="hdTitle1 hdIconRect">遥控子系统</p>
         <p class="hdSection">实现遥控指令的管理功能，可编辑或导入遥控指令，可以多种方式（单指令、指令链、遥控数据块）完成遥控指令、注入数据的发送以及执行效果的实时比判，完成各类注入数据加工、反解和大环比对。</p>

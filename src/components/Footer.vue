@@ -20,7 +20,7 @@
 						<li><a href="#" @click="Goto('/About/Overview')">关于和德 </a></li>
 						<li><a href="#" @click="Goto('/Strategy/Special')">重大专项配套 </a></li>
 						<li><a href="#" @click="Goto('/Strategy/Skywalker')">“天行者”规划建设 </a></li>
-						<li><a href="#" @click="Goto('/Strategy/Station')">卫星地面站系统建设 </a></li>
+						<li><a href="#" @click="Goto('/Strategy/Station')">地面站系统建设 </a></li>
 						<li><a href="#" @click="Goto('/News/Hot')">重大宇航事件 </a></li>
 						<li><a href="#" @click="Goto('/Duty/Charity')">公益慈善 </a></li>
 						<li><a href="#" @click="Goto('/Hr/Idea')">人力资源 </a></li>
@@ -60,4 +60,7 @@ export default {
 </script>
 
 <style scoped lang="less">
+	.hdFooterHr {
+		color: @dividerColor!important;
+	}
 </style>

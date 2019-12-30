@@ -102,7 +102,7 @@
 								<a href="javascript:void(0);" @click="Goto('/Strategy/Skywalker')">详细 <i class="fa fa-long-arrow-right"></i></a>
 							</li>
 							<li class="col-sm-4"> <img src="assets/home/strategy/3.jpg" class="img-responsive" alt="">
-								<h5>卫星地面站系统建设</h5>
+								<h5>地面站系统建设</h5>
 								<hr class="main">
 								<p class="hdAnnotationL">根据公司全球服务体系，和德宇航分别在中国、东南亚、中亚、南亚、中东、中亚、非洲、美洲等区域成立海外子公司，建设地面站，组建全球地面站网，以及提供本地化的卫星应用服务，满足“天行者”星座在轨运...</p>
 								<a href="javascript:void(0);" @click="Goto('/Strategy/Station')">详细 <i class="fa fa-long-arrow-right"></i></a>
@@ -199,7 +199,7 @@
 										<h4>2019-12</h4>
 									</div>
 									<div class="timeline-body">
-										<p class="hdAnnotationL">“和德二号A/B”是两颗实验星，搭载AIS、DCS、ADS-B三种通信载荷发射</p>
+										<p class="hdAnnotationL">发射“和德二号A/B”两颗实验星，搭载AIS、DCS、ADS-B三种通信载荷</p>
 									</div>
 									<div class="timeline-footer">
 										<p class="text-right"></p>

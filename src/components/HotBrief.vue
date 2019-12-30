@@ -40,7 +40,7 @@ export default {
 
 <style scoped lang="less">
     div.hotBrief {
-        border: 1px gray solid;
+        border: 1px @dividerColor solid;
         border-top: 0;
         border-left: 0;
         border-right: 0; 

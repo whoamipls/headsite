@@ -27,7 +27,7 @@
 
 <style scoped lang="less">
     div.outer {
-        border: 1px solid gray;
+        border: 1px solid @dividerColor;
         padding: 0px;
     }
     div.inner {

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['卫星地面站系统建设','Satellite ground station system construction','数据服务中心']" />
+        <PageTitle :titles="['地面站系统建设','Satellite ground station system construction','数据服务中心']" />
         <p class="hdSection">数据服务中心紧贴地方数字经济发展需求，以“天行者”星座数据处理、存储及应用为基础，在架构设计上突出扩展性，不断拓展数据种类与来源，瞄准数据规模化、产业化应用，配合政府建设规划，整合多行业、多领域大数据，逐步形成数据综合利用、智能利用新趋势。</p>
         <p class="hdTitle1 hdIconRect">DCS物联网应用</p>
         <p class="hdSection">基于“天行者”星座、全球服务网络、空间大数据应用平台，发挥低成本、广域覆盖、终端小型化等特点，为电网、物流、工业、智慧城市等多个行业提供数据采集、信息广播、报文传输等多种应用和服务。</p>

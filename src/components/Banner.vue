@@ -54,7 +54,7 @@
 	}
 
 	.menuTitle {
-		background: fade(@hdLMenuChildColorSel, 67%);//#4068f5aa;
+		background: fade(@hdLMenuChildColorSel, 66%);//#4068f5aa;
 		height: 130px;
 		line-height: 130px;
 		width: @hdLMenuWidth;
@@ -67,12 +67,13 @@
 				margin: 0px;
 			}
 			:nth-child(1) {
-				color: #ddd;
+				color: #fff;
 				font: 30px bold;
 			}
 			:nth-child(2) {
-				color: #bbb;
+				color: #ffffff7f;
 				font: 18px bold;
+				opacity: 50%;
 				&:before {
 					content: "■";
 					font-size: 25px;

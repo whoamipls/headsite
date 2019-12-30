@@ -45,13 +45,14 @@
     }
 
     p.month {
-        background: blue;
+        background: @hdLMenuChildColorSel;
         color: white;
         font-size: 14px;
     }
 
     p.day {
-        border: 1px solid gray;
+        background: #f9faff;
+        border: 1px solid #d9e0fa;
         border-top: 0;
         color: blue;
         font-size: 20px;
