@@ -32,7 +32,7 @@ export default {
         width: 100%;
     }
     div.container {
-        width: 90%;
+        width: 80%;
     }
     div.row {
         margin-top: 20px;

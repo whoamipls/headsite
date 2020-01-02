@@ -8,8 +8,14 @@
 					<!-- keep in touch -->
 					<div class="col-md-4">
 						<div class="padding-right-50"> <img src="assets/home/logo.png" class="margin-bottom-30" alt="">
-						<p>北京和德宇航技术有限公司</p>
-						<p style="font-size:12px">Copyright @ China HEAD Aerospace Technology Co.</p>
+							<p>北京和德宇航技术有限公司</p>
+							<p style="font-size:12px">Copyright @ China HEAD Aerospace Technology Co.</p>
+						</div>
+						<br><br><br><br>
+						<div>
+							<img src="assets/components/footer/wb.png" />
+							<img class="padding-left-30 padding-right-30" src="assets/components/footer/wx.png" />
+							<img src="assets/components/footer/qq.png" />
 						</div>
 					</div>
 					<!-- Links -->
@@ -44,7 +50,8 @@
 							<p>* 姓名 : <input class="hdInputSingleLine" type="text" /></p>
 							<p>* 邮箱 : <input class="hdInputSingleLine" type="text" /></p>
 							<p>* 留言 : </p>
-							<textarea class="hdInputMultiLine" rows="6" width="100%">
+							<textarea class="hdInputMultiLine" rows="5" width="100%" />
+							<b-button>提交</b-button>
 						</ul>
 					</div>
 				</div>
@@ -62,5 +69,16 @@ export default {
 <style scoped lang="less">
 	.hdFooterHr {
 		color: @dividerColor!important;
+	}
+	footer button {
+		float: left;
+		width: 80px;
+		height: 38px;
+		font-size: 16px;
+		color: #a9afbf;
+		padding: 0!important;
+		line-height: 0!important;
+		border-radius: 5px;
+		margin-top: 10px;
 	}
 </style>

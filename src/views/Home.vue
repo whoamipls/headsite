@@ -280,18 +280,18 @@
 					</div>
 					<div class="clients-img col-5">
 						<ul class="row">
-							<li> <a href="#."> <img src="assets/home/partner/1.png" class="img-responsive" alt=""> </a></li>
-							<li> <a href="#."> <img src="assets/home/partner/2.png" class="img-responsive" alt=""> </a> </li>
-							<li> <a href="#."> <img src="assets/home/partner/3.png" class="img-responsive" alt=""> </a></li>
-							<li> <a href="#."> <img src="assets/home/partner/4.png" class="img-responsive" alt=""> </a> </li>
-							<li> <a href="#."> <img src="assets/home/partner/5.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/1.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/2.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/3.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/4.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/5.png" class="img-responsive" alt=""> </a> </li>
 						</ul>
 						<ul class="row">
-							<li> <a href="#."> <img src="assets/home/partner/1.png" class="img-responsive" alt=""> </a></li>
-							<li> <a href="#."> <img src="assets/home/partner/2.png" class="img-responsive" alt=""> </a> </li>
-							<li> <a href="#."> <img src="assets/home/partner/3.png" class="img-responsive" alt=""> </a></li>
-							<li> <a href="#."> <img src="assets/home/partner/4.png" class="img-responsive" alt=""> </a> </li>
-							<li> <a href="#."> <img src="assets/home/partner/5.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/6.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/7.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/8.png" class="img-responsive" alt=""> </a></li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/9.png" class="img-responsive" alt=""> </a> </li>
+							<li> <a href="javascript:void(0);"> <img src="assets/home/partner/10.png" class="img-responsive" alt=""> </a> </li>
 						</ul>
 					</div>
 				</div>
@@ -322,4 +322,10 @@ export default {
 </script>
 
 <style scoped lang="less">
+	.clients-img.col-5 li {// 合作伙伴垂直居中
+		line-height: 80px!important;
+	}
+	img.img-responsive {// 合作伙伴水平居中
+		display: inherit!important;
+	}
 </style>
