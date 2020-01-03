@@ -158,13 +158,13 @@ const routes = [
 					{
 						path: '',
 						component: null,
-						name: '卫星地面站系统建设',
+						name: '地面站系统建设',
 						childPaths: 'Station/ControlCenter/DataCenter'
 					},
 					{
 						path: '/Strategy/Station',
 						component: Station,
-						name: '卫星地面站网'
+						name: '地面站网'
 					},
 					{
 						path: '/Strategy/ControlCenter',
