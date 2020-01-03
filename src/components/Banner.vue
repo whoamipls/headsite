@@ -68,11 +68,11 @@
 			}
 			:nth-child(1) {
 				color: #fff;
-				font: 30px bold;
+				font: 32px bold;
 			}
 			:nth-child(2) {
 				color: #ffffff7f;
-				font: 18px bold;
+				font: 20px bold;
 				opacity: 50%;
 				&:before {
 					content: "■";

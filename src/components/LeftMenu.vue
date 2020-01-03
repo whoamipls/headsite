@@ -5,7 +5,7 @@
 			<li v-for="item in menuData" v-if="!item.hidden">
 				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item)">
 					{{item.name}}
-					<span v-if="item.children.length>0" class="glyphicon" :class="isMenuSelect(item)?'glyphicon-chevron-down':'glyphicon-chevron-up'"></span>
+					<span v-if="item.children.length>0" class="glyphicon" :class="isMenuSelect(item)?'hdIconDown':'hdIconUp'"></span>
 				</a>
 				<ul v-if="item.children.length>0" :class="{'hidden':!isMenuSelect(item)}">
 					<li v-for="child in item.children" v-if="!child.hidden">

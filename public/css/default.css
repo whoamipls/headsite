@@ -6,8 +6,8 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 /* 页脚输入框样式 */
 .hdInputSingleLine {
     color: gray;
-    background-color: #0B1634;
-    border: 1px solid gray;
+    background-color: #0A1633;
+    border: 1px solid #46526A;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -17,8 +17,8 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 }
 .hdInputMultiLine {
     color: gray;
-    background-color: #0B1634;
-    border: 1px solid gray;
+    background-color: #0A1633;
+    border: 1px solid #46526A;
     border-radius: 5px;
     width: 100%;
     resize: none;
@@ -30,14 +30,22 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 }
 /* 标题下划线 */
 .hdFooterH6 {
-    color: gray!important;
+    color: #9EAAB8!important;
     margin-bottom: 15px!important;
 }
 .hdFooterHr {
     width: 150px;
     height: 1px;
-    background: gray;
+    background: #223253;
     margin-bottom: 30px!important;
+}
+/*上箭头*/
+.hdIconUp::before {
+    content: url(../assets/components/leftmenu/up.png);
+}
+/*下箭头*/
+.hdIconDown::before {
+    content: url(../assets/components/leftmenu/down.png);
 }
 /*三角形图标*/
 .hdIconTri::before {

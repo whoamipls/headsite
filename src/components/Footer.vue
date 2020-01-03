@@ -80,5 +80,6 @@ export default {
 		line-height: 0!important;
 		border-radius: 5px;
 		margin-top: 10px;
+		background: #4f5c82!important;
 	}
 </style>

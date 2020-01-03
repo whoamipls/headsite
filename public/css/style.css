@@ -708,7 +708,7 @@ header.header-1 .ownmenu {
 .header-normal .sticky-wrapper.is-sticky .sticky {
 	margin-top: 0px;
 	left: 0px;
-	background: rgba(0,0,0,0.8);
+	background: rgba(10,22,51,0.8);/*background: rgba(0,0,0,0.8);*//*by wdr,主菜单背景色*/
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
@@ -3921,7 +3921,7 @@ footer h6 {
 }
 footer {
 	padding: 90px 0;
-	background: #0B1634;/*background: #212121;*//*by wdr*/
+	background: #0A1633;/*background: #212121;*//*by wdr*/
 }
 .flicker-img ul {
 	margin: 0 -5px;
@@ -4173,7 +4173,7 @@ footer .subscribe input {
 	font-weight: 100;
 }
 .footer-info .links li a {
-	color: #999999;
+	color: #898E9D;/* color: #999999; *//*by wdr,页脚文字颜色*/
 	padding-left: 15px;
 	font-size: 14px;/*font-size: 12px;*//*by wdr*/
 	font-weight: 500;
