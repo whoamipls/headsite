@@ -20,10 +20,10 @@
 
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
-								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+								data-y="center" data-voffset="-90" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:56px; color:#fff; text-transform:uppercase; white-space: nowrap;">
 								和德宇航携手同行共创辉煌 </div>
 
 							<!-- LAYER NR. 2 -->
@@ -31,14 +31,14 @@
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:20px; color:white; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
 								HEAD Aerospace Hand In Hand To Create Brilliant</div>
 
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								style="z-index: 7; font-size:20px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 								为全球客户提供智能空间信息服务方案和解决方案</div>
 						</li>
 						<!-- SLIDE  -->
@@ -49,26 +49,26 @@
 							<!-- LAYERS -->
 
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
-								data-y="center" data-voffset="-80" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+							<div class="tp-caption sfb font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="-90" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:35px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:56px; color:#fff; text-transform:uppercase; white-space: nowrap;">
 								航天创建人类美好生活 </div>
 
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
+							<div class="tp-caption sfb font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:20px; color:white; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
 								Space Creates a Better Future for Human Being </div>
 
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="70" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								style="z-index: 7; font-size:20px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 								国内商业航天领先者，智能空间信息服务提供商 </div>
 						</li>
 					</ul>
@@ -322,10 +322,18 @@ export default {
 </script>
 
 <style scoped lang="less">
-	.clients-img.col-5 li {// 合作伙伴垂直居中
+	// 合作伙伴垂直居中
+	.clients-img.col-5 li {
 		line-height: 80px!important;
 	}
-	img.img-responsive {// 合作伙伴水平居中
+	// 合作伙伴水平居中
+	img.img-responsive {
 		display: inherit!important;
+	}
+</style>
+<style lang="less">
+	// 解决首页banner文字边距显示错误，由于多创建了一个空的div，通过选择器排除掉
+	div.tp-splitted:empty {
+		display: none!important;
 	}
 </style>
