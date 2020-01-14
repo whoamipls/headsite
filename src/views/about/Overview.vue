@@ -44,7 +44,7 @@ export default {
 		text-align: left;
 		font-size: @hdCompanyFontSizeCh;
 		margin: 0;
-		font-weight: bold;
+		font-weight: normal;
 		color: @hdCompanyColorCh;
 	}
 	p.hdCompanyEn {

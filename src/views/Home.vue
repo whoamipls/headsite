@@ -18,24 +18,24 @@
 								data-bgrepeat="no-repeat">
 							<!-- LAYERS -->
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfb font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
-								data-y="center" data-voffset="-90" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+							<div class="tp-caption sfb tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="-70" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:56px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:52px; color:#fff; text-transform:uppercase; white-space: nowrap;">
 								航天创建人类美好生活 </div>
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfb font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
+							<div class="tp-caption sfb tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:30px; color:white; text-transform:uppercase; white-space: nowrap;">
 								Space Creates a Better Future for Human Being </div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:20px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 								国内商业航天领先者，智能空间信息服务提供商 </div>
 						</li>
 						<!-- SLIDE  -->
@@ -45,24 +45,24 @@
 								data-bgrepeat="no-repeat">
 							<!-- LAYERS -->
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
-								data-y="center" data-voffset="-90" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
+							<div class="tp-caption sfr tp-resizeme letter-space-4" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="-70" data-speed="800" data-start="800" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:56px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:52px; color:#fff; text-transform:uppercase; white-space: nowrap;">
 								感知地球精准决策 </div>
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption sfr font-bold tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
+							<div class="tp-caption sfr tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
-								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
+								style="z-index: 6; font-size:30px; color:white; text-transform:uppercase; white-space: nowrap;">
 								Enabling Decision Makers By Sensing The Earth</div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
-								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
+								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-								style="z-index: 7; font-size:20px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 								为全球客户提供智能空间信息服务方案和解决方案</div>
 						</li>
 					</ul>

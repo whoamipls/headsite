@@ -202,7 +202,7 @@ img.tp-slider-alternative-image{width:100%;height:auto;}
 .tparrows .tp-arr-imgholder{display:none}
 .tparrows .tp-arr-titleholder{display:none}
 .tparrows.preview1{width:100px;height:100px;-webkit-transform-style:preserve-3d;-webkit-perspective:1000;-moz-perspective:1000;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;background:transparent}
-.tparrows.preview1:after{position:absolute;left:0px;top:0px;font-family:"revicons";color:#fff;font-size:30px;width:100px;height:100px;text-align:center;background:#fff;background:rgba(0,0,0,0.15);z-index:2;line-height:100px;-webkit-transition:background 0.3s, color 0.3s;-moz-transition:background 0.3s, color 0.3s;transition:background 0.3s, color 0.3s}
+.tparrows.preview1:after{position:absolute;left:0px;top:0px;font-family:"revicons";color:#fff;font-size:30px;width:100px;height:100px;text-align:center;background:#fff;background:rgba(0,0,0,0.15)!important;z-index:2;line-height:100px;-webkit-transition:background 0.3s, color 0.3s;-moz-transition:background 0.3s, color 0.3s;transition:background 0.3s, color 0.3s}
 
 /* ===================== old-code by wdr 191111 ===================== */
 /* .tp-rightarrow.preview1:after{content:'\e825';}

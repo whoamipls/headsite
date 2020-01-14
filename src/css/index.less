@@ -10,20 +10,20 @@
 @hdTitleColor: #363940;			// 标题色
 // 正文段落
 @hdTextFontSize: 16px;			  // 正文字号
-@hdTextSpace: 12px;			      // 正文行间距
+@hdTextSpace: 16px;			      // 正文行间距
 @hdTextColor: #656a79;			// 正文颜色
 @hdSectionMarginD: 20px;          // 段落下间距
 // 公司名称
 @hdCompanyFontSizeCh: 18px;		  // 中文字号
 @hdCompanyColorCh: @hdSelBlue;	  // 中文颜色
-@hdCompanyFontSizeEn: 14px;		  // 英文字号
+@hdCompanyFontSizeEn: 13px;		  // 英文字号
 @hdCompanyColorEn: #869ef5;		// 英文颜色
 // 页面页眉
-@hdHeaderFontCh: 18px bold;		  // 中文字体
+@hdHeaderFontCh: 16px bold;		  // 中文字体
 @hdHeaderFontEn: 12px bold;	  	  // 英文字体
 @hdHeaderColorEn: #aaa;			// 英文颜色
 // 页面大标题
-@hdTitleFont: 32px bold;	  	  // 字体
+@hdTitleFont: 28px bold;	  	  // 字体
 @hdTitleMargin: 50px;		  	  // 上下边距
 // 页面标题1
 @hdTitle1FontSize: 18px;	  	  // 字号
@@ -37,7 +37,7 @@
 @hdAnnoFontSize: 14px;			  // 字号
 @hdAnnoColor: gray;			    // 颜色
 // 签名
-@hdSignFontSize: 18px;			  // 字号
+@hdSignFontSize: 17px;			  // 字号
 // 左侧菜单
 @hdLMenuWidth: 310px;
 @hdLMenuItemFontSize: 20px;		  // 菜单项字号
@@ -106,7 +106,8 @@
 .hdSignature {
 	text-align: right;
 	font-size: @hdSignFontSize;
-	font-weight: bold;
+    font-weight: normal;
+    color: @hdTitleColor;
 }
 // 注解
 .hdAnnotation(@align) {
@@ -127,6 +128,7 @@
     line-height: @hdTextFontSize + @hdTextSpace;
     font-size: @hdTextFontSize;
     color: @hdTextColor;
+    margin-bottom: 20px;
 }
 // 段落(无缩进)
 .hdSection {
@@ -139,4 +141,8 @@
 // 段落结束
 .hdSectionEnd {
     margin-bottom: @hdSectionMarginD;
+}
+
+body {
+    font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif!important;
 }

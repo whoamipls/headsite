@@ -8,7 +8,7 @@
                     </td>
                     <td>
                         <p class="hdTitle1Margin0">{{title}}</p>
-                        <p class="hdSection">{{content}}</p>
+                        <p class="hdText">{{content}}</p>
                         <p class="link"><a href="javascript:void(0);" @click="showDetail">查看详情>></a></p>
                     </td>
                 </tr>

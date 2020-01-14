@@ -17,12 +17,12 @@
         <div class="hdTitle2">
             <span>3、资源支持</span>
         </div>
-        <p class="hdSection">海关—北京、上海、天津、烟台、西安、青岛等；办理免税快速、高效；</p>
-        <p class="hdSection">物流—国内、国际、空运、海运、陆运、香港中转库房等；清关速度快；</p>
-        <p class="hdSection">保险公司—投保迅速、及时，合理、优惠的费用；</p>
-        <p class="hdSection">银行—专业、高效、审单严格、流程规范、有效规避资金风险、信用额度；</p>
-        <p class="hdSection">律师事务所—专业的法律支持，提前规避法律风险；</p>
-        <p class="hdSection">主要领导机关—与科技集团、总装、海关总署、商务部等单位保持密切联系。</p>
+        <p class="hdText">海关—北京、上海、天津、烟台、西安、青岛等；办理免税快速、高效；</p>
+        <p class="hdText">物流—国内、国际、空运、海运、陆运、香港中转库房等；清关速度快；</p>
+        <p class="hdText">保险公司—投保迅速、及时，合理、优惠的费用；</p>
+        <p class="hdText">银行—专业、高效、审单严格、流程规范、有效规避资金风险、信用额度；</p>
+        <p class="hdText">律师事务所—专业的法律支持，提前规避法律风险；</p>
+        <p class="hdText">主要领导机关—与科技集团、总装、海关总署、商务部等单位保持密切联系。</p>
         <div class="hdTitle2">
             <span>4、免税办理</span>
         </div>

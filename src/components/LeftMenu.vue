@@ -14,7 +14,7 @@
 				</ul>
 			</li>
 			<li class="imgContainer"><img src="assets/components/jobs.png" @click="Goto('/Hr/Recruit')" /></li>
-			<li class="imgContainer" style="margin:10px 0px"><img src="assets/components/news.png" @click="Goto('/News/Hot')" /></li>
+			<li class="imgContainer" style="margin:10px 0px 200px 0px"><img src="assets/components/news.png" @click="Goto('/News/Hot')" /></li>
 		</ul>
 	</div>
 </div>
