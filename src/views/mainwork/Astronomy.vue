@@ -5,15 +5,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/strategy/astronomy/1.png" />
+                    <img class="illustration" src="assets/mainwork/astronomy/1.png" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="illustration" src="assets/strategy/astronomy/2.png" />
+                    <img class="illustration" src="assets/mainwork/astronomy/2.png" />
                 </div>
                 <div class="col-sm-6 text-right">
-                    <img class="illustration" src="assets/strategy/astronomy/3.png" />
+                    <img class="illustration" src="assets/mainwork/astronomy/3.png" />
                 </div>
             </div>
         </div>

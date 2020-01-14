@@ -88,7 +88,7 @@ export default {
 			let select = false;
 			if (!!item.childPaths) {
 				let strs = this.$route.fullPath.split('/');
-				let str = strs[strs.length - 1];
+				let str = '/' + strs[strs.length - 1] + '/';
 				select = item.childPaths.indexOf(str) >= 0;
 			} else {
 				select = this.$route.fullPath.indexOf(item.path) == 0;

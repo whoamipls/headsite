@@ -5,7 +5,7 @@
         <div class="container hdSectionEnd">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/strategy/satellite/1.png" />
+                    <img class="illustration" src="assets/mainwork/satellite/1.png" />
                 </div>
             </div>
         </div>
@@ -19,10 +19,10 @@
         <p class="hdText hdIconTri hdSectionEnd">SAR 及大型地球观测卫星的次要载荷</p>
         <div class="row">
             <div class="col-sm-6">
-                <img class="illustration" src="assets/strategy/satellite/2.png" />
+                <img class="illustration" src="assets/mainwork/satellite/2.png" />
             </div>
             <div class="col-sm-6 text-right">
-                <img class="illustration" src="assets/strategy/satellite/3.png" />
+                <img class="illustration" src="assets/mainwork/satellite/3.png" />
             </div>
         </div>
         <p class="hdTitle1 hdIconRect">xSCAPE100系列相机，SIMERA</p>
@@ -55,10 +55,10 @@
         <p class="hdText hdIconTri hdSectionEnd">安全</p>
 		<div class="row">
             <div class="col-sm-6">
-                <img class="illustration" src="assets/strategy/satellite/4.png" />
+                <img class="illustration" src="assets/mainwork/satellite/4.png" />
             </div>
             <div class="col-sm-6 text-right">
-                <img class="illustration" src="assets/strategy/satellite/5.png" />
+                <img class="illustration" src="assets/mainwork/satellite/5.png" />
             </div>
         </div>
     </div>

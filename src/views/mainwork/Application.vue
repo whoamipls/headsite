@@ -12,10 +12,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="illustration" src="assets/strategy/application/1.png" />
+                    <img class="illustration" src="assets/mainwork/application/1.png" />
                 </div>
                 <div class="col-sm-6 text-right">
-                    <img class="illustration" src="assets/strategy/application/2.png" />
+                    <img class="illustration" src="assets/mainwork/application/2.png" />
                 </div>
             </div>
         </div>
@@ -30,26 +30,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="illustration" src="assets/strategy/application/3.png" />
+                    <img class="illustration" src="assets/mainwork/application/3.png" />
                 </div>
                 <div class="col-sm-6 text-right">
-                    <img class="illustration" src="assets/strategy/application/4.png" />
+                    <img class="illustration" src="assets/mainwork/application/4.png" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="illustration" src="assets/strategy/application/5.png" />
+                    <img class="illustration" src="assets/mainwork/application/5.png" />
                 </div>
                 <div class="col-sm-6 text-right">
-                    <img class="illustration" src="assets/strategy/application/6.png" />
+                    <img class="illustration" src="assets/mainwork/application/6.png" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="illustration" src="assets/strategy/application/7.png" />
+                    <img class="illustration" src="assets/mainwork/application/7.png" />
                 </div>
                 <div class="col-sm-6 text-right">
-                    <img class="illustration" src="assets/strategy/application/8.png" />
+                    <img class="illustration" src="assets/mainwork/application/8.png" />
                 </div>
             </div>
         </div>

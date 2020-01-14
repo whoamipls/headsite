@@ -5,10 +5,10 @@
         <p class="hdSection">SEPTA®33 型太阳帆板驱动机构（SADM）以宽适用范围、通用型标准化产品为设计理念，可以适用低轨、中轨、高轨在1000kg 左右的科学试验卫星和通信卫星。产品成熟，可靠性高，产品累计在轨飞行时间大于100年。</p>
         <div class="row">
             <div class="col-sm-6">
-                <img class="illustration" src="assets/strategy/special/1.png" />
+                <img class="illustration" src="assets/mainwork/special/1.png" />
             </div>
             <div class="col-sm-6 text-right">
-                <img class="illustration" src="assets/strategy/special/2.png" />
+                <img class="illustration" src="assets/mainwork/special/2.png" />
             </div>
         </div>
         <p class="hdTitle1 hdIconRect">钻月电机</p>
@@ -16,10 +16,10 @@
         <p class="hdSection">此产品将用于探月三期项目中，为月壤的钻取采集机构提供驱动动力，预计2021年发射。</p>
         <div class="row">
             <div class="col-sm-6">
-                <img class="illustration" src="assets/strategy/special/3.png" />
+                <img class="illustration" src="assets/mainwork/special/3.png" />
             </div>
             <div class="col-sm-6 text-right">
-                <img class="illustration" src="assets/strategy/special/4.png" />
+                <img class="illustration" src="assets/mainwork/special/4.png" />
             </div>
         </div>
     </div>

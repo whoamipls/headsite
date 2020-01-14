@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <video width="100%" controls autobuffer>
-			        <source src="assets/strategy/skywalker/1.mp4" type="video/mp4;">
+			        <source src="assets/mainwork/skywalker/1.mp4" type="video/mp4;">
                 </div>
             </div>
         </div>
@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/strategy/skywalker/2.png" />
+                    <img class="illustration" src="assets/mainwork/skywalker/2.png" />
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <video width="100%" controls autobuffer>
-			        <source src="assets/strategy/skywalker/3.mp4" type="video/mp4;">
+			        <source src="assets/mainwork/skywalker/3.mp4" type="video/mp4;">
                 </div>
             </div>
         </div>

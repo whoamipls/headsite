@@ -57,7 +57,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
-								HEAD Aerospace Hand In Hand To Create Brilliant</div>
+								Feel The Earth Precious And Make Decisions Accurate</div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
@@ -76,30 +76,30 @@
 				<div class="container">
 					<!-- Heading -->
 					<div class="heading text-center">
-						<h4>战略布局</h4>
-						<span>Strategic layout</span>
+						<h4>主营业务</h4>
+						<span>Main Business</span>
 						<hr>
 					</div>
 					<!-- OFFER -->
 					<div class="offers">
 						<ul class="row">
-							<li class="col-sm-4"> <img src="assets/home/strategy/1.jpg" class="img-responsive" alt="">
+							<li class="col-sm-4"> <img src="assets/home/mainwork/1.jpg" class="img-responsive" alt="">
 								<h5>宇航中心</h5>
 								<hr class="main">
 								<p class="hdAnnotationL">北京和德宇航技术有限公司(以下简称和德宇)成立于2007年4月，是一家致力于微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港...</p>
-								<a href="javascript:void(0);" @click="Goto('/Strategy/Special')">详细 <i class="fa fa-long-arrow-right"></i></a>
+								<a href="javascript:void(0);" @click="Goto('/Mainwork/Special')">详细 <i class="fa fa-long-arrow-right"></i></a>
 							</li>
-							<li class="col-sm-4"> <img src="assets/home/strategy/2.jpg" class="img-responsive" alt="">
+							<li class="col-sm-4"> <img src="assets/home/mainwork/2.jpg" class="img-responsive" alt="">
 								<h5>“天行者”规划建设</h5>
 								<hr class="main">
 								<p class="hdAnnotationL">“天行者“星座是由北京和德宇航技术有限公司提出的先进的微小卫星星座，提供窄带空间物联网双向数据通信（DCS）和全球船舶位置监控（AIS），全球航空器监控（ADS-B）等空间服务。”天行者”星座由48...</p>
-								<a href="javascript:void(0);" @click="Goto('/Strategy/Skywalker')">详细 <i class="fa fa-long-arrow-right"></i></a>
+								<a href="javascript:void(0);" @click="Goto('/Mainwork/Skywalker')">详细 <i class="fa fa-long-arrow-right"></i></a>
 							</li>
-							<li class="col-sm-4"> <img src="assets/home/strategy/3.jpg" class="img-responsive" alt="">
+							<li class="col-sm-4"> <img src="assets/home/mainwork/3.jpg" class="img-responsive" alt="">
 								<h5>地面站系统建设</h5>
 								<hr class="main">
 								<p class="hdAnnotationL">根据公司全球服务体系，和德宇航分别在中国、东南亚、中亚、南亚、中东、中亚、非洲、美洲等区域成立海外子公司，建设地面站，组建全球地面站网，以及提供本地化的卫星应用服务，满足“天行者”星座在轨运...</p>
-								<a href="javascript:void(0);" @click="Goto('/Strategy/Station')">详细 <i class="fa fa-long-arrow-right"></i></a>
+								<a href="javascript:void(0);" @click="Goto('/Mainwork/Station')">详细 <i class="fa fa-long-arrow-right"></i></a>
 							</li>
 						</ul>
 					</div>

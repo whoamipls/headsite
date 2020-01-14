@@ -10,21 +10,24 @@ import Vision from '../views/about/Vision.vue'
 import Speech from '../views/about/Speech.vue'
 import History from '../views/about/History.vue'
 import Qualification from '../views/about/Qualification.vue'
-// 战略布局
-import Strategy from '../views/strategy/Strategy.vue'
-import Special from '../views/strategy/Special.vue'
-import Astronomy from '../views/strategy/Astronomy.vue'
-import Satellite from '../views/strategy/Satellite.vue'
-import TradeAgent from '../views/strategy/TradeAgent.vue'
-import Skywalker from '../views/strategy/Skywalker.vue'
-import Network from '../views/strategy/Network.vue'
-import Platform from '../views/strategy/Platform.vue'
-import Connection from '../views/strategy/Connection.vue'
-import Terminal from '../views/strategy/Terminal.vue'
-import Application from '../views/strategy/Application.vue'
-import Station from '../views/strategy/Station.vue'
-import ControlCenter from '../views/strategy/ControlCenter.vue'
-import DataCenter from '../views/strategy/DataCenter.vue'
+// 主营业务
+import Mainwork from '../views/mainwork/Mainwork.vue'
+import Special from '../views/mainwork/Special.vue'
+import Astronomy from '../views/mainwork/Astronomy.vue'
+import Satellite from '../views/mainwork/Satellite.vue'
+import TradeAgent from '../views/mainwork/TradeAgent.vue'
+import Skywalker from '../views/mainwork/Skywalker.vue'
+import Network from '../views/mainwork/Network.vue'
+import Platform from '../views/mainwork/Platform.vue'
+import Connection from '../views/mainwork/Connection.vue'
+import Terminal from '../views/mainwork/Terminal.vue'
+import Application from '../views/mainwork/Application.vue'
+import Station from '../views/mainwork/Station.vue'
+import ControlCenter from '../views/mainwork/ControlCenter.vue'
+import DataCenter from '../views/mainwork/DataCenter.vue'
+import RsOneStop from '../views/mainwork/RsOneStop.vue'
+import RsStation from '../views/mainwork/RsStation.vue'
+import RsApplication from '../views/mainwork/RsApplication.vue'
 // 和德咨询
 import News from '../views/news/News.vue'
 import Hot from '../views/news/Hot.vue'
@@ -89,33 +92,33 @@ const routes = [
 				]
 			},
 			{
-				path: '/Strategy',
-				component: Strategy,
-				name: '战略布局',
+				path: '/Mainwork',
+				component: Mainwork,
+				name: '主营业务',
 				children: [
 					{
 						path: '',
 						component: null,
 						name: '宇航中心',
-						childPaths: '/Special/Astronomy/Satellite/TradeAgent'
+						childPaths: '/Special/Astronomy/Satellite/TradeAgent/'
 					},
 					{
-						path: '/Strategy/Special',
+						path: '/Mainwork/Special',
 						component: Special,
 						name: '重大专项配套'
 					},
 					{
-						path: '/Strategy/Astronomy',
+						path: '/Mainwork/Astronomy',
 						component: Astronomy,
 						name: '天文科学工程'
 					},
 					{
-						path: '/Strategy/Satellite',
+						path: '/Mainwork/Satellite',
 						component: Satellite,
 						name: '商业卫星配套'
 					},
 					{
-						path: '/Strategy/TradeAgent',
+						path: '/Mainwork/TradeAgent',
 						component: TradeAgent,
 						name: '外贸代理服务'
 					},
@@ -123,35 +126,35 @@ const routes = [
 						path: '',
 						component: null,
 						name: '“天行者” 规划建设',
-						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/Application'
+						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/Application/'
 					},
 					{
-						path: '/Strategy/Skywalker',
+						path: '/Mainwork/Skywalker',
 						component: Skywalker,
 						name: '“天行者” 星座'
 					},
 					{
-						path: '/Strategy/Network',
+						path: '/Mainwork/Network',
 						component: Network,
 						name: '全球卫星网络'
 					},
 					{
-						path: '/Strategy/Platform',
+						path: '/Mainwork/Platform',
 						component: Platform,
 						name: '系统平台和移动APP'
 					},
 					{
-						path: '/Strategy/Connection',
+						path: '/Mainwork/Connection',
 						component: Connection,
 						name: '互联互通'
 					},
 					{
-						path: '/Strategy/Terminal',
+						path: '/Mainwork/Terminal',
 						component: Terminal,
 						name: '物联网卫星终端'
 					},
 					{
-						path: '/Strategy/Application',
+						path: '/Mainwork/Application',
 						component: Application,
 						name: '应用服务'
 					},
@@ -159,22 +162,43 @@ const routes = [
 						path: '',
 						component: null,
 						name: '地面站系统建设',
-						childPaths: 'Station/ControlCenter/DataCenter'
+						childPaths: '/Station/ControlCenter/DataCenter/'
 					},
 					{
-						path: '/Strategy/Station',
+						path: '/Mainwork/Station',
 						component: Station,
 						name: '地面站网'
 					},
 					{
-						path: '/Strategy/ControlCenter',
+						path: '/Mainwork/ControlCenter',
 						component: ControlCenter,
 						name: '测运控中心'
 					},
 					{
-						path: '/Strategy/DataCenter',
+						path: '/Mainwork/DataCenter',
 						component: DataCenter,
 						name: '数据服务中心'
+					},
+					{
+						path: '',
+						component: null,
+						name: '卫星遥感图像及服务',
+						childPaths: '/RsOneStop/RsStation/RsApplication/'
+					},
+					{
+						path: '/Mainwork/RsOneStop',
+						component: RsOneStop,
+						name: '卫星图像一站式服务'
+					},
+					{
+						path: '/Mainwork/RsStation',
+						component: RsStation,
+						name: '遥感卫星地面站'
+					},
+					{
+						path: '/Mainwork/RsApplication',
+						component: RsApplication,
+						name: '应用服务'
 					}
 				]
 			},
