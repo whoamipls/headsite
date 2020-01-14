@@ -29,17 +29,34 @@
         <div class="hdTitle1">
 			<span>多星源管理及分发系统</span>
 		</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="illustration" src="assets/mainwork/rsapplication/1.png" />
+                    <p class="hdAnnotationC">图 : 多源卫星数据</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-import PageTitle from '@/components/PageTitle.vue'
-export default {
-	components: {
-		PageTitle,
-	}
-}
+    import PageTitle from '@/components/PageTitle.vue'
+    export default {
+        components: {
+            PageTitle,
+        }
+    }
 </script>
 
 <style scoped lang="less">
+    img.illustration {
+        width: 100%;
+    }
+    div.container {
+        width: 80%;
+    }
+    div.row {
+        margin-top: 20px;
+    }
 </style>

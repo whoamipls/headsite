@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <video width="100%" controls autobuffer>
-			        <source src="assets/mainwork/skywalker/1.mp4" type="video/mp4;">
+			        <source src="assets/common/video/skywalker.mp4" type="video/mp4;">
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <video width="100%" controls autobuffer>
-			        <source src="assets/mainwork/skywalker/3.mp4" type="video/mp4;">
+			        <source src="assets/common/video/rocket.mp4" type="video/mp4;">
                 </div>
             </div>
         </div>

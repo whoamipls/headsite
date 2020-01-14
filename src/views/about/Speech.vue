@@ -2,8 +2,7 @@
 	<div>
 		<PageTitle :titles="['董事长致词','Chairman\'s speech','董事长致词']" />
 		<div style="float:right; padding-left:20px">
-			<video width="320" height="240" controls autobuffer>
-			<source src="assets/about/overview/advertise.mp4" type="video/mp4;">
+			<img src="assets/about/speech/1.png" style="width:370px;margin-top:10px;" />
 		</div>
 		<div>
 			<p class="hdSection">岁月流淌，知恩感怀，回首和德的每次发展、每个坎坷和每次跨越，都凝结了和德人坚韧不拔的努力！让我们再次的感谢，曾在艰难困境中一起经历过风雨洗礼的、浴血奋战过的、荣辱与共的和德团队！</p>

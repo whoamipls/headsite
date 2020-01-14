@@ -15,6 +15,7 @@
 				<td colspan="2" class="content">
 					<p v-if="item.type==0" class="hdSection">{{item.value}}</p>
 					<p v-if="item.type==1"><img :src="item.value[0]" /></p>
+					<p v-if="item.type==2"><video width="100%" controls autobuffer :src="item.value[0]" /></p>
 					<p v-if="item.type!=0" class="hdAnnotationC">{{item.value[1]}}</p>
 				</td>
 			</tr>
@@ -56,7 +57,7 @@ export default {
 					},
 					{
 						type: 2,
-						value: ["", "图 : 和德二号A/B星发射视频"]
+						value: ["assets/common/video/rocket.mp4", "图 : 和德二号A/B星发射视频"]
 					}
 				]
 			}

@@ -57,7 +57,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:34px; color:white; text-transform:uppercase; white-space: nowrap;">
-								Feel The Earth Precious And Make Decisions Accurate</div>
+								Enabling Decision Makers By Sensing The Earth</div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="78" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"

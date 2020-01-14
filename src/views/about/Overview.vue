@@ -1,9 +1,8 @@
 <template>
-	<div>
+	<div class="overviewContainer">
 		<PageTitle :titles="['公司概况','Company Overview','公司概况']" />
 		<div style="float:right; padding-left:20px">
-			<video width="400" height="300" controls autobuffer>
-			<source src="assets/about/overview/advertise.mp4" type="video/mp4;">
+			<video width="400" height="300" controls autobuffer src="assets/common/video/advertise.mp4" poster="assets/common/video/advertise.png" />
 		</div>
 		<div>
 			<p class="hdCompanyCh">北京和德宇航技术有限公司</p>
@@ -36,6 +35,11 @@ export default {
 </script>
 
 <style scoped lang="less">
+	.overviewContainer {
+		video {
+			background: black;
+		}
+	}
 	p.hdCompanyCh {
 		text-align: left;
 		font-size: @hdCompanyFontSizeCh;
