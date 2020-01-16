@@ -1,7 +1,7 @@
 <template>
     <div>
         <PageTitle :titles="['卫星遥感图像及服务','Satellite remote sensing images and services','遥感卫星地面站']" />
-        <p class="hdSection">和德宇航可向国际客户提供中国遥感卫星地面站解决方案，直接接收中国多种高分辨率遥感卫星数据，具有实时性、多源性等特点。地面站数据处理与存储系统可以实现多卫星数据源管理、数据分发，形成当地空间数据中心，为各级政府和行业用户提供服务。</p>
+        <p class="hdPara">和德宇航可向国际客户提供中国遥感卫星地面站解决方案，直接接收中国多种高分辨率遥感卫星数据，具有实时性、多源性等特点。地面站数据处理与存储系统可以实现多卫星数据源管理、数据分发，形成当地空间数据中心，为各级政府和行业用户提供服务。</p>
         <b-row>
 			<b-col>
 				<b-img-lazy v-bind="mainProps" src="assets/mainwork/rsstation/1.png"></b-img-lazy>

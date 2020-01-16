@@ -11,8 +11,9 @@
 // 正文段落
 @hdTextFontSize: 16px;			  // 正文字号
 @hdTextSpace: 16px;			      // 正文行间距
+@hdTextLineHeight: @hdTextFontSize + @hdTextSpace;// 正文行高
 @hdTextColor: #656a79;			// 正文颜色
-@hdSectionMarginD: 20px;          // 段落下间距
+@hdParaMargin: 20px;              // 段落下间距
 // 公司名称
 @hdCompanyFontSizeCh: 18px;		  // 中文字号
 @hdCompanyColorCh: @hdSelBlue;	  // 中文颜色
@@ -54,7 +55,6 @@
 // 友情链接
 @hdFriLinkFontSize: 14px;         // 字号
 @hdFriLinkColor: white;         // 颜色
-
 // 友情链接
 .hdFriendlyLink {
     width: 100%;
@@ -90,19 +90,7 @@
 // 句子
 .hdText {
     .hdText("", 12px, @hdTextFontSize, normal, @hdTextColor, 0px);
-    line-height: @hdTextFontSize + @hdTextSpace;
-}
-// 标题1
-.hdTitle1 {
-    .hdText("", @hdTitle1MarginL, @hdTitle1FontSize, bold, @hdTitleColor, @hdTitle1MarginV);
-}
-// 标题一(无边距)
-.hdTitle1Margin0 {
-	.hdText("", @hdTitle1MarginL, @hdTitle1FontSize, bold, @hdTitleColor, 0);
-}
-// 标题二
-.hdTitle2 {
-    .hdText("", @hdTitle2MarginL, @hdTitle2FontSize, bold, @hdTitleColor, @hdTitle2MarginV);
+    line-height: @hdTextLineHeight;
 }
 // 签名
 .hdSignature {
@@ -123,26 +111,62 @@
 .hdAnnotationL {
     .hdAnnotation(left);
 }
+.hdAMT {
+    margin-top: 10px;
+}
 // 段落
-.hdSection(@indent:0em) {
+.hdPara(@indent:0em) {
 	text-align: left;
     text-indent: @indent;
-    line-height: @hdTextFontSize + @hdTextSpace;
+    line-height: @hdTextLineHeight;
     font-size: @hdTextFontSize;
     color: @hdTextColor;
-    margin-bottom: 20px;
 }
 // 段落(无缩进)
-.hdSection {
-	.hdSection(0em);
+.hdPara {
+	.hdPara(0em);
 }
 // 段落(有缩进)
-.hdSectionIndent {
-	.hdSection(2em);
+.hdParaTab {
+	.hdPara(2em);
 }
-// 段落结束
-.hdSectionEnd {
-    margin-bottom: @hdSectionMarginD;
+.hdPMT {
+    margin-top: @hdParaMargin;
+}
+.hdPMB {
+    margin-bottom: @hdParaMargin;
+}
+.hdPMTB {
+    margin-top: @hdParaMargin;
+    margin-bottom: @hdParaMargin;
+}
+// 标题一
+.hdHead1 {
+	.hdText("", @hdTitle1MarginL, @hdTitle1FontSize, bold, @hdTitleColor, 0);
+}
+.hdH1MT {
+    margin-top: @hdTitle1MarginV;
+}
+.hdH1MB {
+    margin-bottom: @hdTitle1MarginV;
+}
+.hdH1MTB {
+    margin-top: @hdTitle1MarginV;
+    margin-bottom: @hdTitle1MarginV;
+}
+// 标题二
+.hdHead2 {
+    .hdText("", @hdTitle2MarginL, @hdTitle2FontSize, bold, @hdTitleColor, 0);
+}
+.hdH2MT {
+    margin-top: @hdTitle2MarginV;
+}
+.hdH2MB {
+    margin-bottom: @hdTitle2MarginV;
+}
+.hdH2MTB {
+    margin-top: @hdTitle2MarginV;
+    margin-bottom: @hdTitle2MarginV;
 }
 // 默认字体
 body {
@@ -153,3 +177,7 @@ p {
     margin: 0;
     margin-bottom: 0;
 }
+// 取消"row"、"col"布局上边距20px
+// div.row {
+//     margin-top: 0px!important;
+// }

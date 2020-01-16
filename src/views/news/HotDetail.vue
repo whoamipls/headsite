@@ -7,16 +7,16 @@
 					<DateIcon :time="hot.time" />
 				</td>
 				<td>
-					<p class="hdTitle1Margin0" style="margin-bottom:0">{{hot.title}}</p>
+					<p class="hdHead1" style="margin-bottom:0">{{hot.title}}</p>
 					<p class="hdAnnotationL">发布于 : {{hot.time.Format("yyyy-MM-dd")}}</p>
 				</td>
 			</tr>
 			<tr v-for="item in hot.content">
 				<td colspan="2" class="content">
-					<p v-if="item.type==0" class="hdSection">{{item.value}}</p>
+					<p v-if="item.type==0" class="hdPara">{{item.value}}</p>
 					<p v-if="item.type==1"><img :src="item.value[0]" /></p>
 					<p v-if="item.type==2"><video width="100%" controls autobuffer :src="item.value[0]" /></p>
-					<p v-if="item.type!=0" class="hdAnnotationC">{{item.value[1]}}</p>
+					<p v-if="item.type!=0" class="hdAnnotationC hdAMT">{{item.value[1]}}</p>
 				</td>
 			</tr>
 		</table>
@@ -71,7 +71,7 @@ export default {
 		text-align: left;
 	}
 	td {
-		padding-bottom: 20px;
+		padding-bottom: @hdParaMargin;
 	}
 	td.col1 {
 		vertical-align: top;
@@ -80,8 +80,4 @@ export default {
 	td.content{
 		text-align: center;
 	}
-	// p.title {
-    //     font-size: @hdTitle1FontSize; //20px;
-    //     font-weight: bold;
-    // }
 </style>

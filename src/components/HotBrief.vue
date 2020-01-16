@@ -7,8 +7,8 @@
                         <DateIcon :time="time"/>
                     </td>
                     <td>
-                        <p class="hdTitle1Margin0">{{title}}</p>
-                        <p class="hdText">{{content}}</p>
+                        <p class="hdHead1">{{title}}</p>
+                        <p class="hdPara">{{content}}</p>
                         <p class="link"><a href="javascript:void(0);" @click="showDetail">查看详情>></a></p>
                     </td>
                 </tr>
@@ -43,7 +43,8 @@ export default {
         border: 1px @dividerColor solid;
         border-top: 0;
         border-left: 0;
-        border-right: 0; 
+        border-right: 0;
+        padding-bottom: 20px;
         margin-bottom: 20px;
     }
     td {
@@ -53,11 +54,8 @@ export default {
     td.col1 {
         width: 80px;
     }
-    // p.title {
-    //     font-size: @hdTitle1FontSize; //20px;
-    //     font-weight: bold;
-    // }
     .link a {
         font-size: 14px;
+        line-height: @hdTextLineHeight;
     }
 </style>
