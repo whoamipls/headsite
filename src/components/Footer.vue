@@ -67,6 +67,11 @@ export default {
 </script>
 
 <style scoped lang="less">
+	.footer-info {
+		p, a {
+			color: @hdFooterColor!important;
+		}
+	}
 	.hdFooterHr {
 		color: @dividerColor!important;
 	}
