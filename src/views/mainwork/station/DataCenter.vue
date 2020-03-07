@@ -7,7 +7,7 @@
         <div class="container hdPMB">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/station/dataCenter/1.png" />
+                    <img class="illustration" src="assets/mainwork/station/datacenter/1.png" />
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
         <div class="container hdPMB">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/station/dataCenter/2.png" />
+                    <img class="illustration" src="assets/mainwork/station/datacenter/2.png" />
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/station/dataCenter/3.png" />
+                    <img class="illustration" src="assets/mainwork/station/datacenter/3.png" />
                 </div>
             </div>
         </div>
