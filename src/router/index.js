@@ -11,23 +11,35 @@ import Speech from '../views/about/Speech.vue'
 import History from '../views/about/History.vue'
 import Qualification from '../views/about/Qualification.vue'
 // 主营业务
-import Mainwork from '../views/mainwork/Mainwork.vue'
 import Special from '../views/mainwork/Special.vue'
 import Astronomy from '../views/mainwork/Astronomy.vue'
-import Satellite from '../views/mainwork/Satellite.vue'
 import TradeAgent from '../views/mainwork/TradeAgent.vue'
-import Skywalker from '../views/mainwork/Skywalker.vue'
-import Network from '../views/mainwork/Network.vue'
-import Platform from '../views/mainwork/Platform.vue'
-import Connection from '../views/mainwork/Connection.vue'
-import Terminal from '../views/mainwork/Terminal.vue'
-import Application from '../views/mainwork/Application.vue'
-import Station from '../views/mainwork/Station.vue'
-import ControlCenter from '../views/mainwork/ControlCenter.vue'
-import DataCenter from '../views/mainwork/DataCenter.vue'
 import RsOneStop from '../views/mainwork/RsOneStop.vue'
 import RsStation from '../views/mainwork/RsStation.vue'
 import RsApplication from '../views/mainwork/RsApplication.vue'
+import Satellite from '../views/mainwork/skywalker/Satellite.vue'
+// 主营业务-宇航中心
+import Mainwork from '../views/mainwork/Mainwork.vue'
+import MannedSpace from '../views/mainwork/spacecenter/MannedSpace.vue'
+import LunarProbe from '../views/mainwork/spacecenter/LunarProbe.vue'
+import BeidouNavi from '../views/mainwork/spacecenter/BeidouNavi.vue'
+import CommunicationSat from '../views/mainwork/spacecenter/CommunicationSat.vue'
+import EarthObservationSat from '../views/mainwork/spacecenter/EarthObservationSat.vue'
+import ExperimentSat from '../views/mainwork/spacecenter/ExperimentSat.vue'
+import HeavyLift from '../views/mainwork/spacecenter/HeavyLift.vue'
+import ComponentExport from '../views/mainwork/spacecenter/ComponentExport.vue'
+// 主营业务-天行者规划建设
+import Skywalker from '../views/mainwork/skywalker/Skywalker.vue'
+import Network from '../views/mainwork/skywalker/Network.vue'
+import Platform from '../views/mainwork/skywalker/Platform.vue'
+import Connection from '../views/mainwork/skywalker/Connection.vue'
+import Terminal from '../views/mainwork/skywalker/Terminal.vue'
+import ApplicationService from '../views/mainwork/skywalker/ApplicationService.vue'
+import ApplicationCase from '../views/mainwork/skywalker/ApplicationCase.vue'
+// 主营业务-地面站系统建设
+import Station from '../views/mainwork/station/Station.vue'
+import ControlCenter from '../views/mainwork/station/ControlCenter.vue'
+import DataCenter from '../views/mainwork/station/DataCenter.vue'
 // 和德咨询
 import News from '../views/news/News.vue'
 import Hot from '../views/news/Hot.vue'
@@ -100,33 +112,53 @@ const routes = [
 						path: '',
 						component: null,
 						name: '宇航中心',
-						childPaths: '/Special/Astronomy/Satellite/TradeAgent/'
+						childPaths: '/MannedSpace/LunarProbe/BeidouNavi/CommunicationSat/EarthObservationSat/ExperimentSat/HeavyLift/ComponentExport/'
 					},
 					{
-						path: '/Mainwork/Special',
-						component: Special,
-						name: '重大专项配套'
+						path: '/Mainwork/MannedSpace',
+						component: MannedSpace,
+						name: '载人航天'
 					},
 					{
-						path: '/Mainwork/Astronomy',
-						component: Astronomy,
-						name: '天文科学工程'
+						path: '/Mainwork/LunarProbe',
+						component: LunarProbe,
+						name: '探月工程'
 					},
 					{
-						path: '/Mainwork/Satellite',
-						component: Satellite,
-						name: '商业卫星配套'
+						path: '/Mainwork/BeidouNavi',
+						component: BeidouNavi,
+						name: '北斗导航'
 					},
 					{
-						path: '/Mainwork/TradeAgent',
-						component: TradeAgent,
-						name: '外贸代理服务'
+						path: '/Mainwork/CommunicationSat',
+						component: CommunicationSat,
+						name: '通信卫星'
+					},
+					{
+						path: '/Mainwork/EarthObservationSat',
+						component: EarthObservationSat,
+						name: '地球观测卫星'
+					},
+					{
+						path: '/Mainwork/ExperimentSat',
+						component: ExperimentSat,
+						name: '新技术试验卫星'
+					},
+					{
+						path: '/Mainwork/HeavyLift',
+						component: HeavyLift,
+						name: '大运载'
+					},
+					{
+						path: '/Mainwork/ComponentExport',
+						component: ComponentExport,
+						name: '组件出口'
 					},
 					{
 						path: '',
 						component: null,
-						name: '“天行者” 规划建设',
-						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/Application/'
+						name: '“天行者” 星座和应用服务',
+						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/ApplicationService/ApplicationCase/'
 					},
 					{
 						path: '/Mainwork/Skywalker',
@@ -154,9 +186,14 @@ const routes = [
 						name: '物联网卫星终端'
 					},
 					{
-						path: '/Mainwork/Application',
-						component: Application,
+						path: '/Mainwork/ApplicationService',
+						component: ApplicationService,
 						name: '应用服务'
+					},
+					{
+						path: '/Mainwork/ApplicationCase',
+						component: ApplicationCase,
+						name: '应用案例'
 					},
 					{
 						path: '',
@@ -178,30 +215,120 @@ const routes = [
 						path: '/Mainwork/DataCenter',
 						component: DataCenter,
 						name: '数据服务中心'
-					},
-					{
-						path: '',
-						component: null,
-						name: '卫星遥感图像及服务',
-						childPaths: '/RsOneStop/RsStation/RsApplication/'
-					},
-					{
-						path: '/Mainwork/RsOneStop',
-						component: RsOneStop,
-						name: '卫星图像一站式服务'
-					},
-					{
-						path: '/Mainwork/RsStation',
-						component: RsStation,
-						name: '遥感卫星地面站'
-					},
-					{
-						path: '/Mainwork/RsApplication',
-						component: RsApplication,
-						name: '应用服务'
 					}
 				]
 			},
+			// {
+			// 	path: '/Mainwork',
+			// 	component: Mainwork,
+			// 	name: '主营业务',
+			// 	children: [
+			// 		{
+			// 			path: '',
+			// 			component: null,
+			// 			name: '宇航中心',
+			// 			childPaths: '/Special/Astronomy/Satellite/TradeAgent/'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Special',
+			// 			component: Special,
+			// 			name: '重大专项配套'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Astronomy',
+			// 			component: Astronomy,
+			// 			name: '天文科学工程'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Satellite',
+			// 			component: Satellite,
+			// 			name: '商业卫星配套'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/TradeAgent',
+			// 			component: TradeAgent,
+			// 			name: '外贸代理服务'
+			// 		},
+			// 		{
+			// 			path: '',
+			// 			component: null,
+			// 			name: '“天行者” 规划建设',
+			// 			childPaths: '/Skywalker/Network/Platform/Connection/Terminal/ApplicationService/'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Skywalker',
+			// 			component: Skywalker,
+			// 			name: '“天行者” 星座'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Network',
+			// 			component: Network,
+			// 			name: '全球卫星网络'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Platform',
+			// 			component: Platform,
+			// 			name: '系统平台和移动APP'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Connection',
+			// 			component: Connection,
+			// 			name: '互联互通'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Terminal',
+			// 			component: Terminal,
+			// 			name: '物联网卫星终端'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/ApplicationService',
+			// 			component: ApplicationService,
+			// 			name: '应用服务'
+			// 		},
+			// 		{
+			// 			path: '',
+			// 			component: null,
+			// 			name: '地面站系统建设',
+			// 			childPaths: '/Station/ControlCenter/DataCenter/'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/Station',
+			// 			component: Station,
+			// 			name: '地面站网'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/ControlCenter',
+			// 			component: ControlCenter,
+			// 			name: '测运控中心'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/DataCenter',
+			// 			component: DataCenter,
+			// 			name: '数据服务中心'
+			// 		},
+			// 		{
+			// 			path: '',
+			// 			component: null,
+			// 			name: '卫星遥感图像及服务',
+			// 			childPaths: '/RsOneStop/RsStation/RsApplication/'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/RsOneStop',
+			// 			component: RsOneStop,
+			// 			name: '卫星图像一站式服务'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/RsStation',
+			// 			component: RsStation,
+			// 			name: '遥感卫星地面站'
+			// 		},
+			// 		{
+			// 			path: '/Mainwork/RsApplication',
+			// 			component: RsApplication,
+			// 			name: '应用服务'
+			// 		}
+			// 	]
+			// },
 			{
 				path: '/News',
 				component: News,
@@ -210,24 +337,24 @@ const routes = [
 					{
 						path: '/News/Hot',
 						component: Hot,
-						name: '热点事件'
+						name: '和德资讯'
 					},
 					{
 						path: '/News/HotDetail',
 						component: HotDetail,
-						name: '事件详情',
+						name: 'HotDetail',
 						hidden: true
 					},
-					{
-						path: '/News/Trend',
-						component: null,
-						name: '业务动态'
-					},
-					{
-						path: '/News/News',
-						component: null,
-						name: '行业新闻'
-					}
+					// {
+					// 	path: '/News/Trend',
+					// 	component: null,
+					// 	name: '业务动态'
+					// },
+					// {
+					// 	path: '/News/News',
+					// 	component: null,
+					// 	name: '行业新闻'
+					// }
 				]
 			},
 			{
@@ -240,11 +367,11 @@ const routes = [
 						component: Charity,
 						name: '慈善公益'
 					},
-					{
-						path: '/Duty/Social',
-						component: null,
-						name: '社工服务'
-					}
+					// {
+					// 	path: '/Duty/Social',
+					// 	component: null,
+					// 	name: '社工服务'
+					// }
 				]
 			},
 			{

@@ -4,12 +4,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/network/1.png" />
+                    <img class="illustration" src="assets/mainwork/skywalker/network/1.png" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/network/2.png" />
+                    <img class="illustration" src="assets/mainwork/skywalker/network/2.png" />
                 </div>
             </div>
         </div>

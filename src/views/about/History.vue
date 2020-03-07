@@ -29,7 +29,7 @@ export default {
                         },
                         {
                             month: '9月',
-                            text: '北京市软件和信息服务协会理生会员单位'
+                            text: '北京市软件和信息服务协会理事会员单位'
                         },
                         {
                             month: '7月',
@@ -58,7 +58,7 @@ export default {
                     months: [
                         {
                             month: '12月',
-                            text: '公司融资1亿元---招商资本'
+                            text: '公司融资1亿元---国家服务贸易创新发展引导基金'
                         },
                         {
                             month: '9月',
@@ -156,7 +156,7 @@ export default {
                     months: [
 						{
 							month: '12月',
-							text: '加入国际航标协会获得SAIa签约'
+							text: '加入国际航标协会获得IALA签约'
 						}
                     ]
                 },

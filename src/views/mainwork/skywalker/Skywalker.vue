@@ -14,7 +14,7 @@
         <div class="container hdPMTB">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/skywalker/2.png" />
+                    <img class="illustration" src="assets/mainwork/skywalker/skywalker/2.png" />
                 </div>
             </div>
         </div>

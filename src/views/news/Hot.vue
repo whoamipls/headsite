@@ -1,6 +1,6 @@
 <template>
 	<div>
-    	<HotBrief v-for="hot in hots" :time="hot.time" :title="hot.title" :content="hot.content" @onShowDetail="showDetail(hot.flag)" />
+    	<HotBrief v-for="hot in hots" :time="hot.time" :title="hot.title" :content="hot.content" @onShowDetail="showDetail(hot.id)" />
 	</div>
 </template>
 
@@ -14,14 +14,19 @@ export default {
         // 显示详情
         showDetail: function(id) {
             if(!id) return;
-            this.Goto('/News/HotDetail');
+            this.Goto({
+                name: 'HotDetail',
+                params: {
+                    id: id
+                }
+            });
         }
     },
     data() {
         return {
             hots: [
                 {
-                    flag: true,
+                    id: "20191207",
                     time: new Date("2019/12/7"),
                     title: "和德“天行者”星座双星顺利发射",
                     content: "2019年12月7日16点52分北京和德宇航技术有限公司自行研制的“和德二号A、B”两颗空间物联网实验卫星由快舟一甲火箭在太原卫星发射中心升空发射,双星均顺利进入预定轨道。卫星在完成预定在轨测试任务后,将为客户提供卫星空间物联网数据、全球AIS船只数据采集及ADS-B航班数据监测等-系列服务。"

@@ -168,6 +168,27 @@
     margin-top: @hdTitle2MarginV;
     margin-bottom: @hdTitle2MarginV;
 }
+// 插图
+.imgContainer(@width) {
+    width: 100%;
+    text-align: center;
+    .row {
+        width: @width;
+        display: inline-block;
+        img {
+            width: 100%;
+        }
+    }
+}
+.imgContainer50 {
+    .imgContainer(50%)
+}
+.imgContainer70 {
+    .imgContainer(70%)
+}
+.imgContainer100 {
+    .imgContainer(100%)
+}
 // 默认字体
 body {
     font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif!important;

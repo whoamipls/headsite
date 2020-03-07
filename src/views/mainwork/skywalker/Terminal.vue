@@ -7,7 +7,7 @@
         <div class="container hdPMT">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/terminal/1.png" />
+                    <img class="illustration" src="assets/mainwork/skywalker/terminal/1.png" />
                 </div>
             </div>
         </div>

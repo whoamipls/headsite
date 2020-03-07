@@ -9,12 +9,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="illustration" src="assets/mainwork/station/1.png" />
+                    <img class="illustration" src="assets/mainwork/station/station/1.png" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 text-right">
-                    <img class="illustration" src="assets/mainwork/station/2.png" />
+                    <img class="illustration" src="assets/mainwork/station/station/2.png" />
                 </div>
             </div>
         </div>
