@@ -17,7 +17,7 @@
                 </div>
             </div>
             <br><br><br>
-            <p class="hdHead1 hdH1MB hdIconTri">全球分布与国际合作</p>
+            <p class="hdHead1 hdH1MB hdIconTri">海外子公司</p>
             <div class="row">
                 <div class="col-sm-6">
                     <p class="hdHead1 hdH1MB clickable" @click="panTo(1)">和德香港</p>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-sm-6">
                     <p class="hdHead1 hdH1MB clickable" @click="panTo(2)">和德荷兰</p>
-                    <p class="hdText">地址 : HEAD Aerospace Netherlands Kapteynstraat 12201 BB Noordwijk, The Netherlands</p>
+                    <p class="hdText">地址 : Kapteynstraat 12201 BB Noordwijk, The Netherlands</p>
                     <p class="hdText">电话 : +31 886966900</p>
                     <p class="hdText hdPMB">传真 : +31 886966999</p>
                 </div>
@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <p class="hdHead1 hdH1MB clickable" @click="panTo(3)">和德法国</p>
-                    <p class="hdText">地址 : HEAD TECHNOLOGY FRANCE71 Boulevard National, La Garenne Colombes, 92250, Paris,France</p>
+                    <p class="hdText">地址 : 71 Boulevard National, La Garenne Colombes, 92250, Paris,France</p>
                     <p class="hdText">电话 : +336 86030414</p>
                     <p class="hdText">传真 : +331 70823119</p>
                 </div>

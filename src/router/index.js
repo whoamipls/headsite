@@ -111,7 +111,7 @@ const routes = [
 					{
 						path: '',
 						component: null,
-						name: '宇航中心',
+						name: '航天重大专项配套',
 						childPaths: '/MannedSpace/LunarProbe/BeidouNavi/CommunicationSat/EarthObservationSat/ExperimentSat/HeavyLift/ComponentExport/'
 					},
 					{
@@ -188,12 +188,12 @@ const routes = [
 					{
 						path: '/Mainwork/ApplicationService',
 						component: ApplicationService,
-						name: '应用服务'
+						name: '“天行者”星座应用服务场景'
 					},
 					{
 						path: '/Mainwork/ApplicationCase',
 						component: ApplicationCase,
-						name: '应用案例'
+						name: '物联网+遥感融合应用案例'
 					},
 					{
 						path: '',
