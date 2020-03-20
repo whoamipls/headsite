@@ -17,6 +17,15 @@ export default {
         return {
             years: [
                 {
+                    year: '2020',
+                    months: [
+                        {
+                            month: '2月',
+                            text: '成功进入联合国采购（UNGM）供应商名录'
+                        }
+                    ]
+                },
+                {
                     year: '2019',
                     months: [
                         {
@@ -25,7 +34,7 @@ export default {
                         },
                         {
                             month: '10月',
-                            text: '荣获信息技术服务管理体系认证证书'
+                            text: '通过信息技术服务管理体系认证'
                         },
                         {
                             month: '9月',
@@ -36,16 +45,8 @@ export default {
                             text: '成为中国宇航学会理事长单位'
                         },
                         {
-                            month: '6月',
-                            text: '环境管理体系认证证书复审通过'
-                        },
-                        {
-                            month: '6月',
-                            text: '职业健康安全管理体系认证证书复审通过'
-                        },
-                        {
                             month: '3月',
-                            text: '成为中国交通运输协会理事会员'
+                            text: '成为中国交通运输协会理事单位'
                         },
                         {
                             month: '3月',
@@ -58,15 +59,15 @@ export default {
                     months: [
                         {
                             month: '12月',
-                            text: '公司融资1亿元---国家服务贸易创新发展引导基金'
+                            text: '完成A轮融资：引入国家服务贸易创新发展引导基金1亿元投资'
                         },
                         {
                             month: '9月',
-                            text: '天行者星座--和德二号A/B卫星立项、研制'
+                            text: '和德二号A/B卫星成功立项，开始研制'
                         },
                         {
                             month: '7月',
-                            text: '公司搬迁新址北理工国防科技园5号楼'
+                            text: '公司迁入新址：北京理工大学国防科技园'
                         },
                         {
                             month: '7月',
@@ -83,11 +84,11 @@ export default {
 						},
                         {
 							month: '06月',
-							text: '举办和德公司成立10周年庆典'
+							text: '联合IAF，举办GLEX2017闭幕招待会暨和德宇航成立10周年庆典活动'
 						},
                         {
 							month: '02月',
-							text: '天行者星座--和德一号卫星立项、研制'
+							text: '和德一号卫星成功立项，开始研制'
 						}
                     ]
                 },
@@ -95,16 +96,12 @@ export default {
                     year: '2016',
                     months: [
 						{
-							month: '12月',
-							text: '荣获北京市高新技术企业证书'
+							month: '10月',
+							text: '加入国际电信联盟ITU，成为中国航天唯一民企会员单位'
 						},
 						{
 							month: '10月',
-							text: '加入国际电信联盟 ITU'
-						},
-						{
-							month: '10月',
-							text: '和德法国子公司成立'
+							text: '和德法国公司成立'
 						},
 						{
 							month: '8月',
@@ -117,11 +114,7 @@ export default {
                     months: [
 						{
 							month: '4月',
-							text: '荣获海关AEO认证企业'
-						},
-						{
-							month: '4月',
-							text: '和德荷兰子公司成立'
+							text: '和德荷兰公司成立'
 						}
                     ]
                 },
@@ -130,7 +123,7 @@ export default {
                     months: [
 						{
 							month: '4月',
-							text: '与五院、意大利ALTA公司成立电推进联合实验室'
+							text: '与中国空间技术研究院、意大利ALTA公司共同发起成立电推进联合实验室'
 						}
                     ]
                 },
@@ -139,11 +132,11 @@ export default {
                     months: [
 						{
 							month: '12月',
-							text: '取得三级保密资格单位证书'
+							text: '通过军工三级保密单位资格审查'
 						},
 						{
 							month: '10月',
-							text: '成为IAF成员认证单位'
+							text: '成为IAF成员单位'
 						}
                     ]
                 },
@@ -152,7 +145,7 @@ export default {
                     months: [
 						{
 							month: '12月',
-							text: '加入国际航标协会 IALA'
+							text: '成为国际航标协会IALA成员单位'
 						}
                     ]
                 },
@@ -161,11 +154,11 @@ export default {
                     months: [
 						{
 							month: '12月',
-							text: '和德香港子公司成立'
+							text: '和德香港公司成立'
 						},
 						{
 							month: '12月',
-							text: '首次参与国家重大专项“探月工程”，为上海八院提供月球车模拟实验台'
+							text: '为国家探月工程提供配套服务'
 						}
                     ]
                 },
