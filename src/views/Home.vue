@@ -126,7 +126,7 @@
 						<li><a href="#." data-filter=".pf-digital-art">视频影像 </a></li>
 					</ul>
 					<!-- PORTFOLIO ITEMS -->
-					<div class="items row col-4">
+					<div class="items row col-4" style="margin:0px; padding:0px;">
 						<!-- ITEM -->
 						<article class="portfolio-item pf-branding-design pf-web-design">
 							<div class="portfolio-image"> <a href="#."> <img alt="" src="assets/home/news/1.png"> </a> </div>

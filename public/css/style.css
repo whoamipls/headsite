@@ -34,7 +34,7 @@ body
 ========================================================*/
 * {
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;/*by wdr,解决瀑布流控件下方小图片白边*/
 }
 body {
 	background: #FFF;
@@ -1615,7 +1615,7 @@ header .container {
       POERFOLIO COL
 ========================================================*/
 .col-4 .portfolio-item {
-	width: 24.5%;/* width: 25%; *//*by wdr,vue编译后引起isotope瀑布流控件布局混乱*/
+	width: 25%;
 	position: relative;
 	float: left;
 }
