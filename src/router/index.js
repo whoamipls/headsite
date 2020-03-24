@@ -28,7 +28,7 @@ import EarthObservationSat from '../views/mainwork/spacecenter/EarthObservationS
 import ExperimentSat from '../views/mainwork/spacecenter/ExperimentSat.vue'
 import HeavyLift from '../views/mainwork/spacecenter/HeavyLift.vue'
 import ComponentExport from '../views/mainwork/spacecenter/ComponentExport.vue'
-// 主营业务-天行者规划建设
+// 主营业务-天行者星座建设
 import Skywalker from '../views/mainwork/skywalker/Skywalker.vue'
 import Network from '../views/mainwork/skywalker/Network.vue'
 import Platform from '../views/mainwork/skywalker/Platform.vue'
@@ -252,7 +252,7 @@ const routes = [
 			// 		{
 			// 			path: '',
 			// 			component: null,
-			// 			name: '“天行者” 规划建设',
+			// 			name: '“天行者” 星座建设',
 			// 			childPaths: '/Skywalker/Network/Platform/Connection/Terminal/ApplicationService/'
 			// 		},
 			// 		{

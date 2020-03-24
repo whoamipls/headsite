@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['“天行者”规划建设','&quot;Skywalker&quot; planning and construction','全球卫星网络']" />
+        <PageTitle :titles="['“天行者”星座建设','&quot;Skywalker&quot; constellation construction','全球卫星网络']" />
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

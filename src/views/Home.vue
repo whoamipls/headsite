@@ -23,7 +23,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:52px; color:#fff; text-transform:uppercase; white-space: nowrap;">
-								航天创建人类美好生活 </div>
+								航天创造人类美好生活 </div>
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-3" data-x="center" data-hoffset="0"
 								data-y="center" data-voffset="0" data-speed="800" data-start="1300" data-easing="Power3.easeInOut"
@@ -36,7 +36,7 @@
 								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
 								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-								国内商业航天领先者，智能空间信息服务提供商 </div>
+								国内商业航天领航者，智能空间信息服务提供商 </div>
 						</li>
 						<!-- SLIDE  -->
 						<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
@@ -57,7 +57,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:30px; color:white; text-transform:uppercase; white-space: nowrap;">
-								Enabling Decision Makers By Sensing The Earth</div>
+								SUPPORTING WISE DICISION BY SENSING THE EARTH</div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
@@ -86,11 +86,11 @@
 							<li class="col-sm-4"> <img src="assets/home/mainwork/1.png" class="img-responsive" alt="">
 								<h5>宇航中心</h5>
 								<hr class="main">
-								<p class="hdAnnotationL">北京和德宇航技术有限公司成立于2007年4月，是一家致力于微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港...</p>
-								<a href="javascript:void(0);" @click="Goto('/Mainwork/Special')">详细 <i class="fa fa-long-arrow-right"></i></a>
+								<p class="hdAnnotationL">北京和德宇航技术有限公司成立于2007年4月，是一家致力于将微小卫星及星座技术应用于人类生活的技术创新服务型公司。公司总部位于北京市海淀区北理工国防科技产业园,在香港...</p>
+								<a href="javascript:void(0);" @click="Goto('/Mainwork/MannedSpace')">详细 <i class="fa fa-long-arrow-right"></i></a>
 							</li>
 							<li class="col-sm-4"> <img src="assets/home/mainwork/2.png" class="img-responsive" alt="">
-								<h5>“天行者”规划建设</h5>
+								<h5>“天行者”星座建设</h5>
 								<hr class="main">
 								<p class="hdAnnotationL">“天行者“星座是由北京和德宇航技术有限公司提出的先进的微小卫星星座，提供窄带空间物联网双向数据通信（DCS）和全球船舶位置监控（AIS），全球航空器监控（ADS-B）等空间服务。”天行者”星座由48...</p>
 								<a href="javascript:void(0);" @click="Goto('/Mainwork/Skywalker')">详细 <i class="fa fa-long-arrow-right"></i></a>
@@ -118,7 +118,7 @@
 				<!-- PORTFOLIO -->
 				<div class="portfolio port-wrap">
 					<!-- Work Filter -->
-					<ul class="portfolio-filter text-center margin-bottom-80">
+					<ul class="portfolio-filter text-center margin-bottom-80" style="display:none">
 						<li><a class="active" href="#." data-filter="*">热点事件 </a></li>
 						<li><a href="#." data-filter=".pf-branding-design">业务动态 </a></li>
 						<li><a href="#." data-filter=".pf-photography">行业新闻 </a></li>

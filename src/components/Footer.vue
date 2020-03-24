@@ -9,7 +9,7 @@
 					<div class="col-md-4">
 						<div class="padding-right-50"> <img src="assets/home/logo.png" class="margin-bottom-30" alt="">
 							<p>北京和德宇航技术有限公司</p>
-							<p style="font-size:12px">Copyright @ China HEAD Aerospace Technology Co.</p>
+							<p style="font-size:12px">Copyright @ China HEAD Aerospace Technology Co.Ltd</p>
 						</div>
 						<br><br><br><br>
 						<div>
@@ -24,8 +24,8 @@
 						<hr class="hdFooterHr">
 						<ul class="links">
 						<li><a href="#" @click="Goto('/About/Overview')">关于和德 </a></li>
-						<li><a href="#" @click="Goto('/Mainwork/Special')">重大专项配套 </a></li>
-						<li><a href="#" @click="Goto('/Mainwork/Skywalker')">“天行者”规划建设 </a></li>
+						<li><a href="#" @click="Goto('/Mainwork/MannedSpace')">重大专项配套 </a></li>
+						<li><a href="#" @click="Goto('/Mainwork/Skywalker')">“天行者”星座建设 </a></li>
 						<li><a href="#" @click="Goto('/Mainwork/Station')">地面站系统建设 </a></li>
 						<li><a href="#" @click="Goto('/News/Hot')">重大宇航事件 </a></li>
 						<li><a href="#" @click="Goto('/Duty/Charity')">公益慈善 </a></li>

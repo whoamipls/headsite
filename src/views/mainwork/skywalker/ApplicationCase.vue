@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['“天行者”规划建设','&quot;Skywalker&quot; planning and construction','应用案例']" />
+        <PageTitle :titles="['“天行者”星座建设','&quot;SkyWalker&quot; constellation construction','应用案例']" />
         <p class="hdHead1 hdH1MB hdIconRect">智能电网</p>
         <p class="hdPara hdPMB">电网超高压输电线路途径山谷、森林等复杂地形、距离跨度较大。高压输电线和线塔的运行状态很难依靠人工监测，必须依靠具有长寿命、高可靠、高度自动化运行的线塔状态采集系统来对输变电设备进行故障预报、故障诊断以及辅助检修，以此减小输电网络的运行风险。近年来，地方电网依靠无人机帮助解决了部分区域的巡检，而卫星技术的应用发展将为电力线路和线塔的智能化监测提供全视角、多方位的侦测条件，提升智能全面巡检技术应用的发展，基本解决复杂地理条件下人工巡检存在高难度、高负荷、高风险的局面。</p>
         <p class="hdHead1 hdH1MTB">精准气象监测技术</p>

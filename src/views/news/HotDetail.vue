@@ -49,7 +49,7 @@ export default {
 						},
 						{
 							type: 1,
-							value: ["assets/news/hot/1.png", "图 : 和德二号全体研发人员合影"]
+							value: ["assets/news/hot/1.png", "图 : “和德二号”全体研发人员合影"]
 						},
 						{
 							type: 0,
@@ -61,7 +61,7 @@ export default {
 						},
 						{
 							type: 2,
-							value: ["assets/common/video/rocket.mp4", "图 : 和德二号A/B星发射视频"]
+							value: ["assets/common/video/rocket.mp4", "图 : “和德二号A/B”星发射视频"]
 						}
 					]
 				}

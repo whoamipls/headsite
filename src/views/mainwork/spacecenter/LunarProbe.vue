@@ -20,7 +20,7 @@
         <p class="hdText hdIconTri">波发生器尺寸及内腔都做了几何优化</p>
         <p class="hdText hdIconTri">特殊合金制作的发生器栓，散热良好</p>
         <p class="hdText hdIconTri">波发生器转动惯量减少40%，但力矩承载能力不变</p>
-        <p class="hdText hdIconTri">丰富的上天经验：探月、火星等项目</p>
+        <p class="hdText hdIconTri">丰富的宇航飞行经验：探月、火星等项目</p>
         <div class="imgContainer70 hdPMTB">
             <div class="row">
                 <div class="col-sm-12">

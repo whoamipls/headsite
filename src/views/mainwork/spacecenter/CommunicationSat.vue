@@ -8,7 +8,7 @@
         <p class="hdText hdIconTri">三种光学口径: Ø70mm, Ø80mm, Ø135 mm</p>
         <p class="hdText hdIconTri">反射率: > 93% @ 1064 nm</p>
         <p class="hdText hdIconTri">波前误差 < 27 nm rms</p>
-        <p class="hdText hdIconTri">角速度 / 加速度: ≥ 25°/sec / ≥ 5°/sec2</p>
+        <p class="hdText hdIconTri">角速度 / 加速度: ≥ 25°/sec / ≥ 5°/sec²</p>
         <p class="hdText hdIconTri">指向误差: < 55 μrad, < 30 μrad rms</p>
         <p class="hdText hdIconTri">定位偏差: < 2 μrad rms</p>
         <p class="hdText hdIconTri">15年在轨寿命</p>

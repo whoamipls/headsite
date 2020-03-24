@@ -24,7 +24,7 @@
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">星上太阳敏感器是用于高精度太阳跟踪、指向和姿态测量的两轴、低成本太阳敏感器。太敏分别测量两个轴上的太阳入射角。该产品包含一个微处理器直接计算出太阳入射角及相关参数，计算结果通过RS-422接口传输。太敏提供基于设计几何尺寸的高灵敏度测量结果。金属屏蔽层和保护玻璃的使用，减小设备在高辐照下的老化。每个敏感器都经标定，并包含一个内部热敏电阻。</p>
         <p class="hdHead1 hdH1MTB">产品特点如下：</p>
-        <p class="hdText hdIconTri">在超过十个飞行任务的近50个SSOC单元上经过验证</p>
+        <p class="hdText hdIconTri">在超过10个飞行任务的近50个SSOC单元上经过验证</p>
         <p class="hdText hdIconTri">卫星姿态测量</p>
         <p class="hdText hdIconTri">高精度太阳位置确定</p>
         <p class="hdText hdIconTri">卫星太阳帆板定位</p>

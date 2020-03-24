@@ -44,11 +44,11 @@
         <p class="hdText hdIconTri">Total impulse: ≥4000Ns</p>
         <p class="hdText hdIconTri">Max power: ≤45W（0.5mN）</p>
         <p class="hdText hdIconTri">Rated power: ≤35W（0.3mN）</p>
-        <p class="hdText hdIconTri">On-orbit life: ≥3 年</p>
+        <p class="hdText hdIconTri">On-orbit life: ≥3 years</p>
         <p class="hdText hdIconTri">Weight: ≤3.2kg（in which Xenon propellant weighs 0.4kg）</p>
         <p class="hdText hdIconTri">Volume: 2.3U detachable; 1.3U compact</p>
         <p class="hdText hdIconTri">Starting mode: Instant-Start</p>
-        <p class="hdText hdIconTri">Restart times: ≥5000 次</p>
+        <p class="hdText hdIconTri">Restart times: ≥5000 times</p>
         <p class="hdText hdIconTri">Restart time interval: Unlimited</p>
         <p class="hdText hdIconTri">Working time: 24h non-stop</p>
         <p class="hdText hdIconTri">Control mode: Satellite computer analog control</p>
