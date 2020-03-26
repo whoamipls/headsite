@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','重大专项配套']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','重大专项配套']" />
         <p class="hdHead1 hdH1MB hdIconRect">太阳帆板驱动机构</p>
         <p class="hdPara">SEPTA®33 型太阳帆板驱动机构（SADM）以宽适用范围、通用型标准化产品为设计理念，可以适用低轨、中轨、高轨在1000kg 左右的科学试验卫星和通信卫星。产品成熟，可靠性高，产品累计在轨飞行时间大于100年。</p>
         <div class="row hdPMTB">

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','组件出口']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','组件出口']" />
         <p class="hdPara">随着中国在航天领域综合实力和技术能力的大幅提升，中国宇航产品也获得世界客户的青睐。 “技术成熟、可靠性高、性价比好” 是中国宇航级产品的三大优势，得到欧洲主流宇航企业的关注及认可。和德宇航公司作为中国首批商业航天公司之一，13年来密切关注国际商业航天动态，为中国宇航产品出口发挥积极作用。已成功将国内的星敏、太敏、热控薄膜、太阳能电池片等产品出口至瑞士、意大利、南非等国家。</p>
         <p class="hdPara hdPMT">With the substantial improvement of China's space comprehensive strength and technological capability, Chinese space products have an emerging presence in the international space market.</p>
         <p class="hdPara hdPMT">"Mature technology, high reliability and good cost performance" are the three advantages of China's space products, which have drawn the attention and recognition of mainstream space enterprises. The products ranges from EPS, solar panels, OBC, TTC, ADCS, structures, composite materials, etc. Founded in 2007, we’ve built a strong partnership with Chinese manufacturers and serve as an authorized distribution partner and in many cases the exclusive distribution partner for the international markets. To look at the full picture our products portfolio, please <a href='assets/mainwork/spacecenter/componentexport/1.pdf' download='Chinese Space Products Catalog_HEAD.pdf'>download</a> for review. If you are interested in reaching us, please send an email to Ms. Chen at <a href='javascript:void(0)'>charlotte.chen@head-aerosapce.com</a>.</p>

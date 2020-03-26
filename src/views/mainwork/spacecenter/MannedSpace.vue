@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','载人航天']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','载人航天']" />
         <p class="hdHead1 hdH1MB hdIconRect">大功率滑环</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">大功率滑环主要用于大型在轨机构的能量和信号传输。滑环采取电刷式，集成度高，性能可靠，使用周期长，适应温度范围广，是目前世界上最先进、传输功率最大的宇航滑环产品之一。</p>

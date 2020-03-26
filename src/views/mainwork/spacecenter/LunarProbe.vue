@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','探月工程']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','探月工程']" />
         <p class="hdHead1 hdH1MB hdIconRect">钻月驱动组件</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">该驱动组件由宇航级电机和减速器两部分高度集成，具有重量轻、力矩大、功耗小、在苛刻条件适应性强的特点。可适应超高温和超低温下的工作条件，具有防尘、抗紫外线辐照等特征。</p>

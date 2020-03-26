@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','商业卫星配套']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','商业卫星配套']" />
         <p class="hdHead1 hdIconRect">ASR x50 AIS星载接收机, Kongsberg</p>
         <div class="container hdPMTB">
             <div class="row">

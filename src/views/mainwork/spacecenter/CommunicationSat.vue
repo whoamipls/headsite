@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','通信卫星']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','通信卫星']" />
         <p class="hdHead1 hdH1MB hdIconRect">激光通信粗指向机构</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">粗指向机构用于激光通信终端的运动，可进行初始捕获、稳定跟踪，用于高、中、低轨卫星，该技术来源于欧洲，符合国际ESA标准，已在欧洲激光通信星座上广泛应用，具有指向精度高，质量轻，寿命长的优点。</p>

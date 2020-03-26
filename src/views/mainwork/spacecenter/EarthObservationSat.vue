@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','地球观测卫星']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','地球观测卫星']" />
         <p class="hdHead1 hdH1MB hdIconRect">星载合成孔径雷达SAR技术</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">星载合成孔径雷达SAR技术，源于德国SAR-Lupe合成孔径雷达的研制升级。</p>

@@ -157,13 +157,13 @@ const routes = [
 					{
 						path: '',
 						component: null,
-						name: '“天行者” 星座和应用服务',
+						name: '“天行者”星座和应用服务',
 						childPaths: '/Skywalker/Network/Platform/Connection/Terminal/ApplicationService/ApplicationCase/'
 					},
 					{
 						path: '/Mainwork/Skywalker',
 						component: Skywalker,
-						name: '“天行者” 星座'
+						name: '“天行者”星座'
 					},
 					{
 						path: '/Mainwork/Network',
@@ -252,13 +252,13 @@ const routes = [
 			// 		{
 			// 			path: '',
 			// 			component: null,
-			// 			name: '“天行者” 星座建设',
+			// 			name: '“天行者”星座建设',
 			// 			childPaths: '/Skywalker/Network/Platform/Connection/Terminal/ApplicationService/'
 			// 		},
 			// 		{
 			// 			path: '/Mainwork/Skywalker',
 			// 			component: Skywalker,
-			// 			name: '“天行者” 星座'
+			// 			name: '“天行者”星座'
 			// 		},
 			// 		{
 			// 			path: '/Mainwork/Network',

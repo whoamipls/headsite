@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','北斗导航']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','北斗导航']" />
         <p class="hdHead1 hdH1MB hdIconRect">太阳翼驱动机构（SADA）</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">SADA用于驱动太阳翼，按指定速度、精度对日定向来保证卫星能源充足。同时，传输太阳翼与星体间的能源和信号。</p>

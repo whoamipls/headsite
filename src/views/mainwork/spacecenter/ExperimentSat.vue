@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['宇航中心','Space Center','新技术试验卫星']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','新技术试验卫星']" />
         <p class="hdHead1 hdH1MB hdIconRect">热刀压紧释放机构</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">是使用热刀逐渐释放Aramid 纤维线缆连接、通过嵌套堆叠结构的预拉力来释放的系统。相比于火工品而言，优势在于产生非常低的展开冲击力。从1996 年起至今有约500 套带有aramid 纤维线缆的压紧释放系统，成功用于在轨展开打型太阳帆板、天线指向机、快门机构等。</p>
