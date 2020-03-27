@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['“天行者”星座建设','&quot;Skywalker&quot; constellation construction','卫星大数据系统开发及应用服务']" />
+        <PageTitle :titles="['“天行者”星座和应用服务','&quot;Skywalker&quot; constellation construction','卫星大数据系统开发及应用服务']" />
         <p class="hdHead1 hdH1MB hdIconRect">空间物联网双向数据通信(DCS)</p>
         <p class="hdPara hdPMB">提供低成本、小型化、广域覆盖的终端产品，集信息广播、数据采集、报文传输等多种服务形式，可广泛应用于：</p>
         <p class="hdText hdIconTri">车辆及集装箱追踪</p>

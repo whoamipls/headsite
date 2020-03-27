@@ -31,16 +31,6 @@
                 </div>
             </div>
         </div>
-        <p class="hdHead1 hdH1MTB hdIconRect">伽玛暴偏振探测仪</p>
-        <p class="hdHead1 hdH1MTB">产品描述</p>
-        <p class="hdPara">伽玛暴偏振探测仪是用于测量伽玛暴偏振的高灵敏度探测器，伽玛暴偏振探测仪由偏振探测器（OBOX）和电控箱（IBOX）两个单机组成。其中偏振探测器又由低压供电电路、高压供电电路、中心触发电路和探测单体组成，电控箱又由低压模块和主控单元模块组成。为了测量伽玛射线的偏振，“天极”伽玛暴偏振探测仪采用1600根塑料闪烁棒，通过测量每个伽玛射线光子同时作用的多根塑料闪烁棒的位置分布获取偏振信息。</p>
-        <div class="imgContainer50 hdPMTB">
-            <div class="row">
-                <div class="col-sm-12">
-                    <img src="assets/mainwork/spacecenter/beidounavi/3.png" />
-                </div>
-            </div>
-        </div>
     </div>
 </template>
 

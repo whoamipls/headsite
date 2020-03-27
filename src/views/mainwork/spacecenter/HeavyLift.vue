@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','大运载']" />
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','运载']" />
         <p class="hdHead1 hdH1MB hdIconRect">自动铆接系统</p>
         <p class="hdHead1 hdH1MTB">产品描述</p>
         <p class="hdPara">自动铆接系统是高精度、自动化、高集成度的全新形式精密铆接设备，符合工业4.0概念的设计理念。该设备包括主动及从动机器人、升降机械平台及电气箱、多功能末端执行器、轨迹仿真建模系统、筛钉系统等。</p>

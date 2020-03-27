@@ -25,7 +25,7 @@ import LunarProbe from '../views/mainwork/spacecenter/LunarProbe.vue'
 import BeidouNavi from '../views/mainwork/spacecenter/BeidouNavi.vue'
 import CommunicationSat from '../views/mainwork/spacecenter/CommunicationSat.vue'
 import EarthObservationSat from '../views/mainwork/spacecenter/EarthObservationSat.vue'
-import ExperimentSat from '../views/mainwork/spacecenter/ExperimentSat.vue'
+// import ExperimentSat from '../views/mainwork/spacecenter/ExperimentSat.vue'
 import HeavyLift from '../views/mainwork/spacecenter/HeavyLift.vue'
 import ComponentExport from '../views/mainwork/spacecenter/ComponentExport.vue'
 // 主营业务-天行者星座建设
@@ -89,7 +89,7 @@ const routes = [
 					{
 						path: '/About/Speech',
 						component: Speech,
-						name: '董事长致词'
+						name: '董事长致辞'
 					},
 					{
 						path: '/About/History',
@@ -139,20 +139,20 @@ const routes = [
 						component: EarthObservationSat,
 						name: '地球观测卫星'
 					},
-					{
-						path: '/Mainwork/ExperimentSat',
-						component: ExperimentSat,
-						name: '新技术试验卫星'
-					},
+					// {
+					// 	path: '/Mainwork/ExperimentSat',
+					// 	component: ExperimentSat,
+					// 	name: '新技术试验卫星'
+					// },
 					{
 						path: '/Mainwork/HeavyLift',
 						component: HeavyLift,
-						name: '大运载'
+						name: '运载'
 					},
 					{
 						path: '/Mainwork/ComponentExport',
 						component: ComponentExport,
-						name: '组件出口'
+						name: '宇航产品出口'
 					},
 					{
 						path: '',
@@ -175,11 +175,11 @@ const routes = [
 						component: Platform,
 						name: '系统平台和移动APP'
 					},
-					{
-						path: '/Mainwork/Connection',
-						component: Connection,
-						name: '互联互通'
-					},
+					// {
+					// 	path: '/Mainwork/Connection',
+					// 	component: Connection,
+					// 	name: '互联互通'
+					// },
 					{
 						path: '/Mainwork/Terminal',
 						component: Terminal,
@@ -232,7 +232,7 @@ const routes = [
 			// 		{
 			// 			path: '/Mainwork/Special',
 			// 			component: Special,
-			// 			name: '重大专项配套'
+			// 			name: '航天重大专项配套'
 			// 		},
 			// 		{
 			// 			path: '/Mainwork/Astronomy',
@@ -439,7 +439,7 @@ const routes = [
 // 			{
 // 				path: '/Speech',
 // 				component: Home,
-// 				name: '董事长致词'
+// 				name: '董事长致辞'
 // 			},
 // 			{
 // 				path: '/History',
@@ -484,7 +484,7 @@ const routes = [
 // 					{
 // 						path: '/Speech',
 // 						component: Home,
-// 						name: '董事长致词'
+// 						name: '董事长致辞'
 // 					},
 // 					{
 // 						path: '/History',

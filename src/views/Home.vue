@@ -30,7 +30,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:30px; color:white; text-transform:uppercase; white-space: nowrap;">
-								Space Creates a Better Future for Human Being </div>
+								Space Creates a Better Future for Human Beings </div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
@@ -57,7 +57,7 @@
 								data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
 								data-endspeed="300"
 								style="z-index: 6; font-size:30px; color:white; text-transform:uppercase; white-space: nowrap;">
-								SUPPORTING WISE DICISION BY SENSING THE EARTH</div>
+								Enable decision makers by sensing the earth</div>
 							<!-- LAYER NR. 3 -->
 							<div class="tp-caption sfb tp-resizeme letter-space-1" data-x="center" data-hoffset="0" data-y="center"
 								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
@@ -269,7 +269,7 @@
 					<!-- Heading -->
 					<div class="heading text-center">
 					<h4>合作伙伴</h4>
-					<span>Cooperative partner</span>
+					<span>Global partners</span>
 					<hr>
 					</div>
 					<div class="clients-img col-5">

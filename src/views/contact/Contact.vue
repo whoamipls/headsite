@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="hdHead1 hdH1MB hdIconTri clickable" @click="panTo(0)">北京和德宇航技术有限公司(总公司)</p>
+                    <p class="hdHead1 hdH1MB hdIconTri clickable" @click="panTo(0)">北京和德宇航技术有限公司(总部)</p>
                     <p class="hdText">地址 : 北京市海淀区西三环北路甲2号院国防科技园区5号楼5层</p>
                     <p class="hdText">电话 : +86 10 82890470</p>
                     <p class="hdText">传真 : +86 10 82780152</p>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <br><br><br>
-            <p class="hdHead1 hdH1MB hdIconTri">海外子公司</p>
+            <p class="hdHead1 hdH1MB hdIconTri">海内外子公司</p>
             <div class="row">
                 <div class="col-sm-6">
                     <p class="hdHead1 hdH1MB clickable" @click="panTo(1)">和德香港</p>

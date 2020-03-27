@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['“天行者”星座建设','&quot;Skywalker&quot; constellation construction','互联互通']" />
+        <PageTitle :titles="['“天行者”星座和应用服务','&quot;Skywalker&quot; constellation construction','互联互通']" />
         <p class="hdPara hdPMB">“天行者”星座具备连接全球数十亿终端的服务能力。</p>
         <p class="hdPara hdPMB">卫星与地面移动网络双模通信、自由切换。</p>
         <p class="hdPara">一个全球覆盖无盲区、多网兼容、最具性价比的物联网综合连接解决方案。</p>

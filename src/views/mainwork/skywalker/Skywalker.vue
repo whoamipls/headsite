@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PageTitle :titles="['“天行者”星座建设','&quot;Skywalker&quot; constellation construction','“天行者”星座']" />
+        <PageTitle :titles="['“天行者”星座和应用服务','&quot;Skywalker&quot; constellation construction','“天行者”星座']" />
         <p class="hdPara">“天行者”星座是北京和德宇航技术有限公司自行研制、规划建设的微小卫星星座，将为全球用户提供窄带空间物联网双向数据通信（DCS)和全球船舶位置监控（AIS/VDES）、全球航空器（ADS-B）监控等空间信息服务。“天行者”是一个先进的微小卫星星座，由48颗卫星组网，均匀分布在六个近地轨道面上，可为用户提供实时无缝对接、全覆盖的数据应用服务。卫星星座分布及通信示意图如下：</p>
         <div class="container hdPMTB">
             <div class="row">
@@ -23,6 +23,16 @@
                 <div class="col-sm-12">
                     <video width="100%" controls autobuffer>
 			        <source src="assets/common/video/rocket.mp4" type="video/mp4;">
+                </div>
+            </div>
+        </div>
+        <p class="hdPara hdPMT">“天行者”星座具备连接全球数十亿终端的服务能力。</p>
+        <p class="hdPara">卫星与地面移动网络双模通信、自由切换。</p>
+        <p class="hdPara">一个全球覆盖无盲区、多网兼容、最具性价比的物联网综合连接解决方案。</p>
+        <div class="container hdPMT">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="illustration" src="assets/mainwork/skywalker/connection/1.png" />
                 </div>
             </div>
         </div>

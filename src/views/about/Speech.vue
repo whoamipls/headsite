@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<PageTitle :titles="['董事长致词','Chairman\'s speech','董事长致词']" />
+		<PageTitle :titles="['董事长致辞','Chairman\'s speech','董事长致辞']" />
 		<div style="float:right; padding-left:20px">
 			<img src="assets/about/speech/1.png" style="width:370px;margin-top:10px;" />
 		</div>
