@@ -1,15 +1,18 @@
 <template>
 <div>
-	<div class="menu">
-		<ul>
-			<li v-for="item in menuData" v-if="!item.hidden">
-				<a :style="getMenuHeadStyle(item)" @click="chooseItem(item)">
-					{{item.name}}
-					<span v-if="item.children.length>0" class="glyphicon" :class="isMenuSelect(item)?'hdIconDown':'hdIconUp'"></span>
-				</a>
-				<ul v-if="item.children.length>0" :class="{'hidden':!isMenuSelect(item)}">
-					<li v-for="child in item.children" v-if="!child.hidden">
-						<a :style="getMenuItemStyle(child)" @click="chooseItem(child)">{{child.name}}</a>
+	<div>
+		<ul class="leftMenu">
+			<li class="menuItemLv1" v-if="!item1.hidden" v-for="item1 in menuData">
+				<p :style="getMenuItem1Style(item1)" @click="chooseItem(item1)">
+					<span>{{item1.name}}</span>
+					<span v-if="item1.children.length>0" class="glyphicon iconLv1" :class="isMenuSelect(item1)?'hdIconDown':'hdIconUp'"></span>
+				</p>
+				<ul v-if="item1.children.length>0" :class="{'hidden':!isMenuSelect(item1)}">
+					<li class="menuItemLv2" v-if="!item2.hidden" v-for="item2 in item1.children">
+						<p :style="getMenuItem2Style(item2)" @click="chooseItem(item2)">
+							<span class="glyphicon iconLv2" :class="isMenuSelect(item2) ? 'glyphicon-check' : 'glyphicon-unchecked'" />&nbsp;
+							<span>{{item2.name}}</span>
+						</p>
 					</li>
 				</ul>
 			</li>
@@ -27,30 +30,30 @@ export default {
 		return {
 			menuData: [],
 			// 菜单正常
-			menuHeadNormal: {
+			menuItem1SNormal: {
 				color: '#56585f',
 				backgroundColor: '#ffffff',
 			},
 			// 菜单选中1
-			menuHeadSelect1: {
+			menuItem1Select1: {
 				color: '#363940',
 				backgroundColor: '#f7f9ff',
 				backgroundImage: 'url(assets/components/menuSel.png)',
 				backgroundRepeat: 'no-repeat',
 			},
 			// 菜单选中2
-			menuHeadSelect2: {
+			menuItem1Select2: {
 				color: '#363940',
 				backgroundImage: 'url(assets/components/menuSel.png)',
 				backgroundRepeat: 'no-repeat',
 			},
 			// 菜单项正常
-			menuItemNormal: {
+			menuItem2Normal: {
 				color: '#8c8f99',
 				backgroundColor: '#ffffff',
 			},
 			// 菜单项选中
-			menuItemSelect: {
+			menuItem2Select: {
 				color: '#4068f5',
 				backgroundColor: '#f7f9ff',
 			}
@@ -80,7 +83,8 @@ export default {
 	methods: {
 		// 选择菜单
 		chooseItem: function(item){
-			let path = item.children.length > 0 ? item.children[0].path : item.path; 
+			let path = item.children.length > 0 ? item.children[0].path : item.path;
+			console.log(path);
 			this.Goto(path);
 		},
 		// 菜单是否选中
@@ -96,25 +100,26 @@ export default {
 			return select;
 		},
 		// 获取菜单样式
-		getMenuHeadStyle: function(item) {
+		getMenuItem1Style: function(item) {
 			if(this.isMenuSelect(item)) {
 				if(item.children.length == 0) {
-					return this.menuHeadSelect1;
+					return this.menuItem1Select1;
 				} else {
-					return this.menuHeadSelect2;
+					return this.menuItem1Select2;
 				}
 			}
-			return this.menuHeadNormal;
+			return this.menuItem1SNormal;
 		},
 		// 获取子菜单样式
-		getMenuItemStyle: function(item) {
-			return this.isMenuSelect(item) ? this.menuItemSelect : this.menuItemNormal;
+		getMenuItem2Style: function(item) {
+			return this.isMenuSelect(item) ? this.menuItem2Select : this.menuItem2Normal;
 		}
 	}
 }
 </script>
 
 <style scoped lang="less">
+	// 图片超链接
 	li.imgContainer {
 		overflow: hidden;
 		img {
@@ -126,73 +131,59 @@ export default {
 		}
 	}
 
-	/* ul li以横排显示 */
+	// ul li以横排显示
 	.hidden {
 		height: 0px;
 	}
 
-	/* 所有class为menu的div中的ul样式 */
-	div.menu ul {
-		list-style: none;
-		/* 去掉ul前面的符号 */
-		margin: 0px;
-		/* 与外界元素的距离为0 */
-		padding: 0px;
-		/* 与内部元素的距离为0 */
-		width: auto;
-		/* 宽度根据元素内容调整 */
+	// 左侧菜单样式
+	.leftMenu {
+		list-style: none;// 去掉ul前面的符号
+		margin: 0px;// 与外界元素的距离为0
+		padding: 0px;// 与内部元素的距离为0
+		width: @hdLMenuWidth;// 宽度
+		&:hover {
+			cursor: pointer;
+		}
 	}
 
-	/* 所有class为menu的div中的ul中的li样式 */
-	div.menu ul li {
-		/*float:left;  向左漂移，将竖排变为横排 */// font-size: 16px;
-		width: @hdLMenuWidth;
-	}
-
-	div.menu ul li ul li a{
-		border: 0px;
-		font-size: @hdLMenuChildFontSize;
-		line-height: 60px;
-	}
-
-	div.menu ul li a{
+	// 一级菜单项样式
+	.menuItemLv1 {
+		width: 100%;
+		font-size: @hdLMenuItemFontSize;
 		border: 1px @hdLMenuDividerColor solid;
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
-		/* 边框 */
-		display: block;
-		/* 此元素将显示为块级元素，此元素前后会带有换行符 line-height: 1.35em;*/
-        line-height: 90px;
-		/* 行高 padding: 4px 20px;*/
-		padding: 0px 30px;
-		/* 内部填充的距离 */
-		text-decoration: none;
-		/* 不显示超链接下划线 */
-		white-space: nowrap;
-		/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
-		width: 100%;//@hdLMenuWidth;
-		box-sizing: border-box;
-		position: relative;
-		font-size: @hdLMenuItemFontSize;
+		line-height: 90px;// 行高
+		p {
+			position: relative;
+			padding-left: 30px;
+		}
+		.iconLv1 {
+			position: absolute;
+			right: 10px;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			height: 20px;
+			color: gray;
+		}
 	}
 
-	div.menu ul li a span{
-		position: absolute;
-		right: 10px;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		height: 20px;
-		color: gray;
+	// 二级菜单项样式
+	.menuItemLv2 {
+		border: 0px;
+		font-size: @hdLMenuChildFontSize;
+		line-height: 60px;
+		.iconLv2 {
+			font-size: @hdLMenuChildFontSize * 0.7;
+		}
 	}
 
-	div.menu ul li a:hover, div.menu ul li img:hover {
-		cursor: pointer;
-	}
 	// 手机模式隐藏左侧菜单
 	@media (max-width: 768px) {
-		div.menu {
+		.leftMenu {
 			display: none !important;
 		}
 	}
