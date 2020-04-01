@@ -176,7 +176,7 @@
         <p class="hdText">5、具备良好的创新能力、组织沟通能力和团队精神；</p>
 
         <p class="hdHead1 hdH1MTB">联系方式</p>
-        <p class="hdText hdPMB">投递邮箱 : info@head-aerospace.com</p>
+        <p class="hdText hdPMB">投递邮箱 : daisy.zhang@head-aerospace.com</p>
         <p class="hdHead1 hdH1MTB hdIconTri">更多职位信息</p>
         <p class="hdText">猎聘网 : <a target="_blank" href="https://www.liepin.com/company/8750701">https://www.liepin.com/company/8750701</a></p>
     </div>
