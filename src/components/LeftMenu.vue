@@ -84,7 +84,6 @@ export default {
 		// 选择菜单
 		chooseItem: function(item){
 			let path = item.children.length > 0 ? item.children[0].path : item.path;
-			console.log(path);
 			this.Goto(path);
 		},
 		// 菜单是否选中

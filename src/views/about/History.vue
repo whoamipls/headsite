@@ -47,10 +47,6 @@ export default {
                         {
                             month: '03月',
                             text: '成为中国交通运输协会理事单位'
-                        },
-                        {
-                            month: '03月',
-                            text: '成为中国国防工业企业协会常务理事单位'
                         }
                     ]
                 },
@@ -130,10 +126,6 @@ export default {
                 {
                     year: '2012',
                     months: [
-						{
-							month: '12月',
-							text: '通过军工三级保密单位资格审查'
-						},
 						{
 							month: '10月',
 							text: '成为国际宇航联合会（IAF）成员单位'

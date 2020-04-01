@@ -1,7 +1,7 @@
 <template>
     <div>
-        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','组件出口']" />
-        <p class="hdPara">随着中国在航天领域实力和能力的大幅提升，中国的航天产品也得到世界的关注。“技术成熟、可靠性高、性价比好” 是中国宇航级产品的三大优势，并得到了欧洲等主流宇航企业的关注及认可。和德宇航公司作为中国首批商业航天公司之一，13年来密切关注国际商业航天动态，为中国产品走出去贡献了自己的力量。目前已成功将国内的星敏、太敏、热控薄膜、太阳能电池片等产品出口至瑞士、意大利、南非等国。<a href='assets/mainwork/spacecenter/componentexport/1.pdf' download='Chinese Space Products Catalog_HEAD.pdf'>点击此处获取完整产品清单</a></p>
+        <PageTitle :titles="['航天重大专项配套','Major aerospace special support','宇航产品出口']" />
+        <p class="hdPara">进入二十一世纪，中国在航天领域的技术能力和综合实力得到大幅提升，载人航天、探月计划、火星探测等已成为中国航天人奋斗的舞台。“技术成熟、可靠性高、性价比好” 是中国宇航级产品的三大优势，并得到了欧洲等主流宇航企业的关注及认可。和德宇航公司作为中国首批商业航天公司之一，13年来密切关注国际商业航天动态，为中国产品走出去贡献了自己的力量。目前已成功将国内的星敏、太敏、热控薄膜、太阳能电池片等产品出口至瑞士、意大利、南非等国。<a href='assets/mainwork/spacecenter/componentexport/1.pdf' download='Chinese Space Products Catalog_HEAD.pdf'>点击此处获取完整产品清单</a></p>
         <p class="hdHead1 hdH1MTB">主要产品</p>
         <p class="hdHead1 hdH1MB hdIconRect">滚珠轴承飞轮FW-GR.260.5-A</p>
         <p class="hdHead1 hdH1MTB">产品介绍</p>
