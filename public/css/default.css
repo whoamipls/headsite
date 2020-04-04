@@ -3,6 +3,11 @@
 COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 
 -------------------------------------------------------------------*/
+/* 页面变灰 */
+body  {
+    -webkit-filter: grayscale(0%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
 /* 页脚输入框样式 */
 .hdInputSingleLine {
     color: gray;

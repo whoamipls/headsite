@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-let url = "http://127.0.0.1:8081";
+let url = "http://39.100.94.227:8081";//"http://127.0.0.1:8081";
 export default {
     // 获取和德咨询摘要
     getNewsBrief: function () {
@@ -58,4 +58,33 @@ export default {
             });
         });
     },
+    // 写入访问记录
+    setVisitRecord: function () {
+        // 判断时差
+        var key = 'hdLastVisit', valid = true;
+        var lastTime = localStorage.getItem(key);// 上次时间
+        var thisTime = new Date();
+        if (lastTime) {
+            lastTime = new Date(lastTime);
+            console.log(thisTime - lastTime);
+            if (thisTime - lastTime < 10 * 60 * 1000) {// 10分钟内不重复记录
+                valid = false;
+            }
+        }
+        if (valid) {
+            localStorage.setItem(key, thisTime);
+        } else {
+            return;
+        }
+        // 写入记录
+        return new Promise((resolve, reject) => {
+            $.ajax({
+                url: `${url}/setVisitRecord`,
+                type: "POST",
+                async: true,
+                dataType: "JSON",
+                data: returnCitySN,
+            });
+        });
+    }
 }

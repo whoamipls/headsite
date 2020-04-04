@@ -63,7 +63,7 @@
 								data-voffset="40" data-speed="800" data-start="1800" data-easing="Power3.easeInOut" data-splitin="none"
 								data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
 								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
-								为全球客户提供智能空间信息服务方案和解决方案</div>
+								为全球客户提供智能空间信息服务和解决方案</div>
 						</li>
 					</ul>
 				</div>

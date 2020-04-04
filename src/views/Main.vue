@@ -13,6 +13,7 @@
 
 <script>
 // @ is an alias to /src
+import DataUtils from '@/js/DataUtils.js'
 import Header from '@/components/Header.vue'
 import FriendlyLink from '@/components/FriendlyLink.vue'
 import Footer from '@/components/Footer.vue'
@@ -27,6 +28,7 @@ export default {
 		if(this.$route.fullPath.length <= 1) {
 			this.Goto('/Home');
 		}
+		DataUtils.setVisitRecord();
 	}
 }
 </script>
