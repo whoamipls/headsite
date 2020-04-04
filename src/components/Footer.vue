@@ -56,13 +56,24 @@
 					</div>
 				</div>
 			</div>
+			<span style="position:absolute;left:20px;bottom:20px">{{visitCount}}</span>
 		</div>
 	</footer>
 </template>
 
 <script>
-
+import DataUtils from '@/js/DataUtils.js'
 export default {
+	data() {
+		return {
+			visitCount: 0
+		}
+	},
+	mounted: function() {
+		DataUtils.getVisitCount().then(data => {
+			this.visitCount = data;
+		})
+	}
 }
 </script>
 

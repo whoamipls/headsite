@@ -1,14 +1,14 @@
 <template>
 	<div>
     	<PageTitle :titles="['热点事件','Trending','']" />
-		<table>
+		<table v-if="hot!=null">
 			<tr>
 				<td class="col1">
 					<DateIcon :time="hot.time" />
 				</td>
 				<td>
 					<p class="hdHead1" style="margin-bottom:0">{{hot.title}}</p>
-					<p class="hdAnnotationL">发布于 : {{hot.time.Format("yyyy-MM-dd")}}</p>
+					<p class="hdAnnotationL">发布于 : {{new Date(hot.time).Format("yyyy-MM-dd")}}</p>
 				</td>
 			</tr>
 			<tr v-for="item in hot.content">
@@ -26,18 +26,23 @@
 <script>
 import PageTitle from '@/components/PageTitle.vue'
 import DateIcon from '@/components/DateIcon.vue'
+import DataUtils from '@/js/DataUtils.js'
 export default {
 	components: {
 		PageTitle,
 		DateIcon,
 	},
-	computed: {
-		hot: function() {
-			return this.hots[this.$route.params.id];
-		}
+	mounted: function() {
+		// DataUtils.getNewsDetail(this.$route.params.id).then(result => {
+		// 	if(result.length > 0){
+		// 		this.hot = result[0];
+		// 	}
+		// });
+		this.hot = this.hots[this.$route.params.id];
 	},
     data() {
         return {
+			hot: null,
             hots: {
 				"20191207": {
 					time: new Date("2019/12/7"),//new Date(Date.now()),
