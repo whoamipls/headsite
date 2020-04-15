@@ -55,6 +55,7 @@
 						</ul>
 					</div>
 				</div>
+				<a class="ipc" target="_blank" href="http://www.beian.miit.gov.cn">京ICP备12040513号</a>
 			</div>
 			<span style="position:absolute;left:20px;bottom:20px">{{visitCount}}</span>
 		</div>
@@ -81,6 +82,15 @@ export default {
 	.footer-info {
 		p, a {
 			color: @hdFooterColor!important;
+		}
+		a.ipc {
+			position: absolute;
+			bottom: 20px;
+			left: 0px;
+			right: 0px;
+			margin: auto;
+			width: auto;
+			text-align: center;
 		}
 	}
 	.hdFooterHr {

@@ -3982,7 +3982,7 @@ footer .tweet li:before {
 footer .tweet span {
 	color: #fff;
 }
-footer p {
+footer p, footer a {
 	color: #949494;
 	font-weight: normal;
 	font-size: 14px;/*font-size: 12px;*//*by wdr*/
